@@ -40,7 +40,7 @@ MIN_PROFIT_AMOUNT = 1000000
 MAX_VOLUME = 20000
 
 # Maximum number of jumps willing to go
-MAX_JUMPS = 50
+MAX_JUMPS = 100
 
 # Base URL
 BASE = "https://esi.evetech.net/latest/"
@@ -411,8 +411,8 @@ if __name__ == "__main__":
                 ask = trade[1]
                 bid = trade[2]
                 cross_vol = min(ask["volume_remain"], bid["volume_remain"])
-                print("| %d units of %s | Buy @ %s, Sell @ %s | %s ISK (gross) | %s ISK (net) | %0.2f%% gross return | %0.2f%% net return | %d jumps | %s -> %s | '%s' pickup range | '%s' dropoff range |" % (
-                    cross_vol,
+                print("| %s units of %s | Buy @ %s, Sell @ %s | %s ISK (gross) | %s ISK (net) | %0.2f%% gross return | %0.2f%% net return | %d jumps | %s -> %s | '%s' pickup range | '%s' dropoff range |" % (
+                    "{:,.2f}".format(cross_vol),
                     item_name,
                     "{:,.2f}".format(ask["price"]),
                     "{:,.2f}".format(bid["price"]),
