@@ -1,0 +1,730 @@
+>>>>>>>>>>>>>>
+Trades for item: 'Pyerite'
+Item: 'Pyerite' : Length: 6
+| 1276063 units of Pyerite | Buy @ 2.00, Sell @ 3.00 | 1,276,063.00 ISK (gross) | 1,119,107.25 ISK (net) | 50.00% gross return | 43.85% net return | 6 jumps | Egbinger -> Gelfiven | 'region' pickup range | 'station' dropoff range |
+Route: ['Egbinger', 'Muttokon', 'Aedald', 'Heild', 'Bosena', 'Oddelulf', 'Gelfiven']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Tritanium'
+Item: 'Tritanium' : Length: 1
+| 7000000 units of Tritanium | Buy @ 3.00, Sell @ 4.00 | 7,000,000.00 ISK (gross) | 5,852,000.00 ISK (net) | 33.33% gross return | 27.87% net return | 1 jumps | TG-Z23 -> 9RQ-L8 | 'region' pickup range | 'station' dropoff range |
+Route: ['TG-Z23', '9RQ-L8']
+| 5631138 units of Tritanium | Buy @ 3.00, Sell @ 4.00 | 5,631,138.00 ISK (gross) | 4,707,631.37 ISK (net) | 33.33% gross return | 27.87% net return | 1 jumps | TG-Z23 -> 9RQ-L8 | 'region' pickup range | 'station' dropoff range |
+Route: ['TG-Z23', '9RQ-L8']
+
+Item: 'Tritanium' : Length: 7
+| 1584099 units of Tritanium | Buy @ 3.48, Sell @ 4.46 | 1,552,417.02 ISK (gross) | 1,262,748.68 ISK (net) | 28.16% gross return | 22.91% net return | 7 jumps | Endatoh -> Sobaseki | 'region' pickup range | 'station' dropoff range |
+Route: ['Endatoh', 'Otalieto', 'Aunenen', 'Nonni', 'Litiura', 'Uemisaisen', 'Isanamo', 'Sobaseki']
+| 1063942 units of Tritanium | Buy @ 3.70, Sell @ 4.98 | 1,361,845.76 ISK (gross) | 1,144,610.08 ISK (net) | 34.59% gross return | 29.08% net return | 7 jumps | Mili -> Vard | 'region' pickup range | 'station' dropoff range |
+Route: ['Mili', 'Halmah', 'Arayar', 'Asghed', 'Tararan', 'Arzad', 'Ezzara', 'Vard']
+| 1063942 units of Tritanium | Buy @ 3.70, Sell @ 4.97 | 1,351,206.34 ISK (gross) | 1,134,406.88 ISK (net) | 34.32% gross return | 28.82% net return | 7 jumps | Mili -> Vard | 'region' pickup range | 'station' dropoff range |
+Route: ['Mili', 'Halmah', 'Arayar', 'Asghed', 'Tararan', 'Arzad', 'Ezzara', 'Vard']
+
+Item: 'Tritanium' : Length: 11
+| 10000000 units of Tritanium | Buy @ 3.00, Sell @ 4.16 | 11,600,000.00 ISK (gross) | 9,894,400.00 ISK (net) | 38.67% gross return | 32.98% net return | 11 jumps | TG-Z23 -> GE-8JV | 'region' pickup range | '5' dropoff range |
+Route: ['TG-Z23', '9RQ-L8', 'WHG2-7', 'Q-Q2S6', 'X1E-OQ', 'LGK-VP', 'MB4D-4', 'DSS-EZ', '3GD6-8', '4M-HGL', '3-OKDA', 'GE-8JV']
+| 9360570 units of Tritanium | Buy @ 3.00, Sell @ 4.13 | 10,577,444.10 ISK (gross) | 8,992,418.78 ISK (net) | 37.67% gross return | 32.02% net return | 11 jumps | TG-Z23 -> GE-8JV | 'region' pickup range | 'solarsystem' dropoff range |
+Route: ['TG-Z23', '9RQ-L8', 'WHG2-7', 'Q-Q2S6', 'X1E-OQ', 'LGK-VP', 'MB4D-4', 'DSS-EZ', '3GD6-8', '4M-HGL', '3-OKDA', 'GE-8JV']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Nocxium'
+Item: 'Nocxium' : Length: 10
+| 19520 units of Nocxium | Buy @ 190.00, Sell @ 301.01 | 2,166,915.20 ISK (gross) | 1,926,010.88 ISK (net) | 58.43% gross return | 51.93% net return | 10 jumps | U4-Q2V -> PC9-AY | 'region' pickup range | '5' dropoff range |
+Route: ['U4-Q2V', 'ZV-72W', 'S-U8A4', '6-U2M8', 'XS-XAY', '35-RK9', 'IIRH-G', 'VV-VCR', 'M2-CF1', 'JH-M2W', 'PC9-AY']
+| 19520 units of Nocxium | Buy @ 190.00, Sell @ 301.00 | 2,166,720.00 ISK (gross) | 1,925,823.68 ISK (net) | 58.42% gross return | 51.93% net return | 10 jumps | U4-Q2V -> PC9-AY | 'region' pickup range | 'solarsystem' dropoff range |
+Route: ['U4-Q2V', 'ZV-72W', 'S-U8A4', '6-U2M8', 'XS-XAY', '35-RK9', 'IIRH-G', 'VV-VCR', 'M2-CF1', 'JH-M2W', 'PC9-AY']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Isogen'
+Item: 'Isogen' : Length: 3
+| 323997 units of Isogen | Buy @ 10.00, Sell @ 16.00 | 1,943,982.00 ISK (gross) | 1,731,439.97 ISK (net) | 60.00% gross return | 53.44% net return | 3 jumps | Agoze -> Melmaniel | 'region' pickup range | 'station' dropoff range |
+Route: ['Agoze', 'Loes', 'Ouelletta', 'Melmaniel']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Malfunctioning Shield Emitter'
+Item: 'Malfunctioning Shield Emitter' : Length: 6
+| 4328 units of Malfunctioning Shield Emitter | Buy @ 857.00, Sell @ 1,102.36 | 1,061,918.08 ISK (gross) | 866,306.50 ISK (net) | 28.63% gross return | 23.36% net return | 6 jumps | Horkkisen -> Funtanainen | 'region' pickup range | 'region' dropoff range |
+Route: ['Horkkisen', 'Eitu', 'Konola', 'Isaziwa', 'Oiniken', 'Aikoro', 'Funtanainen']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Holoreels'
+Item: 'Holoreels' : Length: 0
+| 20356 units of Holoreels | Buy @ 225.12, Sell @ 302.39 | 1,572,908.12 ISK (gross) | 1,320,534.64 ISK (net) | 34.32% gross return | 28.82% net return | 0 jumps | Ranni -> Ranni | 'region' pickup range | 'station' dropoff range |
+Route: ['Ranni']
+
+Item: 'Holoreels' : Length: 1
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 1 jumps | Hakisalki -> Arwa | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Arwa']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 1 jumps | Hakisalki -> Arwa | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Arwa']
+| 33500 units of Holoreels | Buy @ 225.01, Sell @ 302.50 | 2,595,915.00 ISK (gross) | 2,180,431.25 ISK (net) | 34.44% gross return | 28.93% net return | 1 jumps | Arifsdald -> Ansen | 'region' pickup range | 'station' dropoff range |
+Route: ['Arifsdald', 'Ansen']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.41 | 2,593,235.00 ISK (gross) | 2,177,874.86 ISK (net) | 34.40% gross return | 28.89% net return | 1 jumps | Hakisalki -> Arwa | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Arwa']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.41 | 2,593,235.00 ISK (gross) | 2,177,874.86 ISK (net) | 34.40% gross return | 28.89% net return | 1 jumps | Hakisalki -> Arwa | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Arwa']
+| 20356 units of Holoreels | Buy @ 225.12, Sell @ 302.50 | 1,575,147.28 ISK (gross) | 1,322,681.99 ISK (net) | 34.37% gross return | 28.86% net return | 1 jumps | Ranni -> Arza | 'region' pickup range | 'station' dropoff range |
+Route: ['Ranni', 'Arza']
+| 20356 units of Holoreels | Buy @ 225.12, Sell @ 302.39 | 1,572,908.12 ISK (gross) | 1,320,534.64 ISK (net) | 34.32% gross return | 28.82% net return | 1 jumps | Enal -> Jedandan | 'region' pickup range | 'station' dropoff range |
+Route: ['Enal', 'Jedandan']
+
+Item: 'Holoreels' : Length: 2
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 2 jumps | Krirald -> Ansen | 'region' pickup range | 'station' dropoff range |
+Route: ['Krirald', 'Arifsdald', 'Ansen']
+| 33500 units of Holoreels | Buy @ 225.01, Sell @ 302.50 | 2,595,915.00 ISK (gross) | 2,180,431.25 ISK (net) | 34.44% gross return | 28.93% net return | 2 jumps | Arifsdald -> Arwa | 'region' pickup range | 'station' dropoff range |
+Route: ['Arifsdald', 'Ansen', 'Arwa']
+| 33500 units of Holoreels | Buy @ 225.01, Sell @ 302.41 | 2,592,900.00 ISK (gross) | 2,177,539.87 ISK (net) | 34.40% gross return | 28.89% net return | 2 jumps | Arifsdald -> Arwa | 'region' pickup range | 'station' dropoff range |
+Route: ['Arifsdald', 'Ansen', 'Arwa']
+| 20356 units of Holoreels | Buy @ 225.12, Sell @ 302.39 | 1,572,908.12 ISK (gross) | 1,320,534.64 ISK (net) | 34.32% gross return | 28.82% net return | 2 jumps | Ranni -> Jedandan | 'region' pickup range | 'station' dropoff range |
+Route: ['Ranni', 'Miroona', 'Jedandan']
+| 18106 units of Holoreels | Buy @ 228.53, Sell @ 297.24 | 1,244,063.26 ISK (gross) | 1,023,408.33 ISK (net) | 30.07% gross return | 24.73% net return | 2 jumps | Kirras -> Nourvukaiken | 'region' pickup range | 'station' dropoff range |
+Route: ['Kirras', 'Iidoken', 'Nourvukaiken']
+| 18106 units of Holoreels | Buy @ 231.03, Sell @ 297.24 | 1,198,798.26 ISK (gross) | 978,143.33 ISK (net) | 28.66% gross return | 23.38% net return | 2 jumps | Kirras -> Nourvukaiken | 'region' pickup range | 'station' dropoff range |
+Route: ['Kirras', 'Iidoken', 'Nourvukaiken']
+| 18106 units of Holoreels | Buy @ 228.53, Sell @ 292.92 | 1,165,845.34 ISK (gross) | 948,397.35 ISK (net) | 28.18% gross return | 22.92% net return | 2 jumps | Kirras -> Nourvukaiken | 'region' pickup range | 'station' dropoff range |
+Route: ['Kirras', 'Iidoken', 'Nourvukaiken']
+
+Item: 'Holoreels' : Length: 3
+| 35515 units of Holoreels | Buy @ 220.00, Sell @ 302.02 | 2,912,940.30 ISK (gross) | 2,473,164.45 ISK (net) | 37.28% gross return | 31.65% net return | 3 jumps | Orvolle -> Melmaniel | 'region' pickup range | 'station' dropoff range |
+Route: ['Orvolle', 'Mesybier', 'Murethand', 'Melmaniel']
+| 35515 units of Holoreels | Buy @ 225.04, Sell @ 302.49 | 2,750,636.75 ISK (gross) | 2,310,176.52 ISK (net) | 34.42% gross return | 28.91% net return | 3 jumps | Dodenvale -> Rancer | 'region' pickup range | 'station' dropoff range |
+Route: ['Dodenvale', 'Olettiers', 'Crielere', 'Rancer']
+| 35515 units of Holoreels | Buy @ 225.04, Sell @ 302.48 | 2,750,281.60 ISK (gross) | 2,309,835.93 ISK (net) | 34.41% gross return | 28.90% net return | 3 jumps | Dodenvale -> Auberulle | 'region' pickup range | 'station' dropoff range |
+Route: ['Dodenvale', 'Chainelant', 'Unel', 'Auberulle']
+| 35515 units of Holoreels | Buy @ 225.26, Sell @ 302.02 | 2,726,131.40 ISK (gross) | 2,286,355.55 ISK (net) | 34.08% gross return | 28.58% net return | 3 jumps | Orvolle -> Melmaniel | 'region' pickup range | 'station' dropoff range |
+Route: ['Orvolle', 'Mesybier', 'Murethand', 'Melmaniel']
+| 35515 units of Holoreels | Buy @ 225.87, Sell @ 302.49 | 2,721,159.30 ISK (gross) | 2,280,699.07 ISK (net) | 33.92% gross return | 28.43% net return | 3 jumps | Artisine -> Rancer | 'region' pickup range | 'station' dropoff range |
+Route: ['Artisine', 'Olettiers', 'Crielere', 'Rancer']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 3 jumps | Hakisalki -> Ansen | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Arwa', 'Arifsdald', 'Ansen']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 3 jumps | Hakisalki -> Ansen | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Arwa', 'Arifsdald', 'Ansen']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 3 jumps | Krirald -> Arwa | 'region' pickup range | 'station' dropoff range |
+Route: ['Krirald', 'Arifsdald', 'Ansen', 'Arwa']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.47 | 2,595,245.00 ISK (gross) | 2,179,802.46 ISK (net) | 34.43% gross return | 28.92% net return | 3 jumps | Uphallant -> Ostingele | 'region' pickup range | 'station' dropoff range |
+Route: ['Uphallant', 'Iges', 'Dastryns', 'Ostingele']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.47 | 2,595,245.00 ISK (gross) | 2,179,802.46 ISK (net) | 34.43% gross return | 28.92% net return | 3 jumps | Iges -> Ostingele | 'region' pickup range | 'station' dropoff range |
+Route: ['Iges', 'Slays', 'Stacmon', 'Ostingele']
+
+Item: 'Holoreels' : Length: 4
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.39 | 2,592,565.00 ISK (gross) | 2,177,232.33 ISK (net) | 34.40% gross return | 28.89% net return | 4 jumps | Choga -> Ranni | 'region' pickup range | 'station' dropoff range |
+Route: ['Choga', 'Imih', 'Liparer', 'Miroona', 'Ranni']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.39 | 2,592,565.00 ISK (gross) | 2,177,232.33 ISK (net) | 34.40% gross return | 28.89% net return | 4 jumps | Choga -> Jedandan | 'region' pickup range | 'station' dropoff range |
+Route: ['Choga', 'Imih', 'Liparer', 'Miroona', 'Jedandan']
+| 20356 units of Holoreels | Buy @ 225.12, Sell @ 302.50 | 1,575,147.28 ISK (gross) | 1,322,681.99 ISK (net) | 34.37% gross return | 28.86% net return | 4 jumps | Enal -> Arza | 'region' pickup range | 'station' dropoff range |
+Route: ['Enal', 'Jedandan', 'Miroona', 'Ranni', 'Arza']
+| 20356 units of Holoreels | Buy @ 226.43, Sell @ 300.92 | 1,516,318.44 ISK (gross) | 1,265,171.81 ISK (net) | 32.90% gross return | 27.45% net return | 4 jumps | Evuldgenzo -> Bongveber | 'region' pickup range | 'station' dropoff range |
+Route: ['Evuldgenzo', 'Asgeir', 'Eiluvodi', 'Freatlidur', 'Bongveber']
+| 20356 units of Holoreels | Buy @ 227.18, Sell @ 299.84 | 1,479,066.96 ISK (gross) | 1,228,821.70 ISK (net) | 31.98% gross return | 26.57% net return | 4 jumps | Oiniken -> Uosusuokko | 'region' pickup range | 'station' dropoff range |
+Route: ['Oiniken', 'Aikoro', 'Funtanainen', 'Isikemi', 'Uosusuokko']
+| 20356 units of Holoreels | Buy @ 226.43, Sell @ 294.73 | 1,390,314.80 ISK (gross) | 1,144,334.32 ISK (net) | 30.16% gross return | 24.83% net return | 4 jumps | Evuldgenzo -> Bongveber | 'region' pickup range | 'station' dropoff range |
+Route: ['Evuldgenzo', 'Asgeir', 'Eiluvodi', 'Freatlidur', 'Bongveber']
+| 18106 units of Holoreels | Buy @ 225.27, Sell @ 297.24 | 1,303,088.82 ISK (gross) | 1,082,433.89 ISK (net) | 31.95% gross return | 26.54% net return | 4 jumps | Isaziwa -> Nourvukaiken | 'region' pickup range | 'station' dropoff range |
+Route: ['Isaziwa', 'Oiniken', 'Ahynada', 'Tunttaras', 'Nourvukaiken']
+| 18106 units of Holoreels | Buy @ 225.33, Sell @ 297.24 | 1,302,002.46 ISK (gross) | 1,081,347.53 ISK (net) | 31.91% gross return | 26.50% net return | 4 jumps | Isaziwa -> Nourvukaiken | 'region' pickup range | 'station' dropoff range |
+Route: ['Isaziwa', 'Oiniken', 'Ahynada', 'Tunttaras', 'Nourvukaiken']
+| 18106 units of Holoreels | Buy @ 225.33, Sell @ 297.24 | 1,302,002.46 ISK (gross) | 1,081,347.53 ISK (net) | 31.91% gross return | 26.50% net return | 4 jumps | Isaziwa -> Nourvukaiken | 'region' pickup range | 'station' dropoff range |
+Route: ['Isaziwa', 'Oiniken', 'Ahynada', 'Tunttaras', 'Nourvukaiken']
+| 18106 units of Holoreels | Buy @ 225.27, Sell @ 295.87 | 1,278,283.60 ISK (gross) | 1,058,645.69 ISK (net) | 31.34% gross return | 25.96% net return | 4 jumps | Isaziwa -> Isikemi | 'region' pickup range | 'station' dropoff range |
+Route: ['Isaziwa', 'Oiniken', 'Aikoro', 'Funtanainen', 'Isikemi']
+
+Item: 'Holoreels' : Length: 5
+| 37654 units of Holoreels | Buy @ 225.00, Sell @ 302.49 | 2,917,808.46 ISK (gross) | 2,450,820.16 ISK (net) | 34.44% gross return | 28.93% net return | 5 jumps | Hakisalki -> Rancer | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Dudreda', 'Hagilur', 'Thelan', 'Miroitem', 'Rancer']
+| 37654 units of Holoreels | Buy @ 225.00, Sell @ 302.49 | 2,917,808.46 ISK (gross) | 2,450,820.16 ISK (net) | 34.44% gross return | 28.93% net return | 5 jumps | Hakisalki -> Rancer | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Dudreda', 'Hagilur', 'Thelan', 'Miroitem', 'Rancer']
+| 37654 units of Holoreels | Buy @ 225.01, Sell @ 302.49 | 2,917,431.92 ISK (gross) | 2,450,443.62 ISK (net) | 34.43% gross return | 28.92% net return | 5 jumps | Arifsdald -> Rancer | 'region' pickup range | 'station' dropoff range |
+Route: ['Arifsdald', 'Dudreda', 'Hagilur', 'Thelan', 'Miroitem', 'Rancer']
+| 35515 units of Holoreels | Buy @ 225.87, Sell @ 302.48 | 2,720,804.15 ISK (gross) | 2,280,358.48 ISK (net) | 33.92% gross return | 28.43% net return | 5 jumps | Artisine -> Auberulle | 'region' pickup range | 'station' dropoff range |
+Route: ['Artisine', 'Olettiers', 'Dodenvale', 'Chainelant', 'Unel', 'Auberulle']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 5 jumps | Uphallant -> Intaki | 'region' pickup range | 'station' dropoff range |
+Route: ['Uphallant', 'Iges', 'Dastryns', 'Ostingele', 'Agoze', 'Intaki']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 5 jumps | Uphallant -> Intaki | 'region' pickup range | 'station' dropoff range |
+Route: ['Uphallant', 'Iges', 'Dastryns', 'Ostingele', 'Agoze', 'Intaki']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 5 jumps | Iges -> Intaki | 'region' pickup range | 'station' dropoff range |
+Route: ['Iges', 'Slays', 'Stacmon', 'Ostingele', 'Agoze', 'Intaki']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 5 jumps | Iges -> Intaki | 'region' pickup range | 'station' dropoff range |
+Route: ['Iges', 'Slays', 'Stacmon', 'Ostingele', 'Agoze', 'Intaki']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 5 jumps | Iges -> Intaki | 'region' pickup range | 'station' dropoff range |
+Route: ['Iges', 'Slays', 'Stacmon', 'Ostingele', 'Agoze', 'Intaki']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 5 jumps | Iges -> Intaki | 'region' pickup range | 'station' dropoff range |
+Route: ['Iges', 'Slays', 'Stacmon', 'Ostingele', 'Agoze', 'Intaki']
+
+Item: 'Holoreels' : Length: 6
+| 37654 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,918,185.00 ISK (gross) | 2,451,181.26 ISK (net) | 34.44% gross return | 28.93% net return | 6 jumps | Hakisalki -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Dudreda', 'Hagilur', 'Thelan', 'Miroitem', 'Lamadent', 'Otou']
+| 37654 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,918,185.00 ISK (gross) | 2,451,181.26 ISK (net) | 34.44% gross return | 28.93% net return | 6 jumps | Hakisalki -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Dudreda', 'Hagilur', 'Thelan', 'Miroitem', 'Lamadent', 'Otou']
+| 37654 units of Holoreels | Buy @ 225.01, Sell @ 302.50 | 2,917,808.46 ISK (gross) | 2,450,804.72 ISK (net) | 34.44% gross return | 28.93% net return | 6 jumps | Arifsdald -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Arifsdald', 'Dudreda', 'Hagilur', 'Thelan', 'Miroitem', 'Lamadent', 'Otou']
+| 37654 units of Holoreels | Buy @ 225.00, Sell @ 302.49 | 2,917,808.46 ISK (gross) | 2,450,820.16 ISK (net) | 34.44% gross return | 28.93% net return | 6 jumps | Krirald -> Rancer | 'region' pickup range | 'station' dropoff range |
+Route: ['Krirald', 'Arifsdald', 'Dudreda', 'Hagilur', 'Thelan', 'Miroitem', 'Rancer']
+| 35515 units of Holoreels | Buy @ 225.04, Sell @ 302.50 | 2,750,991.90 ISK (gross) | 2,310,517.11 ISK (net) | 34.42% gross return | 28.91% net return | 6 jumps | Dodenvale -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Dodenvale', 'Olettiers', 'Crielere', 'Rancer', 'Miroitem', 'Lamadent', 'Otou']
+| 35515 units of Holoreels | Buy @ 225.26, Sell @ 302.02 | 2,726,131.40 ISK (gross) | 2,286,355.55 ISK (net) | 34.08% gross return | 28.58% net return | 6 jumps | Adacyne -> Melmaniel | 'region' pickup range | 'station' dropoff range |
+Route: ['Adacyne', 'Maut', 'Osmeden', 'Orvolle', 'Mesybier', 'Murethand', 'Melmaniel']
+| 35515 units of Holoreels | Buy @ 225.87, Sell @ 302.50 | 2,721,514.45 ISK (gross) | 2,281,039.66 ISK (net) | 33.93% gross return | 28.44% net return | 6 jumps | Artisine -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Artisine', 'Olettiers', 'Crielere', 'Rancer', 'Miroitem', 'Lamadent', 'Otou']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 6 jumps | Kizama -> Arza | 'region' pickup range | 'station' dropoff range |
+Route: ['Kizama', 'Nare', 'Imih', 'Liparer', 'Miroona', 'Ranni', 'Arza']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.49 | 2,595,915.00 ISK (gross) | 2,180,444.99 ISK (net) | 34.44% gross return | 28.93% net return | 6 jumps | Hakisalki -> Augnais | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Dudreda', 'Hagilur', 'Bei', 'Colelie', 'Deltole', 'Augnais']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.49 | 2,595,915.00 ISK (gross) | 2,180,444.99 ISK (net) | 34.44% gross return | 28.93% net return | 6 jumps | Hakisalki -> Augnais | 'region' pickup range | 'station' dropoff range |
+Route: ['Hakisalki', 'Dudreda', 'Hagilur', 'Bei', 'Colelie', 'Deltole', 'Augnais']
+
+Item: 'Holoreels' : Length: 7
+| 37654 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,918,185.00 ISK (gross) | 2,451,181.26 ISK (net) | 34.44% gross return | 28.93% net return | 7 jumps | Krirald -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Krirald', 'Arifsdald', 'Dudreda', 'Hagilur', 'Thelan', 'Miroitem', 'Lamadent', 'Otou']
+| 37654 units of Holoreels | Buy @ 225.04, Sell @ 302.50 | 2,916,678.84 ISK (gross) | 2,449,675.10 ISK (net) | 34.42% gross return | 28.91% net return | 7 jumps | Tollus -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Tollus', 'Polstodur', 'Vilur', 'Altrinur', 'Olbra', 'Eystur', 'Hek', 'Otou']
+| 37654 units of Holoreels | Buy @ 232.27, Sell @ 302.50 | 2,644,440.42 ISK (gross) | 2,177,436.68 ISK (net) | 30.24% gross return | 24.90% net return | 7 jumps | Tollus -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Tollus', 'Polstodur', 'Vilur', 'Altrinur', 'Olbra', 'Eystur', 'Hek', 'Otou']
+| 37654 units of Holoreels | Buy @ 232.34, Sell @ 302.50 | 2,641,804.64 ISK (gross) | 2,174,800.90 ISK (net) | 30.20% gross return | 24.86% net return | 7 jumps | Tollus -> Otou | 'region' pickup range | 'station' dropoff range |
+Route: ['Tollus', 'Polstodur', 'Vilur', 'Altrinur', 'Olbra', 'Eystur', 'Hek', 'Otou']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.39 | 2,592,565.00 ISK (gross) | 2,177,232.33 ISK (net) | 34.40% gross return | 28.89% net return | 7 jumps | Rannoze -> Jedandan | 'region' pickup range | 'station' dropoff range |
+Route: ['Rannoze', 'Atarli', 'Shokal', 'Keproh', 'Zatamaka', 'Piri', 'Enal', 'Jedandan']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.39 | 2,592,565.00 ISK (gross) | 2,177,232.33 ISK (net) | 34.40% gross return | 28.89% net return | 7 jumps | Neesher -> Ranni | 'region' pickup range | 'station' dropoff range |
+Route: ['Neesher', 'Shaha', 'Kizama', 'Nare', 'Imih', 'Liparer', 'Miroona', 'Ranni']
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.39 | 2,592,565.00 ISK (gross) | 2,177,232.33 ISK (net) | 34.40% gross return | 28.89% net return | 7 jumps | Neesher -> Jedandan | 'region' pickup range | 'station' dropoff range |
+Route: ['Neesher', 'Shaha', 'Kizama', 'Nare', 'Imih', 'Liparer', 'Miroona', 'Jedandan']
+
+Item: 'Holoreels' : Length: 8
+| 33500 units of Holoreels | Buy @ 225.00, Sell @ 302.50 | 2,596,250.00 ISK (gross) | 2,180,766.25 ISK (net) | 34.44% gross return | 28.93% net return | 8 jumps | Neesher -> Arza | 'region' pickup range | 'station' dropoff range |
+Route: ['Neesher', 'Shaha', 'Kizama', 'Nare', 'Imih', 'Liparer', 'Miroona', 'Ranni', 'Arza']
+| 33500 units of Holoreels | Buy @ 225.04, Sell @ 301.25 | 2,553,035.00 ISK (gross) | 2,139,268.13 ISK (net) | 33.87% gross return | 28.38% net return | 8 jumps | Tollus -> Isendeldik | 'region' pickup range | 'station' dropoff range |
+Route: ['Tollus', 'Polstodur', 'Vilur', 'Altrinur', 'Olbra', 'Eystur', 'Pator', 'Ammold', 'Isendeldik']
+| 33500 units of Holoreels | Buy @ 232.27, Sell @ 301.25 | 2,310,830.00 ISK (gross) | 1,897,063.12 ISK (net) | 29.70% gross return | 24.38% net return | 8 jumps | Tollus -> Isendeldik | 'region' pickup range | 'station' dropoff range |
+Route: ['Tollus', 'Polstodur', 'Vilur', 'Altrinur', 'Olbra', 'Eystur', 'Pator', 'Ammold', 'Isendeldik']
+| 33500 units of Holoreels | Buy @ 232.34, Sell @ 301.25 | 2,308,485.00 ISK (gross) | 1,894,718.12 ISK (net) | 29.66% gross return | 24.34% net return | 8 jumps | Tollus -> Isendeldik | 'region' pickup range | 'station' dropoff range |
+Route: ['Tollus', 'Polstodur', 'Vilur', 'Altrinur', 'Olbra', 'Eystur', 'Pator', 'Ammold', 'Isendeldik']
+| 18106 units of Holoreels | Buy @ 225.00, Sell @ 289.74 | 1,172,182.44 ISK (gross) | 957,095.11 ISK (net) | 28.77% gross return | 23.49% net return | 8 jumps | Ishomilken -> Ylandoki | 'region' pickup range | 'station' dropoff range |
+Route: ['Ishomilken', 'Nikkishina', 'Hasama', 'Mara', 'Dantumi', 'Aurohunen', 'Korama', 'Malkalen', 'Ylandoki']
+| 18106 units of Holoreels | Buy @ 225.00, Sell @ 289.74 | 1,172,182.44 ISK (gross) | 957,095.11 ISK (net) | 28.77% gross return | 23.49% net return | 8 jumps | Ishomilken -> Ylandoki | 'region' pickup range | 'station' dropoff range |
+Route: ['Ishomilken', 'Nikkishina', 'Hasama', 'Mara', 'Dantumi', 'Aurohunen', 'Korama', 'Malkalen', 'Ylandoki']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Nano-Factory'
+Item: 'Nano-Factory' : Length: 7
+| 10 units of Nano-Factory | Buy @ 729,000.00, Sell @ 971,002.00 | 2,420,020.00 ISK (gross) | 2,021,909.18 ISK (net) | 33.20% gross return | 27.74% net return | 7 jumps | Arraron -> Dodixie | 'region' pickup range | 'station' dropoff range |
+Route: ['Arraron', 'Chantrousse', 'Ourapheh', 'Botane', 'Auvergne', 'Aunia', 'Agrallarier', 'Dodixie']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Kernite'
+Item: 'Kernite' : Length: 9
+| 41668 units of Kernite | Buy @ 1,000.00, Sell @ 2,000.00 | 41,668,000.00 ISK (gross) | 38,251,224.00 ISK (net) | 100.00% gross return | 91.80% net return | 9 jumps | GRNJ-3 -> CIS-7X | 'region' pickup range | 'station' dropoff range |
+Route: ['GRNJ-3', 'EF-F36', 'P-NUWP', 'C0T-77', 'RL-KT0', 'UO9-YG', 'E9G-MT', 'VSIG-K', 'RSS-KA', 'CIS-7X']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Oxygen'
+Item: 'Oxygen' : Length: 10
+| 15100 units of Oxygen | Buy @ 199.00, Sell @ 300.00 | 1,525,100.00 ISK (gross) | 1,339,370.00 ISK (net) | 50.75% gross return | 44.57% net return | 10 jumps | Podion -> Berta | 'region' pickup range | 'station' dropoff range |
+Route: ['Podion', 'Jayneleb', 'Futzchag', 'Kazna', 'Sendaya', 'Mifrata', 'Faspera', 'Jaymass', 'Ihal', 'Shedoo', 'Berta']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Water'
+Item: 'Water' : Length: 4
+| 17770 units of Water | Buy @ 170.91, Sell @ 580.00 | 7,269,529.30 ISK (gross) | 6,846,958.70 ISK (net) | 239.36% gross return | 225.45% net return | 4 jumps | A-ZLHX -> Boystin | 'region' pickup range | 'solarsystem' dropoff range |
+Route: ['A-ZLHX', 'UTKS-5', 'Y9G-KS', 'Pertnineere', 'Boystin']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Rifter'
+Item: 'Rifter' : Length: 3
+| 20 units of Rifter | Buy @ 150,000.00, Sell @ 210,000.00 | 1,200,000.00 ISK (gross) | 1,027,800.00 ISK (net) | 40.00% gross return | 34.26% net return | 3 jumps | Zemalu -> Berta | 'region' pickup range | 'solarsystem' dropoff range |
+Route: ['Zemalu', 'Maspah', 'Juddi', 'Berta']
+
+Item: 'Rifter' : Length: 4
+| 13 units of Rifter | Buy @ 168,999.99, Sell @ 249,421.23 | 1,045,476.12 ISK (gross) | 912,534.60 ISK (net) | 47.59% gross return | 41.54% net return | 4 jumps | Ruvas -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Ruvas', 'Airkio', 'Kakakela', 'Sobaseki', 'Jita']
+| 13 units of Rifter | Buy @ 168,999.99, Sell @ 249,421.20 | 1,045,475.73 ISK (gross) | 912,534.23 ISK (net) | 47.59% gross return | 41.54% net return | 4 jumps | Ruvas -> Jita | 'region' pickup range | '1' dropoff range |
+Route: ['Ruvas', 'Airkio', 'Kakakela', 'Sobaseki', 'Jita']
+
+Item: 'Rifter' : Length: 6
+| 13 units of Rifter | Buy @ 168,999.99, Sell @ 249,421.21 | 1,045,475.86 ISK (gross) | 912,534.36 ISK (net) | 47.59% gross return | 41.54% net return | 6 jumps | Ruvas -> Perimeter | 'region' pickup range | '1' dropoff range |
+Route: ['Ruvas', 'Airkio', 'Tsuguwa', 'Nourvukaiken', 'Tunttaras', 'Niyabainen', 'Perimeter']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Neural Network Analyzer'
+Item: 'Neural Network Analyzer' : Length: 3
+| 28 units of Neural Network Analyzer | Buy @ 150,000.00, Sell @ 200,000.00 | 1,400,000.00 ISK (gross) | 1,170,400.00 ISK (net) | 33.33% gross return | 27.87% net return | 3 jumps | Orvolle -> Noghere | 'region' pickup range | 'station' dropoff range |
+Route: ['Orvolle', 'Mesybier', 'Caslemon', 'Noghere']
+| 28 units of Neural Network Analyzer | Buy @ 150,000.00, Sell @ 200,000.00 | 1,400,000.00 ISK (gross) | 1,170,400.00 ISK (net) | 33.33% gross return | 27.87% net return | 3 jumps | Orvolle -> Noghere | 'region' pickup range | 'station' dropoff range |
+Route: ['Orvolle', 'Mesybier', 'Caslemon', 'Noghere']
+
+Item: 'Neural Network Analyzer' : Length: 4
+| 28 units of Neural Network Analyzer | Buy @ 150,000.00, Sell @ 200,000.00 | 1,400,000.00 ISK (gross) | 1,170,400.00 ISK (net) | 33.33% gross return | 27.87% net return | 4 jumps | Orvolle -> Poitot | 'region' pickup range | 'station' dropoff range |
+Route: ['Orvolle', 'PF-346', 'FD-MLJ', 'X-BV98', 'Poitot']
+
+Item: 'Neural Network Analyzer' : Length: 5
+| 28 units of Neural Network Analyzer | Buy @ 150,000.00, Sell @ 200,000.00 | 1,400,000.00 ISK (gross) | 1,170,400.00 ISK (net) | 33.33% gross return | 27.87% net return | 5 jumps | Orvolle -> Yona | 'region' pickup range | 'station' dropoff range |
+Route: ['Orvolle', 'Mesybier', 'Caslemon', 'Noghere', 'Adrel', 'Yona']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Punisher'
+Item: 'Punisher' : Length: 3
+| 24 units of Punisher | Buy @ 300,000.00, Sell @ 700,000.00 | 9,600,000.00 ISK (gross) | 8,911,200.00 ISK (net) | 133.33% gross return | 123.77% net return | 3 jumps | Rakapas -> Nennamaila | 'region' pickup range | 'station' dropoff range |
+Route: ['Rakapas', 'Pynekastoh', 'Hikkoken', 'Nennamaila']
+| 16 units of Punisher | Buy @ 320,000.00, Sell @ 700,000.00 | 6,080,000.00 ISK (gross) | 5,620,800.00 ISK (net) | 118.75% gross return | 109.78% net return | 3 jumps | Oicx -> Nennamaila | 'region' pickup range | 'station' dropoff range |
+Route: ['Oicx', 'Vlillirier', 'Aldranette', 'Nennamaila']
+
+Item: 'Punisher' : Length: 4
+| 47 units of Punisher | Buy @ 439,999.99, Sell @ 700,000.00 | 12,220,000.47 ISK (gross) | 10,871,100.47 ISK (net) | 59.09% gross return | 52.57% net return | 4 jumps | Nisuwa -> Nennamaila | 'region' pickup range | 'station' dropoff range |
+Route: ['Nisuwa', 'Oinasiken', 'Pynekastoh', 'Hikkoken', 'Nennamaila']
+| 20 units of Punisher | Buy @ 440,000.00, Sell @ 700,000.00 | 5,200,000.00 ISK (gross) | 4,626,000.00 ISK (net) | 59.09% gross return | 52.57% net return | 4 jumps | Nisuwa -> Nennamaila | 'region' pickup range | 'station' dropoff range |
+Route: ['Nisuwa', 'Oinasiken', 'Pynekastoh', 'Hikkoken', 'Nennamaila']
+
+Item: 'Punisher' : Length: 5
+| 8 units of Punisher | Buy @ 532,777.24, Sell @ 700,000.00 | 1,337,782.08 ISK (gross) | 1,108,182.08 ISK (net) | 31.39% gross return | 26.00% net return | 5 jumps | Onnamon -> Nennamaila | 'region' pickup range | 'station' dropoff range |
+Route: ['Onnamon', 'Rohamaa', 'Uchomida', 'Ichoriya', 'Akidagi', 'Nennamaila']
+
+Item: 'Punisher' : Length: 7
+| 21 units of Punisher | Buy @ 485,000.00, Sell @ 700,000.00 | 4,515,000.00 ISK (gross) | 3,912,300.00 ISK (net) | 44.33% gross return | 38.41% net return | 7 jumps | Mercomesier -> Nennamaila | 'region' pickup range | 'station' dropoff range |
+Route: ['Mercomesier', 'Reschard', 'Arderonne', 'Odamia', 'Anchauttes', 'Evaulon', 'Aldranette', 'Nennamaila']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Heavy Water'
+Item: 'Heavy Water' : Length: 2
+| 300090 units of Heavy Water | Buy @ 297.00, Sell @ 425.00 | 38,411,520.00 ISK (gross) | 33,182,451.75 ISK (net) | 43.10% gross return | 37.23% net return | 2 jumps | Keri -> Anzalaisio | 'region' pickup range | 'station' dropoff range |
+Route: ['Keri', 'Itrin', 'Anzalaisio']
+
+Item: 'Heavy Water' : Length: 9
+| 231958 units of Heavy Water | Buy @ 175.00, Sell @ 300.00 | 28,994,750.00 ISK (gross) | 26,141,666.60 ISK (net) | 71.43% gross return | 64.40% net return | 9 jumps | RLL-9R -> VSIG-K | 'region' pickup range | 'station' dropoff range |
+Route: ['RLL-9R', '4L-E5P', '57-YRU', '0T-AMZ', 'TQ-RR8', 'C0T-77', 'RL-KT0', 'UO9-YG', 'E9G-MT', 'VSIG-K']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Rupture'
+Item: 'Rupture' : Length: 4
+| 1 units of Rupture | Buy @ 7,499,999.98, Sell @ 10,000,000.00 | 2,500,000.02 ISK (gross) | 2,090,000.02 ISK (net) | 33.33% gross return | 27.87% net return | 4 jumps | Vlillirier -> Eugales | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier', 'Renarelle', 'Aubenall', 'Archavoinet', 'Eugales']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Supertensile Plastics'
+Item: 'Supertensile Plastics' : Length: 4
+| 1006 units of Supertensile Plastics | Buy @ 10,000.00, Sell @ 14,100.00 | 4,124,600.00 ISK (gross) | 3,543,031.40 ISK (net) | 41.00% gross return | 35.22% net return | 4 jumps | FD-MLJ -> RF-GGF | 'region' pickup range | 'solarsystem' dropoff range |
+Route: ['FD-MLJ', 'X-M2LR', 'BMNV-P', '31-MLU', 'RF-GGF']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Minmatar Shuttle'
+Item: 'Minmatar Shuttle' : Length: 5
+| 559 units of Minmatar Shuttle | Buy @ 15,000.00, Sell @ 19,550.05 | 2,543,477.95 ISK (gross) | 2,095,410.35 ISK (net) | 30.33% gross return | 24.99% net return | 5 jumps | Inaro -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Inaro', 'Sirppala', 'Urlen', 'Perimeter', 'Maurasi', 'Jita']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Blackbird'
+Item: 'Blackbird' : Length: 5
+| 1 units of Blackbird | Buy @ 1,750,000.00, Sell @ 3,100,000.00 | 1,350,000.00 ISK (gross) | 1,222,900.00 ISK (net) | 77.14% gross return | 69.88% net return | 5 jumps | Faspera -> Berta | 'region' pickup range | 'solarsystem' dropoff range |
+Route: ['Faspera', 'Jaymass', 'Mifrata', 'Ihal', 'Shedoo', 'Berta']
+
+Item: 'Blackbird' : Length: 10
+| 7 units of Blackbird | Buy @ 2,000,000.00, Sell @ 3,100,000.00 | 7,700,000.00 ISK (gross) | 6,810,300.00 ISK (net) | 55.00% gross return | 48.65% net return | 10 jumps | Podion -> Berta | 'region' pickup range | 'solarsystem' dropoff range |
+Route: ['Podion', 'Jayneleb', 'Futzchag', 'Kazna', 'Sendaya', 'Mifrata', 'Faspera', 'Jaymass', 'Ihal', 'Shedoo', 'Berta']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Thrasher'
+Item: 'Thrasher' : Length: 4
+| 20 units of Thrasher | Buy @ 800,000.00, Sell @ 1,200,000.00 | 8,000,000.00 ISK (gross) | 7,016,000.00 ISK (net) | 50.00% gross return | 43.85% net return | 4 jumps | Orvolle -> Eugales | 'region' pickup range | 'station' dropoff range |
+Route: ['Orvolle', 'Oulley', 'Aubenall', 'Archavoinet', 'Eugales']
+| 20 units of Thrasher | Buy @ 887,900.01, Sell @ 1,200,000.00 | 6,241,999.80 ISK (gross) | 5,257,999.80 ISK (net) | 35.15% gross return | 29.61% net return | 4 jumps | Intaki -> Eugales | 'region' pickup range | 'station' dropoff range |
+Route: ['Intaki', 'Agoze', 'Vey', 'Frarie', 'Eugales']
+| 11 units of Thrasher | Buy @ 729,300.00, Sell @ 1,200,000.00 | 5,177,700.00 ISK (gross) | 4,636,500.00 ISK (net) | 64.54% gross return | 57.80% net return | 4 jumps | Intaki -> Eugales | 'region' pickup range | 'station' dropoff range |
+Route: ['Intaki', 'Agoze', 'Vey', 'Frarie', 'Eugales']
+| 4 units of Thrasher | Buy @ 762,490.00, Sell @ 1,200,000.00 | 1,750,040.00 ISK (gross) | 1,553,240.00 ISK (net) | 57.38% gross return | 50.93% net return | 4 jumps | Agoze -> Eugales | 'region' pickup range | 'station' dropoff range |
+Route: ['Agoze', 'Intaki', 'Vey', 'Frarie', 'Eugales']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Tayra'
+Item: 'Tayra' : Length: 4
+| 1 units of Tayra | Buy @ 2,800,000.00, Sell @ 5,000,000.00 | 2,200,000.00 ISK (gross) | 1,995,000.00 ISK (net) | 78.57% gross return | 71.25% net return | 4 jumps | QFEW-K -> OSY-UD | 'region' pickup range | 'station' dropoff range |
+Route: ['QFEW-K', 'Y-DW5K', 'H-ADOC', 'G-G78S', 'OSY-UD']
+| 1 units of Tayra | Buy @ 3,000,000.00, Sell @ 5,000,000.00 | 2,000,000.00 ISK (gross) | 1,795,000.00 ISK (net) | 66.67% gross return | 59.83% net return | 4 jumps | QFEW-K -> OSY-UD | 'region' pickup range | 'station' dropoff range |
+Route: ['QFEW-K', 'Y-DW5K', 'H-ADOC', 'G-G78S', 'OSY-UD']
+| 1 units of Tayra | Buy @ 3,000,000.00, Sell @ 5,000,000.00 | 2,000,000.00 ISK (gross) | 1,795,000.00 ISK (net) | 66.67% gross return | 59.83% net return | 4 jumps | ES-UWY -> OSY-UD | 'region' pickup range | 'station' dropoff range |
+Route: ['ES-UWY', 'Y-DW5K', 'H-ADOC', 'G-G78S', 'OSY-UD']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Dairy Products'
+Item: 'Dairy Products' : Length: 1
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 1 jumps | Narai -> Fensi | 'region' pickup range | 'station' dropoff range |
+Route: ['Narai', 'Fensi']
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 1 jumps | Narai -> Fensi | 'region' pickup range | 'station' dropoff range |
+Route: ['Narai', 'Fensi']
+
+Item: 'Dairy Products' : Length: 2
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 2 jumps | Shuria -> Fensi | 'region' pickup range | 'station' dropoff range |
+Route: ['Shuria', 'Narai', 'Fensi']
+
+Item: 'Dairy Products' : Length: 3
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 3 jumps | Narai -> Ami | 'region' pickup range | 'station' dropoff range |
+Route: ['Narai', 'Fensi', 'Bridi', 'Ami']
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 3 jumps | Bashakru -> Fensi | 'region' pickup range | 'station' dropoff range |
+Route: ['Bashakru', 'Shuria', 'Narai', 'Fensi']
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 3 jumps | Narai -> Ami | 'region' pickup range | 'station' dropoff range |
+Route: ['Narai', 'Fensi', 'Bridi', 'Ami']
+
+Item: 'Dairy Products' : Length: 4
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 4 jumps | Mikhir -> Fensi | 'region' pickup range | 'station' dropoff range |
+Route: ['Mikhir', 'Bashakru', 'Shuria', 'Narai', 'Fensi']
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 4 jumps | Narai -> Jeni | 'region' pickup range | 'station' dropoff range |
+Route: ['Narai', 'Fensi', 'Nebian', 'Khabara', 'Jeni']
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 4 jumps | Sakhti -> Ami | 'region' pickup range | 'station' dropoff range |
+Route: ['Sakhti', 'Gademam', 'Pananan', 'Daran', 'Ami']
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 4 jumps | Narai -> Jeni | 'region' pickup range | 'station' dropoff range |
+Route: ['Narai', 'Fensi', 'Nebian', 'Khabara', 'Jeni']
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 4 jumps | Shuria -> Ami | 'region' pickup range | 'station' dropoff range |
+Route: ['Shuria', 'Narai', 'Fensi', 'Bridi', 'Ami']
+
+Item: 'Dairy Products' : Length: 5
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 5 jumps | Bashakru -> Ami | 'region' pickup range | 'station' dropoff range |
+Route: ['Bashakru', 'Shuria', 'Narai', 'Fensi', 'Bridi', 'Ami']
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 5 jumps | Shuria -> Jeni | 'region' pickup range | 'station' dropoff range |
+Route: ['Shuria', 'Narai', 'Fensi', 'Nebian', 'Khabara', 'Jeni']
+
+Item: 'Dairy Products' : Length: 6
+| 19964 units of Dairy Products | Buy @ 128.07, Sell @ 209.28 | 1,621,276.44 ISK (gross) | 1,449,975.74 ISK (net) | 63.41% gross return | 56.71% net return | 6 jumps | Bashakru -> Jeni | 'region' pickup range | 'station' dropoff range |
+Route: ['Bashakru', 'Shuria', 'Narai', 'Fensi', 'Nebian', 'Khabara', 'Jeni']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Station Warehouse Container'
+Item: 'Station Warehouse Container' : Length: 4
+| 2 units of Station Warehouse Container | Buy @ 1,900,000.00, Sell @ 5,000,000.00 | 6,200,000.00 ISK (gross) | 5,790,000.00 ISK (net) | 163.16% gross return | 152.37% net return | 4 jumps | Uphene -> Junsoraert | 'region' pickup range | 'station' dropoff range |
+Route: ['Uphene', 'Amattens', 'Arnatele', 'Jurlesel', 'Junsoraert']
+
+Item: 'Station Warehouse Container' : Length: 5
+| 2 units of Station Warehouse Container | Buy @ 3,000,000.00, Sell @ 5,000,000.00 | 4,000,000.00 ISK (gross) | 3,590,000.00 ISK (net) | 66.67% gross return | 59.83% net return | 5 jumps | Leremblompes -> Junsoraert | 'region' pickup range | 'station' dropoff range |
+Route: ['Leremblompes', 'Bille', 'Uphene', 'Amattens', 'Jurlesel', 'Junsoraert']
+
+Item: 'Station Warehouse Container' : Length: 6
+| 2 units of Station Warehouse Container | Buy @ 1,500,000.00, Sell @ 5,000,000.00 | 7,000,000.00 ISK (gross) | 6,590,000.00 ISK (net) | 233.33% gross return | 219.67% net return | 6 jumps | Oursulaert -> Junsoraert | 'region' pickup range | 'station' dropoff range |
+Route: ['Oursulaert', 'Mies', 'Bereye', 'Arnatele', 'Amattens', 'Jurlesel', 'Junsoraert']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Dread Guristas Copper Tag'
+Item: 'Dread Guristas Copper Tag' : Length: 0
+| 20 units of Dread Guristas Copper Tag | Buy @ 159,000.00, Sell @ 2,000,000.00 | 36,820,000.00 ISK (gross) | 35,180,000.00 ISK (net) | 1157.86% gross return | 1106.29% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 17 units of Dread Guristas Copper Tag | Buy @ 250,000.00, Sell @ 2,000,000.00 | 29,750,000.00 ISK (gross) | 28,356,000.00 ISK (net) | 700.00% gross return | 667.20% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 8 units of Dread Guristas Copper Tag | Buy @ 188,888.00, Sell @ 2,000,000.00 | 14,488,896.00 ISK (gross) | 13,832,896.00 ISK (net) | 958.83% gross return | 915.42% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 7 units of Dread Guristas Copper Tag | Buy @ 150,000.00, Sell @ 2,000,000.00 | 12,950,000.00 ISK (gross) | 12,376,000.00 ISK (net) | 1233.33% gross return | 1178.67% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 3 units of Dread Guristas Copper Tag | Buy @ 130,000.00, Sell @ 2,000,000.00 | 5,610,000.00 ISK (gross) | 5,364,000.00 ISK (net) | 1438.46% gross return | 1375.38% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 3 units of Dread Guristas Copper Tag | Buy @ 149,999.99, Sell @ 2,000,000.00 | 5,550,000.03 ISK (gross) | 5,304,000.03 ISK (net) | 1233.33% gross return | 1178.67% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 3 units of Dread Guristas Copper Tag | Buy @ 160,000.00, Sell @ 2,000,000.00 | 5,520,000.00 ISK (gross) | 5,274,000.00 ISK (net) | 1150.00% gross return | 1098.75% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 3 units of Dread Guristas Copper Tag | Buy @ 175,000.00, Sell @ 2,000,000.00 | 5,475,000.00 ISK (gross) | 5,229,000.00 ISK (net) | 1042.86% gross return | 996.00% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 1 units of Dread Guristas Copper Tag | Buy @ 12,000.00, Sell @ 2,000,000.00 | 1,988,000.00 ISK (gross) | 1,906,000.00 ISK (net) | 16566.67% gross return | 15883.33% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+| 1 units of Dread Guristas Copper Tag | Buy @ 129,998.99, Sell @ 2,000,000.00 | 1,870,001.01 ISK (gross) | 1,788,001.01 ISK (net) | 1438.47% gross return | 1375.40% net return | 0 jumps | Jita -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jita']
+
+Item: 'Dread Guristas Copper Tag' : Length: 3
+| 4 units of Dread Guristas Copper Tag | Buy @ 45,000.00, Sell @ 2,000,000.00 | 7,820,000.00 ISK (gross) | 7,492,000.00 ISK (net) | 4344.44% gross return | 4162.22% net return | 3 jumps | Todaki -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Todaki', 'Kakakela', 'Sobaseki', 'Jita']
+| 2 units of Dread Guristas Copper Tag | Buy @ 89,930.03, Sell @ 2,000,000.00 | 3,820,139.94 ISK (gross) | 3,656,139.94 ISK (net) | 2123.95% gross return | 2032.77% net return | 3 jumps | Amsen -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Amsen', 'Malkalen', 'Sobaseki', 'Jita']
+| 1 units of Dread Guristas Copper Tag | Buy @ 50,000.00, Sell @ 2,000,000.00 | 1,950,000.00 ISK (gross) | 1,868,000.00 ISK (net) | 3900.00% gross return | 3736.00% net return | 3 jumps | Amsen -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Amsen', 'Malkalen', 'Sobaseki', 'Jita']
+
+Item: 'Dread Guristas Copper Tag' : Length: 5
+| 3 units of Dread Guristas Copper Tag | Buy @ 31,130.03, Sell @ 2,000,000.00 | 5,906,609.91 ISK (gross) | 5,660,609.91 ISK (net) | 6324.66% gross return | 6061.25% net return | 5 jumps | Piekura -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Piekura', 'Saatuban', 'Isanamo', 'Alikara', 'New Caldari', 'Jita']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Spirits'
+Item: 'Spirits' : Length: 0
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.67 | 1,945,245.93 ISK (gross) | 1,611,635.25 ISK (net) | 31.42% gross return | 26.03% net return | 0 jumps | Vlillirier -> Vlillirier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier']
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.67 | 1,945,245.93 ISK (gross) | 1,611,635.25 ISK (net) | 31.42% gross return | 26.03% net return | 0 jumps | Vlillirier -> Vlillirier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier']
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.67 | 1,945,245.93 ISK (gross) | 1,611,635.25 ISK (net) | 31.42% gross return | 26.03% net return | 0 jumps | Vlillirier -> Vlillirier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier']
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.67 | 1,945,245.93 ISK (gross) | 1,611,635.25 ISK (net) | 31.42% gross return | 26.03% net return | 0 jumps | Vlillirier -> Vlillirier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier']
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.67 | 1,945,245.93 ISK (gross) | 1,611,635.25 ISK (net) | 31.42% gross return | 26.03% net return | 0 jumps | Vlillirier -> Vlillirier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier']
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.67 | 1,945,245.93 ISK (gross) | 1,611,635.25 ISK (net) | 31.42% gross return | 26.03% net return | 0 jumps | Vlillirier -> Vlillirier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier']
+
+Item: 'Spirits' : Length: 4
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.65 | 1,944,936.35 ISK (gross) | 1,611,338.36 ISK (net) | 31.41% gross return | 26.02% net return | 4 jumps | Vlillirier -> Esesier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier', 'Aldranette', 'Evaulon', 'Anchauttes', 'Esesier']
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.65 | 1,944,936.35 ISK (gross) | 1,611,338.36 ISK (net) | 31.41% gross return | 26.02% net return | 4 jumps | Vlillirier -> Esesier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier', 'Aldranette', 'Evaulon', 'Anchauttes', 'Esesier']
+| 15479 units of Spirits | Buy @ 400.00, Sell @ 525.65 | 1,944,936.35 ISK (gross) | 1,611,338.36 ISK (net) | 31.41% gross return | 26.02% net return | 4 jumps | Vlillirier -> Esesier | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier', 'Aldranette', 'Evaulon', 'Anchauttes', 'Esesier']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Hail S'
+Item: 'Hail S' : Length: 2
+| 98460 units of Hail S | Buy @ 55.11, Sell @ 78.53 | 2,305,933.20 ISK (gross) | 1,988,918.58 ISK (net) | 42.50% gross return | 36.65% net return | 2 jumps | Vlillirier -> Nennamaila | 'region' pickup range | 'station' dropoff range |
+Route: ['Vlillirier', 'Aldranette', 'Nennamaila']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Frozen Food'
+Item: 'Frozen Food' : Length: 0
+| 30000 units of Frozen Food | Buy @ 75.23, Sell @ 110.03 | 1,044,000.00 ISK (gross) | 908,663.10 ISK (net) | 46.26% gross return | 40.26% net return | 0 jumps | Dunraelare -> Dunraelare | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare']
+| 30000 units of Frozen Food | Buy @ 75.33, Sell @ 110.03 | 1,041,000.00 ISK (gross) | 905,663.10 ISK (net) | 46.06% gross return | 40.08% net return | 0 jumps | Dunraelare -> Dunraelare | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare']
+
+Item: 'Frozen Food' : Length: 3
+| 30000 units of Frozen Food | Buy @ 75.32, Sell @ 110.03 | 1,041,300.00 ISK (gross) | 905,963.10 ISK (net) | 46.08% gross return | 40.09% net return | 3 jumps | Nausschie -> Dunraelare | 'region' pickup range | 'station' dropoff range |
+Route: ['Nausschie', 'Trosquesere', 'Ansone', 'Dunraelare']
+
+Item: 'Frozen Food' : Length: 4
+| 35012 units of Frozen Food | Buy @ 75.32, Sell @ 116.42 | 1,438,993.20 ISK (gross) | 1,271,873.22 ISK (net) | 54.57% gross return | 48.23% net return | 4 jumps | Nausschie -> Derririntel | 'region' pickup range | 'station' dropoff range |
+Route: ['Nausschie', 'Erme', 'Villore', 'Cat', 'Derririntel']
+| 35012 units of Frozen Food | Buy @ 85.42, Sell @ 116.42 | 1,085,372.00 ISK (gross) | 918,252.02 ISK (net) | 36.29% gross return | 30.70% net return | 4 jumps | Nausschie -> Derririntel | 'region' pickup range | 'station' dropoff range |
+Route: ['Nausschie', 'Erme', 'Villore', 'Cat', 'Derririntel']
+
+Item: 'Frozen Food' : Length: 5
+| 57802 units of Frozen Food | Buy @ 75.23, Sell @ 116.42 | 2,380,864.38 ISK (gross) | 2,104,962.72 ISK (net) | 54.75% gross return | 48.41% net return | 5 jumps | Dunraelare -> Algogille | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare', 'Ansone', 'Trosquesere', 'Duripant', 'Renyn', 'Algogille']
+| 57802 units of Frozen Food | Buy @ 75.23, Sell @ 116.40 | 2,379,708.34 ISK (gross) | 2,103,854.08 ISK (net) | 54.73% gross return | 48.38% net return | 5 jumps | Dunraelare -> Oursulaert | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare', 'Ansone', 'Trosquesere', 'Duripant', 'Renyn', 'Oursulaert']
+| 57802 units of Frozen Food | Buy @ 75.33, Sell @ 116.42 | 2,375,084.18 ISK (gross) | 2,099,182.52 ISK (net) | 54.55% gross return | 48.21% net return | 5 jumps | Dunraelare -> Algogille | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare', 'Ansone', 'Trosquesere', 'Duripant', 'Renyn', 'Algogille']
+| 57802 units of Frozen Food | Buy @ 75.33, Sell @ 116.40 | 2,373,928.14 ISK (gross) | 2,098,073.88 ISK (net) | 54.52% gross return | 48.18% net return | 5 jumps | Dunraelare -> Oursulaert | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare', 'Ansone', 'Trosquesere', 'Duripant', 'Renyn', 'Oursulaert']
+
+Item: 'Frozen Food' : Length: 6
+| 57802 units of Frozen Food | Buy @ 75.23, Sell @ 116.42 | 2,380,864.38 ISK (gross) | 2,104,962.72 ISK (net) | 54.75% gross return | 48.41% net return | 6 jumps | Dunraelare -> Mannar | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare', 'Assiettes', 'Goinard', 'Raeghoscon', 'Lermireve', 'Angatalie', 'Mannar']
+| 57802 units of Frozen Food | Buy @ 75.33, Sell @ 116.42 | 2,375,084.18 ISK (gross) | 2,099,182.52 ISK (net) | 54.55% gross return | 48.21% net return | 6 jumps | Dunraelare -> Mannar | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare', 'Assiettes', 'Goinard', 'Raeghoscon', 'Lermireve', 'Angatalie', 'Mannar']
+| 35012 units of Frozen Food | Buy @ 75.23, Sell @ 116.42 | 1,442,144.28 ISK (gross) | 1,275,024.30 ISK (net) | 54.75% gross return | 48.41% net return | 6 jumps | Dunraelare -> Vitrauze | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare', 'Assiettes', 'Goinard', 'Raeghoscon', 'Lermireve', 'Palmon', 'Vitrauze']
+| 35012 units of Frozen Food | Buy @ 75.33, Sell @ 116.42 | 1,438,643.08 ISK (gross) | 1,271,523.10 ISK (net) | 54.55% gross return | 48.21% net return | 6 jumps | Dunraelare -> Vitrauze | 'region' pickup range | 'station' dropoff range |
+Route: ['Dunraelare', 'Assiettes', 'Goinard', 'Raeghoscon', 'Lermireve', 'Palmon', 'Vitrauze']
+
+Item: 'Frozen Food' : Length: 7
+| 57802 units of Frozen Food | Buy @ 85.66, Sell @ 116.42 | 1,777,989.52 ISK (gross) | 1,502,087.86 ISK (net) | 35.91% gross return | 30.34% net return | 7 jumps | Estene -> Algogille | 'region' pickup range | 'station' dropoff range |
+Route: ['Estene', 'Inghenges', 'Dunraelare', 'Ansone', 'Trosquesere', 'Duripant', 'Renyn', 'Algogille']
+| 57802 units of Frozen Food | Buy @ 85.66, Sell @ 116.40 | 1,776,833.48 ISK (gross) | 1,500,979.22 ISK (net) | 35.89% gross return | 30.31% net return | 7 jumps | Estene -> Oursulaert | 'region' pickup range | 'station' dropoff range |
+Route: ['Estene', 'Inghenges', 'Dunraelare', 'Ansone', 'Trosquesere', 'Duripant', 'Renyn', 'Oursulaert']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Medium Anti-Thermal Screen Reinforcer I'
+Item: 'Medium Anti-Thermal Screen Reinforcer I' : Length: 5
+| 3 units of Medium Anti-Thermal Screen Reinforcer I | Buy @ 193,498.00, Sell @ 600,000.00 | 1,219,506.00 ISK (gross) | 1,145,706.00 ISK (net) | 210.08% gross return | 197.37% net return | 5 jumps | Algogille -> Tar | 'region' pickup range | '10' dropoff range |
+Route: ['Algogille', 'Luminaire', 'Mies', 'Oursulaert', 'Pakhshi', 'Tar']
+
+Item: 'Medium Anti-Thermal Screen Reinforcer I' : Length: 6
+| 3 units of Medium Anti-Thermal Screen Reinforcer I | Buy @ 178,790.98, Sell @ 600,000.00 | 1,263,627.06 ISK (gross) | 1,189,827.06 ISK (net) | 235.59% gross return | 221.83% net return | 6 jumps | Couster -> Tar | 'region' pickup range | '10' dropoff range |
+Route: ['Couster', 'Algogille', 'Luminaire', 'Mies', 'Oursulaert', 'Pakhshi', 'Tar']
+| 3 units of Medium Anti-Thermal Screen Reinforcer I | Buy @ 190,623.91, Sell @ 600,000.00 | 1,228,128.27 ISK (gross) | 1,154,328.27 ISK (net) | 214.76% gross return | 201.85% net return | 6 jumps | Couster -> Tar | 'region' pickup range | '10' dropoff range |
+Route: ['Couster', 'Algogille', 'Luminaire', 'Mies', 'Oursulaert', 'Pakhshi', 'Tar']
+| 3 units of Medium Anti-Thermal Screen Reinforcer I | Buy @ 198,450.00, Sell @ 600,000.00 | 1,204,650.00 ISK (gross) | 1,130,850.00 ISK (net) | 202.34% gross return | 189.95% net return | 6 jumps | Couster -> Tar | 'region' pickup range | '10' dropoff range |
+Route: ['Couster', 'Algogille', 'Luminaire', 'Mies', 'Oursulaert', 'Pakhshi', 'Tar']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Wheat'
+Item: 'Wheat' : Length: 2
+| 70376 units of Wheat | Buy @ 90.00, Sell @ 120.72 | 2,161,950.72 ISK (gross) | 1,813,623.30 ISK (net) | 34.13% gross return | 28.63% net return | 2 jumps | Hentogaira -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.00, Sell @ 120.72 | 2,161,950.72 ISK (gross) | 1,813,623.30 ISK (net) | 34.13% gross return | 28.63% net return | 2 jumps | Hentogaira -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.01, Sell @ 120.72 | 2,161,246.96 ISK (gross) | 1,812,919.54 ISK (net) | 34.12% gross return | 28.62% net return | 2 jumps | Hentogaira -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.01, Sell @ 120.72 | 2,161,246.96 ISK (gross) | 1,812,919.54 ISK (net) | 34.12% gross return | 28.62% net return | 2 jumps | Hentogaira -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Otanuomi']
+| 48939 units of Wheat | Buy @ 90.04, Sell @ 120.70 | 1,500,469.74 ISK (gross) | 1,258,285.31 ISK (net) | 34.05% gross return | 28.56% net return | 2 jumps | Jakanerva -> Ikami | 'region' pickup range | 'station' dropoff range |
+Route: ['Jakanerva', 'Hampinen', 'Ikami']
+
+Item: 'Wheat' : Length: 3
+| 48939 units of Wheat | Buy @ 90.00, Sell @ 120.73 | 1,503,895.47 ISK (gross) | 1,261,650.85 ISK (net) | 34.14% gross return | 28.64% net return | 3 jumps | Hentogaira -> Osaa | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Otanuomi', 'Osaa']
+| 48939 units of Wheat | Buy @ 90.01, Sell @ 120.73 | 1,503,406.08 ISK (gross) | 1,261,161.46 ISK (net) | 34.13% gross return | 28.63% net return | 3 jumps | Hentogaira -> Osaa | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Otanuomi', 'Osaa']
+| 48939 units of Wheat | Buy @ 90.00, Sell @ 120.72 | 1,503,406.08 ISK (gross) | 1,261,181.52 ISK (net) | 34.13% gross return | 28.63% net return | 3 jumps | Hentogaira -> Soshin | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Akkilen', 'Vattuolen', 'Soshin']
+| 48939 units of Wheat | Buy @ 90.01, Sell @ 120.72 | 1,502,916.69 ISK (gross) | 1,260,692.13 ISK (net) | 34.12% gross return | 28.62% net return | 3 jumps | Hentogaira -> Soshin | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Akkilen', 'Vattuolen', 'Soshin']
+| 48939 units of Wheat | Buy @ 90.02, Sell @ 120.70 | 1,501,448.52 ISK (gross) | 1,259,264.09 ISK (net) | 34.08% gross return | 28.58% net return | 3 jumps | Gekutami -> Ikami | 'region' pickup range | 'station' dropoff range |
+Route: ['Gekutami', 'Jakanerva', 'Hampinen', 'Ikami']
+| 48939 units of Wheat | Buy @ 90.02, Sell @ 120.70 | 1,501,448.52 ISK (gross) | 1,259,264.09 ISK (net) | 34.08% gross return | 28.58% net return | 3 jumps | Gekutami -> Ikami | 'region' pickup range | 'station' dropoff range |
+Route: ['Gekutami', 'Jakanerva', 'Hampinen', 'Ikami']
+| 43072 units of Wheat | Buy @ 90.00, Sell @ 120.73 | 1,323,602.56 ISK (gross) | 1,110,399.18 ISK (net) | 34.14% gross return | 28.64% net return | 3 jumps | Auberulle -> Iivinen | 'region' pickup range | 'station' dropoff range |
+Route: ['Auberulle', 'Unel', 'Tennen', 'Iivinen']
+| 43072 units of Wheat | Buy @ 90.00, Sell @ 120.73 | 1,323,602.56 ISK (gross) | 1,110,399.18 ISK (net) | 34.14% gross return | 28.64% net return | 3 jumps | Auberulle -> Iivinen | 'region' pickup range | 'station' dropoff range |
+Route: ['Auberulle', 'Unel', 'Tennen', 'Iivinen']
+
+Item: 'Wheat' : Length: 4
+| 70376 units of Wheat | Buy @ 90.00, Sell @ 120.72 | 2,161,950.72 ISK (gross) | 1,813,623.30 ISK (net) | 34.13% gross return | 28.63% net return | 4 jumps | Hentogaira -> Vouskiaho | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Kiainti', 'Vasala', 'Vouskiaho']
+| 70376 units of Wheat | Buy @ 90.00, Sell @ 120.72 | 2,161,950.72 ISK (gross) | 1,813,623.30 ISK (net) | 34.13% gross return | 28.63% net return | 4 jumps | Hentogaira -> Vouskiaho | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Kiainti', 'Vasala', 'Vouskiaho']
+| 70376 units of Wheat | Buy @ 90.01, Sell @ 120.72 | 2,161,246.96 ISK (gross) | 1,812,919.54 ISK (net) | 34.12% gross return | 28.62% net return | 4 jumps | Hentogaira -> Vouskiaho | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Kiainti', 'Vasala', 'Vouskiaho']
+| 70376 units of Wheat | Buy @ 90.01, Sell @ 120.72 | 2,161,246.96 ISK (gross) | 1,812,919.54 ISK (net) | 34.12% gross return | 28.62% net return | 4 jumps | Hentogaira -> Vouskiaho | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Otsela', 'Kiainti', 'Vasala', 'Vouskiaho']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 2,160,543.20 ISK (gross) | 1,812,215.78 ISK (net) | 34.10% gross return | 28.61% net return | 4 jumps | Kiainti -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Kiainti', 'Otsela', 'Vasala', 'Walvalin', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 2,160,543.20 ISK (gross) | 1,812,215.78 ISK (net) | 34.10% gross return | 28.61% net return | 4 jumps | Kiainti -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Kiainti', 'Otsela', 'Vasala', 'Walvalin', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.04, Sell @ 120.70 | 2,157,728.16 ISK (gross) | 1,809,458.45 ISK (net) | 34.05% gross return | 28.56% net return | 4 jumps | Jatate -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita']
+| 70376 units of Wheat | Buy @ 90.20, Sell @ 120.70 | 2,146,468.00 ISK (gross) | 1,798,198.29 ISK (net) | 33.81% gross return | 28.33% net return | 4 jumps | Jatate -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita']
+| 70376 units of Wheat | Buy @ 90.04, Sell @ 119.16 | 2,049,349.12 ISK (gross) | 1,705,522.95 ISK (net) | 32.34% gross return | 26.92% net return | 4 jumps | Jatate -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita']
+| 70376 units of Wheat | Buy @ 90.20, Sell @ 119.16 | 2,038,088.96 ISK (gross) | 1,694,262.79 ISK (net) | 32.11% gross return | 26.69% net return | 4 jumps | Jatate -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita']
+
+Item: 'Wheat' : Length: 5
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 2,160,543.20 ISK (gross) | 1,812,215.78 ISK (net) | 34.10% gross return | 28.61% net return | 5 jumps | Kiainti -> Vouskiaho | 'region' pickup range | 'station' dropoff range |
+Route: ['Kiainti', 'Otsela', 'Vasala', 'Walvalin', 'Otanuomi', 'Vouskiaho']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 2,160,543.20 ISK (gross) | 1,812,215.78 ISK (net) | 34.10% gross return | 28.61% net return | 5 jumps | Kiainti -> Vouskiaho | 'region' pickup range | 'station' dropoff range |
+Route: ['Kiainti', 'Otsela', 'Vasala', 'Walvalin', 'Otanuomi', 'Vouskiaho']
+| 70376 units of Wheat | Buy @ 90.04, Sell @ 120.71 | 2,158,431.92 ISK (gross) | 1,810,133.35 ISK (net) | 34.06% gross return | 28.57% net return | 5 jumps | Jatate -> Ikuchi | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi']
+| 70376 units of Wheat | Buy @ 90.20, Sell @ 120.71 | 2,147,171.76 ISK (gross) | 1,798,873.19 ISK (net) | 33.82% gross return | 28.34% net return | 5 jumps | Jatate -> Ikuchi | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi']
+| 70376 units of Wheat | Buy @ 90.04, Sell @ 120.50 | 2,143,652.96 ISK (gross) | 1,795,960.33 ISK (net) | 33.83% gross return | 28.34% net return | 5 jumps | Jatate -> Ikuchi | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi']
+| 70376 units of Wheat | Buy @ 90.20, Sell @ 120.50 | 2,132,392.80 ISK (gross) | 1,784,700.17 ISK (net) | 33.59% gross return | 28.11% net return | 5 jumps | Jatate -> Ikuchi | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi']
+| 70376 units of Wheat | Buy @ 91.83, Sell @ 120.71 | 2,032,458.88 ISK (gross) | 1,684,160.31 ISK (net) | 31.45% gross return | 26.06% net return | 5 jumps | Mitsolen -> Ikuchi | 'region' pickup range | 'station' dropoff range |
+Route: ['Mitsolen', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi']
+| 70376 units of Wheat | Buy @ 91.83, Sell @ 120.50 | 2,017,679.92 ISK (gross) | 1,669,987.29 ISK (net) | 31.22% gross return | 25.84% net return | 5 jumps | Mitsolen -> Ikuchi | 'region' pickup range | 'station' dropoff range |
+Route: ['Mitsolen', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi']
+| 48939 units of Wheat | Buy @ 90.00, Sell @ 120.72 | 1,503,406.08 ISK (gross) | 1,261,181.52 ISK (net) | 34.13% gross return | 28.63% net return | 5 jumps | Hentogaira -> Ukkalen | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Akkilen', 'Vattuolen', 'Onuse', 'Keikaken', 'Ukkalen']
+| 48939 units of Wheat | Buy @ 90.00, Sell @ 120.72 | 1,503,406.08 ISK (gross) | 1,261,181.52 ISK (net) | 34.13% gross return | 28.63% net return | 5 jumps | Hentogaira -> Ukkalen | 'region' pickup range | 'station' dropoff range |
+Route: ['Hentogaira', 'Akkilen', 'Vattuolen', 'Onuse', 'Keikaken', 'Ukkalen']
+
+Item: 'Wheat' : Length: 6
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 2,160,543.20 ISK (gross) | 1,812,215.78 ISK (net) | 34.10% gross return | 28.61% net return | 6 jumps | Gekutami -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Gekutami', 'Uoyonen', 'Vattuolen', 'Akkilen', 'Hentogaira', 'Otsela', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 2,160,543.20 ISK (gross) | 1,812,215.78 ISK (net) | 34.10% gross return | 28.61% net return | 6 jumps | Gekutami -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Gekutami', 'Uoyonen', 'Vattuolen', 'Akkilen', 'Hentogaira', 'Otsela', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 2,160,543.20 ISK (gross) | 1,812,215.78 ISK (net) | 34.10% gross return | 28.61% net return | 6 jumps | Gekutami -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Gekutami', 'Uoyonen', 'Vattuolen', 'Akkilen', 'Hentogaira', 'Otsela', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 2,160,543.20 ISK (gross) | 1,812,215.78 ISK (net) | 34.10% gross return | 28.61% net return | 6 jumps | Gekutami -> Otanuomi | 'region' pickup range | 'station' dropoff range |
+Route: ['Gekutami', 'Uoyonen', 'Vattuolen', 'Akkilen', 'Hentogaira', 'Otsela', 'Otanuomi']
+| 70376 units of Wheat | Buy @ 90.04, Sell @ 120.73 | 2,159,839.44 ISK (gross) | 1,811,483.17 ISK (net) | 34.08% gross return | 28.59% net return | 6 jumps | Jatate -> Tunttaras | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Niyabainen', 'Tunttaras']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.70 | 2,159,135.68 ISK (gross) | 1,810,865.97 ISK (net) | 34.08% gross return | 28.58% net return | 6 jumps | Geras -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Geras', 'Nomaa', 'Poinen', 'Liekuri', 'Josameto', 'New Caldari', 'Jita']
+| 70376 units of Wheat | Buy @ 90.20, Sell @ 120.73 | 2,148,579.28 ISK (gross) | 1,800,223.01 ISK (net) | 33.85% gross return | 28.36% net return | 6 jumps | Jatate -> Tunttaras | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Niyabainen', 'Tunttaras']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 120.49 | 2,144,356.72 ISK (gross) | 1,796,692.95 ISK (net) | 33.85% gross return | 28.36% net return | 6 jumps | Geras -> Hirtamon | 'region' pickup range | 'station' dropoff range |
+Route: ['Geras', 'Nomaa', 'Poinen', 'Liekuri', 'Josameto', 'New Caldari', 'Hirtamon']
+| 70376 units of Wheat | Buy @ 90.02, Sell @ 119.16 | 2,050,756.64 ISK (gross) | 1,706,930.47 ISK (net) | 32.37% gross return | 26.94% net return | 6 jumps | Geras -> Jita | 'region' pickup range | 'station' dropoff range |
+Route: ['Geras', 'Nomaa', 'Poinen', 'Liekuri', 'Josameto', 'New Caldari', 'Jita']
+| 70376 units of Wheat | Buy @ 91.83, Sell @ 120.73 | 2,033,866.40 ISK (gross) | 1,685,510.13 ISK (net) | 31.47% gross return | 26.08% net return | 6 jumps | Mitsolen -> Tunttaras | 'region' pickup range | 'station' dropoff range |
+Route: ['Mitsolen', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Niyabainen', 'Tunttaras']
+
+Item: 'Wheat' : Length: 7
+| 70376 units of Wheat | Buy @ 90.04, Sell @ 120.49 | 2,142,949.20 ISK (gross) | 1,795,285.43 ISK (net) | 33.82% gross return | 28.33% net return | 7 jumps | Jatate -> Hirtamon | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi', 'Ansila', 'Hirtamon']
+| 70376 units of Wheat | Buy @ 90.20, Sell @ 120.49 | 2,131,689.04 ISK (gross) | 1,784,025.27 ISK (net) | 33.58% gross return | 28.10% net return | 7 jumps | Jatate -> Hirtamon | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi', 'Ansila', 'Hirtamon']
+| 70376 units of Wheat | Buy @ 91.83, Sell @ 120.49 | 2,016,976.16 ISK (gross) | 1,669,312.39 ISK (net) | 31.21% gross return | 25.83% net return | 7 jumps | Mitsolen -> Hirtamon | 'region' pickup range | 'station' dropoff range |
+Route: ['Mitsolen', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Ikuchi', 'Ansila', 'Hirtamon']
+| 48939 units of Wheat | Buy @ 90.02, Sell @ 120.72 | 1,502,427.30 ISK (gross) | 1,260,202.74 ISK (net) | 34.10% gross return | 28.61% net return | 7 jumps | Kiainti -> Wirashoda | 'region' pickup range | 'station' dropoff range |
+Route: ['Kiainti', 'Otsela', 'Vasala', 'Walvalin', 'Otanuomi', 'Vouskiaho', 'Uchoshi', 'Wirashoda']
+
+Item: 'Wheat' : Length: 8
+| 48939 units of Wheat | Buy @ 90.04, Sell @ 120.73 | 1,501,937.91 ISK (gross) | 1,259,693.29 ISK (net) | 34.08% gross return | 28.59% net return | 8 jumps | Jatate -> Isanamo | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Niyabainen', 'New Caldari', 'Alikara', 'Isanamo']
+| 48939 units of Wheat | Buy @ 90.20, Sell @ 120.73 | 1,494,107.67 ISK (gross) | 1,251,863.05 ISK (net) | 33.85% gross return | 28.36% net return | 8 jumps | Jatate -> Isanamo | 'region' pickup range | 'station' dropoff range |
+Route: ['Jatate', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Niyabainen', 'New Caldari', 'Alikara', 'Isanamo']
+| 48939 units of Wheat | Buy @ 91.83, Sell @ 120.73 | 1,414,337.10 ISK (gross) | 1,172,092.48 ISK (net) | 31.47% gross return | 26.08% net return | 8 jumps | Mitsolen -> Isanamo | 'region' pickup range | 'station' dropoff range |
+Route: ['Mitsolen', 'Itamo', 'Maurasi', 'Muvolailen', 'Jita', 'Niyabainen', 'New Caldari', 'Alikara', 'Isanamo']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Soil'
+Item: 'Soil' : Length: 0
+| 20771 units of Soil | Buy @ 68.00, Sell @ 119.60 | 1,071,783.60 ISK (gross) | 969,930.92 ISK (net) | 75.88% gross return | 68.67% net return | 0 jumps | Iges -> Iges | 'region' pickup range | 'station' dropoff range |
+Route: ['Iges']
+
+Item: 'Soil' : Length: 1
+| 20771 units of Soil | Buy @ 68.00, Sell @ 119.60 | 1,071,783.60 ISK (gross) | 969,930.92 ISK (net) | 75.88% gross return | 68.67% net return | 1 jumps | Iges -> Covryn | 'region' pickup range | 'station' dropoff range |
+Route: ['Iges', 'Covryn']
+| 20771 units of Soil | Buy @ 68.00, Sell @ 119.60 | 1,071,783.60 ISK (gross) | 969,930.92 ISK (net) | 75.88% gross return | 68.67% net return | 1 jumps | Stacmon -> Covryn | 'region' pickup range | 'station' dropoff range |
+Route: ['Stacmon', 'Covryn']
+
+Item: 'Soil' : Length: 3
+| 20771 units of Soil | Buy @ 68.00, Sell @ 119.60 | 1,071,783.60 ISK (gross) | 969,930.92 ISK (net) | 75.88% gross return | 68.67% net return | 3 jumps | Stacmon -> Iges | 'region' pickup range | 'station' dropoff range |
+Route: ['Stacmon', 'Ostingele', 'Dastryns', 'Iges']
+| 20771 units of Soil | Buy @ 68.00, Sell @ 119.45 | 1,068,667.95 ISK (gross) | 966,943.02 ISK (net) | 75.66% gross return | 68.46% net return | 3 jumps | Stacmon -> Alentene | 'region' pickup range | 'station' dropoff range |
+Route: ['Stacmon', 'Aidart', 'Cistuvaert', 'Alentene']
+
+Item: 'Soil' : Length: 5
+| 20771 units of Soil | Buy @ 68.00, Sell @ 119.60 | 1,071,783.60 ISK (gross) | 969,930.92 ISK (net) | 75.88% gross return | 68.67% net return | 5 jumps | Jurlesel -> Avele | 'region' pickup range | 'station' dropoff range |
+Route: ['Jurlesel', 'Arnatele', 'Amattens', 'Bereye', 'Leremblompes', 'Avele']
+
+Item: 'Soil' : Length: 6
+| 27150 units of Soil | Buy @ 69.71, Sell @ 119.60 | 1,354,513.50 ISK (gross) | 1,221,380.76 ISK (net) | 71.57% gross return | 64.53% net return | 6 jumps | Amane -> Lisbaetanne | 'region' pickup range | 'station' dropoff range |
+Route: ['Amane', 'Actee', 'Heydieles', 'Old Man Star', 'Ladistier', 'Aeschee', 'Lisbaetanne']
+
+>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>
+Trades for item: 'Pristine Jaspet'
+Item: 'Pristine Jaspet' : Length: 3
+| 25454 units of Pristine Jaspet | Buy @ 150.00, Sell @ 251.11 | 2,573,653.94 ISK (gross) | 2,311,592.03 ISK (net) | 67.41% gross return | 60.54% net return | 3 jumps | Sivala -> Algogille | 'region' pickup range | '4' dropoff range |
+Route: ['Sivala', 'Hatakani', 'Kassigainen', 'Algogille']
+
+>>>>>>>>>>>>>>
+
