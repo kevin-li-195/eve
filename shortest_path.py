@@ -24,7 +24,6 @@ def get_system_name(sys_id, star_map):
         if node_id == sys_id:
             return(star_map["nodes"][node_str]["name"])
 
-
 def get_route(orig, dest, route_map, star_map, max_distance=2000):
     open_set = queue.Queue()
     closed_set = set()

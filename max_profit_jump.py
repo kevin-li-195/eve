@@ -20,7 +20,6 @@ The Citadel : 10000033
 The Forge : 10000002
 '''
 
-skip_locs = [31000005]
 # REGION_OVERRIDE = [10000030,10000016,10000042,10000033,10000002]
 REGION_OVERRIDE = None
 
@@ -41,7 +40,7 @@ MIN_PROFIT_AMOUNT = 1000000
 MAX_VOLUME = 20000
 
 # Maximum number of jumps willing to go
-MAX_JUMPS = 100
+MAX_JUMPS = 20
 
 # Base URL
 BASE = "https://esi.evetech.net/latest/"
@@ -319,7 +318,7 @@ if __name__ == "__main__":
         # Check if there are sellers
         if item_id not in all_sells:
             continue
-        if item_count % 500 == 0:
+        if item_count % 1 == 0:
             print("Analyzing trades for item %d of %d" % (item_count, N_items), file=sys.stderr)
         item_count += 1
         curr_item_buys = all_buys[item_id]
@@ -352,7 +351,9 @@ if __name__ == "__main__":
             # Routes
             for bid in sub_viable_bids:
                 try:
+                    print("hi", file=sys.stderr)
                     route = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map, max_distance=MAX_JUMPS)
+                    print("bye", file=sys.stderr)
                 except KeyError:
                     continue
                 if route == []:
@@ -437,7 +438,7 @@ if __name__ == "__main__":
                     bid["range"]
                     )
                     )
-                path = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map)
+                path = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map, max_distance=MAX_JUMPS)
                 print("Route: %r" % 
                         list(zip(
                             map(get_system_name, path),
