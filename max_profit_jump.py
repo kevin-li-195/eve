@@ -1,4 +1,5 @@
 import requests as r
+import shortest_path
 import queue
 import shutil
 import pickle
@@ -151,7 +152,12 @@ def make_name_map(ids):
     final = {}
     for chunk in chunks:
         req = r.post(url, json=chunk)
-        returned.extend(json.loads(req.text))
+        ret_obj = json.loads(req.text)
+        if isinstance(ret_obj, list):
+            returned.extend(json.loads(req.text))
+        else:
+            print("Weird fuckup in name map creation. Dumping JSON.", file=sys.stderr)
+            print(req.text)
     for ret in returned:
         final[ret["id"]] = ret["name"]
     return(final)
@@ -176,38 +182,38 @@ def route_length(l):
         return(len(l)-1)
 
 # BFS
-def get_route(orig, dest, route_map, max_distance=None):
-    open_set = queue.Queue()
-    closed_set = set()
-
-    parent_map = {orig : None}
-    open_set.put(orig)
-    dist = 0
-    while not open_set.empty():
-        if max_distance is not None and dist > max_distance:
-            return([])
-        neighbour = int(open_set.get())
-        if neighbour == dest:
-            return(construct_path(neighbour, parent_map))
-
-        children = route_map[str(neighbour)]
-
-        for child in children:
-            if child in closed_set:
-                continue
-            parent_map[child] = neighbour
-            open_set.put(child)
-        closed_set.add(neighbour)
-        dist += 1
-
-def construct_path(n, parent_map):
-    path = [n]
-    curr = n
-    while parent_map[curr] != None:
-        path.append(parent_map[curr])
-        curr = parent_map[curr]
-    path.reverse()
-    return(path)
+# def get_route(orig, dest, route_map, max_distance=None):
+#     open_set = queue.Queue()
+#     closed_set = set()
+# 
+#     parent_map = {orig : None}
+#     open_set.put(orig)
+#     dist = 0
+#     while not open_set.empty():
+#         if max_distance is not None and dist > max_distance:
+#             return([])
+#         neighbour = int(open_set.get())
+#         if neighbour == dest:
+#             return(construct_path(neighbour, parent_map))
+# 
+#         children = route_map[str(neighbour)]
+# 
+#         for child in children:
+#             if child in closed_set:
+#                 continue
+#             parent_map[child] = neighbour
+#             open_set.put(child)
+#         closed_set.add(neighbour)
+#         dist += 1
+# 
+# def construct_path(n, parent_map):
+#     path = [n]
+#     curr = n
+#     while parent_map[curr] != None:
+#         path.append(parent_map[curr])
+#         curr = parent_map[curr]
+#     path.reverse()
+#     return(path)
 
 # Get all orders in New Eden
 def get_orders(region_override=None):
@@ -346,7 +352,7 @@ if __name__ == "__main__":
             # Routes
             for bid in sub_viable_bids:
                 try:
-                    route = get_route(ask["system_id"], bid["system_id"], better_map, max_distance=MAX_JUMPS)
+                    route = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map, max_distance=MAX_JUMPS)
                 except KeyError:
                     continue
                 if route == []:
@@ -411,7 +417,7 @@ if __name__ == "__main__":
                 ask = trade[1]
                 bid = trade[2]
                 cross_vol = min(ask["volume_remain"], bid["volume_remain"])
-                print("| %s units of %s | Buy @ %s, Sell @ %s | %s ISK (gross) | %s ISK (net) | %0.2f%% gross return | %0.2f%% net return | %d jumps | %s -> %s | '%s' pickup range | '%s' dropoff range |" % (
+                print("| %s units of %s | Buy @ %s, Sell @ %s | %s ISK (gross) | %s ISK (net) | %0.2f%% gross return | %0.2f%% net return | %d jumps | %s, %s (%0.2f sec) -> %s, %s (%0.2f sec) | '%s' pickup range | '%s' dropoff range |" % (
                     "{:,.2f}".format(cross_vol),
                     item_name,
                     "{:,.2f}".format(ask["price"]),
@@ -422,12 +428,24 @@ if __name__ == "__main__":
                     (bid["price"] * (1-TAX-BROKERS_FEE) / ask["price"] - 1) * 100,
                     length,
                     get_system_name(ask["system_id"]),
+                    route_map["nodes"][str(ask["system_id"])]["region"],
+                    route_map["nodes"][str(ask["system_id"])]["security"],
                     get_system_name(bid["system_id"]),
+                    route_map["nodes"][str(bid["system_id"])]["region"],
+                    route_map["nodes"][str(bid["system_id"])]["security"],
                     ask["range"],
                     bid["range"]
                     )
                     )
-                print("Route: %s" % str(list(map(get_system_name, get_route(ask["system_id"], bid["system_id"], better_map)))))
+                path = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map)
+                print("Route: %r" % 
+                        list(zip(
+                            map(get_system_name, path),
+                            map(lambda x: route_map["nodes"][str(x)]["region"], path),
+                            map(lambda x: route_map["nodes"][str(x)]["security"], path)
+                            )
+                            )
+                        )
             print()
         print(">>>>>>>>>>>>>>")
         print()
