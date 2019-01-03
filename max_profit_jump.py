@@ -20,8 +20,50 @@ The Citadel : 10000033
 The Forge : 10000002
 '''
 
-# REGION_OVERRIDE = [10000030,10000016,10000042,10000033,10000002]
-REGION_OVERRIDE = None
+# Drop regions instead (blacklist not whitelist)
+REGION_BLACKLIST = [
+        "Syndicate",
+        "D-R00023",
+        "D-R00021",
+        "A821-A",
+        "B-R00005",
+        "A-R00001",
+        "UUA-F4",
+        "J7HZ-F",
+        "A-R00002",
+        "A-R00003",
+        "B-R00004",
+        "B-R00006",
+        "B-R00007",
+        "B-R00008",
+        "C-R00009",
+        "C-R00010",
+        "C-R00012",
+        "C-R00013",
+        "C-R00014",
+        "C-R00015",
+        "D-R00016",
+        "D-R00017",
+        "D-R00018",
+        "D-R00019",
+        "D-R00020",
+        "D-R00022",
+        "E-R00024",
+        "E-R00025",
+        "E-R00026",
+        "E-R00027",
+        "E-R00028",
+        "E-R00029",
+        "F-R00030",
+        "G-R00031",
+        "H-R00032",
+        "K-R00033",
+        "ADR01",
+        "ADR02",
+        "ADR03",
+        "ADR04",
+        "ADR05",
+        "PR-01"]
 
 TAX = 0.014
 
@@ -34,112 +76,19 @@ MIN_PROFIT_PERCENT = 0.28
 
 # Min profit amount
 # Currently 1mil
-MIN_PROFIT_AMOUNT = 1000000
+MIN_PROFIT_AMOUNT = 10000000
 
 # Max volume for a haul
 MAX_VOLUME = 20000
 
 # Maximum number of jumps willing to go
-MAX_JUMPS = 20
+MAX_JUMPS = 10
 
 # Base URL
 BASE = "https://esi.evetech.net/latest/"
 
 # Limit number of trades shown per item per jump length
 TRADE_NUM_LIMIT = 10
-
-# def get_routemap_with_trades(route_filename="eve_routemap.pickle", region_override=None):
-#     all_buys, all_sells = get_orders(region_override=region_override)
-# 
-#     # TODO: Save this map locally.
-#     # Try load route map as pickle.
-#     print("Loading route map")
-#     try:
-#         with open(route_filename, "rb") as f:
-#             route_map = pickle.load(f)
-#     except:
-#         print("Creating route map for the first time")
-#         route_map = {}
-#     print("Finished loading route map")
-#     # Keep track of futures when getting coordinates.
-#     route_futures = {}
-#     # Session to launch API queries.
-#     session = FuturesSession(executor=ThreadPoolExecutor(max_workers=10))
-#     # Get all items that have trades
-#     N_items = len(list(set(all_buys.keys()) & set(all_sells.keys())))
-#     item_count = 1
-#     asked_routes = set()
-#     for item_id in all_buys.keys():
-#         # Check if there are sellers
-#         if item_id not in all_sells:
-#             continue
-#         if item_count % 500 == 0:
-#             print("Analyzing distances for item %d of %d" % (item_count, N_items))
-#         item_count += 1
-#         curr_item_buys = all_buys[item_id]
-#         curr_item_sells = all_sells[item_id]
-#         # Max bid first
-#         max_buy = max(curr_item_buys, key=lambda x: x["price"])
-#         min_sell = min(curr_item_sells, key=lambda x: x["price"])
-#         # curr_item_buys.sort(reverse=True, key=lambda x: x["price"])
-#         # curr_item_sells.sort(key=lambda x: x["price"])
-#         # Only look for profitable at a certain threshold.
-#         # Keep the bids and asks such that all within the collection
-#         # permit a MIN_PROFIT_PERCENT.
-#         # We consider bid/asks viable if it is possible, without considering volume,
-#         # to sell at a min profit in a single order. This is basically a preprocessing step.
-#         viable_asks = [a for a in curr_item_sells if max_buy["price"] / a["price"] - 1 > MIN_PROFIT_PERCENT]
-#         viable_bids = [a for a in curr_item_buys if a["price"] / min_sell["price"] - 1 > MIN_PROFIT_PERCENT]
-#         # For each order check distance from other orders.
-#         # Use adjacency map (x, y) to distance.
-#         # Note: API returns both origin and destination within list.
-#         # If return 1 -> 0 jumps. If return 2 -> 1 jump. If return n, n > 3, then n-2 jumps.
-# 
-#         for ask in viable_asks:
-#             # Profitable? Only check against profitable bids.
-#             sub_viable_bids = [b for b in viable_bids if b["price"] / ask["price"] - 1 > MIN_PROFIT_PERCENT]
-#             ask_station = ask["location_id"]
-#             # Routes
-#             for bid in sub_viable_bids:
-#                 # Maybe hit API (if the thing isn't there) async and then wait.
-#                 # (origin, dest) as key. use system id.
-#                 # Does system of location id ever
-#                 # not point to the system id?
-#                 curr_route = (ask["system_id"], bid["system_id"])
-#                 if curr_route not in route_map and curr_route not in asked_routes:
-#                     fut = session.get(
-#                             BASE + ("route/%d/%d/" % (ask["system_id"], bid["system_id"]))
-#                             )
-#                     asked_routes.add(curr_route)
-#                     route_futures[curr_route] = fut
-# 
-#     # Wait for all API queries after all requests are done
-#     N = len(route_futures)
-#     futures_count = 1
-#     for curr_route in route_futures.keys():
-#         future = route_futures[curr_route]
-#         if futures_count % 500 == 0:
-#             print("Awaiting route request %d of %d" % (futures_count, N))
-#         req = future.result()
-#         try:
-#             route_list = json.loads(req.text)
-#             if isinstance(route_list, list):
-#                 # Add
-#                 route_map[curr_route] = route_list
-#             else:
-#                 # Error, skip
-#                 print("Error: did not get route list back from route %r. Skipping" % curr_route)
-#         except json.decoder.JSONDecodeError:
-#             print("Failed to decode routelist: '%s'. Skipping" % req.text)
-#         futures_count += 1
-#     # Return the constructed map
-#     try:
-#         shutil.move(route_filename, route_filename + ".bak")
-#     except FileNotFoundError:
-#         pass
-#     with open(route_filename, "wb") as f:
-#         pickle.dump(route_map, f)
-#     return(route_map, all_buys, all_sells)
 
 # Given list of IDs, make name map.
 # Note max items is 1000
@@ -180,54 +129,23 @@ def route_length(l):
     if len(l) >= 3:
         return(len(l)-1)
 
-# BFS
-# def get_route(orig, dest, route_map, max_distance=None):
-#     open_set = queue.Queue()
-#     closed_set = set()
-# 
-#     parent_map = {orig : None}
-#     open_set.put(orig)
-#     dist = 0
-#     while not open_set.empty():
-#         if max_distance is not None and dist > max_distance:
-#             return([])
-#         neighbour = int(open_set.get())
-#         if neighbour == dest:
-#             return(construct_path(neighbour, parent_map))
-# 
-#         children = route_map[str(neighbour)]
-# 
-#         for child in children:
-#             if child in closed_set:
-#                 continue
-#             parent_map[child] = neighbour
-#             open_set.put(child)
-#         closed_set.add(neighbour)
-#         dist += 1
-# 
-# def construct_path(n, parent_map):
-#     path = [n]
-#     curr = n
-#     while parent_map[curr] != None:
-#         path.append(parent_map[curr])
-#         curr = parent_map[curr]
-#     path.reverse()
-#     return(path)
-
 # Get all orders in New Eden
-def get_orders(region_override=None):
-    
+def get_orders(region_blacklist=[]):
     # Get all market data
-    regions = json.loads(r.get(BASE + "universe/regions/?datasource=tranquility").text)
+    with open("region_list.json", "r") as f:
+        regions = json.load(f)
+    with open("inv_region_map.json", "r") as f:
+        inv_region_map = json.load(f)
+    regions = list(map(lambda x: x["id"], regions))
+    # Blacklist regions
+    for bl in region_blacklist:
+        regions.remove(int(inv_region_map[bl]))
 
     region_orderbook = {}
 
     total = len(regions)
     region_progress = 1
 
-    # Override regions?
-    if region_override is not None:
-        regions = region_override
 
     for region in regions:
 
@@ -306,7 +224,7 @@ if __name__ == "__main__":
     ################
     ### OVERRIDE ###
     ################
-    all_buys, all_sells = get_orders(region_override=REGION_OVERRIDE)
+    all_buys, all_sells = get_orders(region_blacklist=REGION_BLACKLIST)
     with open("star_map.json", "r") as f:
         route_map = json.load(f)
     with open("better_map.json", "r") as f:
@@ -351,9 +269,7 @@ if __name__ == "__main__":
             # Routes
             for bid in sub_viable_bids:
                 try:
-                    print("hi", file=sys.stderr)
                     route = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map, max_distance=MAX_JUMPS)
-                    print("bye", file=sys.stderr)
                 except KeyError:
                     continue
                 if route == []:
@@ -396,6 +312,9 @@ if __name__ == "__main__":
 
     # system_names_map = make_name_map(system_ids)
     get_system_name = lambda sys_id: route_map["nodes"][str(sys_id)]["name"]
+    all_trades_file = open("all_trades_report.txt", "w")
+    # TODO: Keep track of safe routes (i.e. map with all systems with <4.5 sec removed)
+    # and use to build min-length highsec hauls.
     for item_id in hauls_to_best_trade_map.keys():
         item_name = item_name_map[item_id]
         length_to_trades_map = hauls_to_best_trade_map[item_id]
@@ -403,12 +322,12 @@ if __name__ == "__main__":
         none_trades = map(lambda x: x is None, length_to_trades_map.values())
         if all(none_trades):
             continue
-        print(">>>>>>>>>>>>>>")
-        print("Trades for item: '%s'" % item_name)
+        print(">>>>>>>>>>>>>>", file=all_trades_file)
+        print("Trades for item: '%s'" % item_name, file=all_trades_file)
         for length in length_to_trades_map.keys():
             if length_to_trades_map[length] is None:
                 continue
-            print("Item: '%s' : Length: %d" % (item_name, length))
+            print("Item: '%s' : Length: %d" % (item_name, length), file=all_trades_file)
             count = 1
             for trade in length_to_trades_map[length]:
                 if count > TRADE_NUM_LIMIT:
@@ -436,8 +355,8 @@ if __name__ == "__main__":
                     route_map["nodes"][str(bid["system_id"])]["security"],
                     ask["range"],
                     bid["range"]
-                    )
-                    )
+                    ),
+                    file=all_trades_file)
                 path = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map, max_distance=MAX_JUMPS)
                 print("Route: %r" % 
                         list(zip(
@@ -445,11 +364,10 @@ if __name__ == "__main__":
                             map(lambda x: route_map["nodes"][str(x)]["region"], path),
                             map(lambda x: route_map["nodes"][str(x)]["security"], path)
                             )
-                            )
-                        )
-            print()
-        print(">>>>>>>>>>>>>>")
-        print()
+                            ),
+                        file=all_trades_file)
+                print(file=all_trades_file)
+            print(file=all_trades_file)
 
     # Example order
     # {'duration': 90, 'is_buy_order': False, 'issued': '2018-12-23T13:26:33Z', 'location_id': 60012133, 'min_volume': 1, 'order_id': 5323620377, 'price': 599999.99, 'range': 'region', 'system_id': 30000107, 'type_id': 30488, 'volume_remain': 43, 'volume_total': 51}

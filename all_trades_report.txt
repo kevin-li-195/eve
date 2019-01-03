@@ -1,0 +1,491 @@
+>>>>>>>>>>>>>>
+Trades for item: 'Pyerite'
+Item: 'Pyerite' : Length: 8
+| 37,221,854.00 units of Pyerite | Buy @ 2.00, Sell @ 3.00 | 37,221,854.00 ISK (gross) | 32,643,565.96 ISK (net) | 50.00% gross return | 43.85% net return | 8 jumps | Egbinger, Molden Heath (0.03 sec) -> Lustrevik, Heimatar (0.95 sec) | 'region' pickup range | 'solarsystem' dropoff range |
+Route: [('Egbinger', 'Molden Heath', 0.034555), ('Muttokon', 'Molden Heath', 0.20719), ('Aedald', 'Molden Heath', 0.250458), ('Heild', 'Molden Heath', 0.330762), ('Bosena', 'Molden Heath', 0.400467), ('Teonusude', 'Molden Heath', 0.586314), ('Magiko', 'Heimatar', 0.938302), ('Onga', 'Heimatar', 0.953514), ('Lustrevik', 'Heimatar', 0.946263)]
+
+| 49,999,458.00 units of Pyerite | Buy @ 2.00, Sell @ 2.60 | 29,999,674.80 ISK (gross) | 24,669,732.58 ISK (net) | 30.00% gross return | 24.67% net return | 8 jumps | Egbinger, Molden Heath (0.03 sec) -> Loguttur, Heimatar (0.96 sec) | 'region' pickup range | '3' dropoff range |
+Route: [('Egbinger', 'Molden Heath', 0.034555), ('Muttokon', 'Molden Heath', 0.20719), ('Aedald', 'Molden Heath', 0.250458), ('Heild', 'Molden Heath', 0.330762), ('Bosena', 'Molden Heath', 0.400467), ('Teonusude', 'Molden Heath', 0.586314), ('Magiko', 'Heimatar', 0.938302), ('Vullat', 'Heimatar', 0.971363), ('Loguttur', 'Heimatar', 0.957331)]
+
+
+Item: 'Pyerite' : Length: 9
+| 74,360,882.00 units of Pyerite | Buy @ 2.00, Sell @ 3.04 | 77,335,317.28 ISK (gross) | 68,066,976.95 ISK (net) | 52.00% gross return | 45.77% net return | 9 jumps | Egbinger, Molden Heath (0.03 sec) -> Frarn, Heimatar (0.84 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Egbinger', 'Molden Heath', 0.034555), ('Muttokon', 'Molden Heath', 0.20719), ('Aedald', 'Molden Heath', 0.250458), ('Heild', 'Molden Heath', 0.330762), ('Bosena', 'Molden Heath', 0.400467), ('Teonusude', 'Molden Heath', 0.586314), ('Magiko', 'Heimatar', 0.938302), ('Onga', 'Heimatar', 0.953514), ('Gyng', 'Heimatar', 0.798143), ('Frarn', 'Heimatar', 0.838971)]
+
+| 56,287,625.00 units of Pyerite | Buy @ 2.00, Sell @ 2.83 | 46,718,728.75 ISK (gross) | 40,187,675.62 ISK (net) | 41.50% gross return | 35.70% net return | 9 jumps | Egbinger, Molden Heath (0.03 sec) -> Hek, Metropolis (0.55 sec) | 'region' pickup range | 'solarsystem' dropoff range |
+Route: [('Egbinger', 'Molden Heath', 0.034555), ('Muttokon', 'Molden Heath', 0.20719), ('Aedald', 'Molden Heath', 0.250458), ('Heild', 'Molden Heath', 0.330762), ('Bosena', 'Molden Heath', 0.400467), ('Teonusude', 'Molden Heath', 0.586314), ('Magiko', 'Heimatar', 0.938302), ('Vullat', 'Heimatar', 0.971363), ('Eystur', 'Heimatar', 0.949232), ('Hek', 'Metropolis', 0.549668)]
+
+| 39,902,490.00 units of Pyerite | Buy @ 2.00, Sell @ 2.99 | 39,503,465.10 ISK (gross) | 34,611,818.85 ISK (net) | 49.50% gross return | 43.37% net return | 9 jumps | Egbinger, Molden Heath (0.03 sec) -> Hek, Metropolis (0.55 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Egbinger', 'Molden Heath', 0.034555), ('Muttokon', 'Molden Heath', 0.20719), ('Aedald', 'Molden Heath', 0.250458), ('Heild', 'Molden Heath', 0.330762), ('Bosena', 'Molden Heath', 0.400467), ('Teonusude', 'Molden Heath', 0.586314), ('Magiko', 'Heimatar', 0.938302), ('Vullat', 'Heimatar', 0.971363), ('Eystur', 'Heimatar', 0.949232), ('Hek', 'Metropolis', 0.549668)]
+
+| 38,635,083.00 units of Pyerite | Buy @ 2.00, Sell @ 3.02 | 39,407,784.66 ISK (gross) | 34,623,988.68 ISK (net) | 51.00% gross return | 44.81% net return | 9 jumps | Egbinger, Molden Heath (0.03 sec) -> Hek, Metropolis (0.55 sec) | 'region' pickup range | '2' dropoff range |
+Route: [('Egbinger', 'Molden Heath', 0.034555), ('Muttokon', 'Molden Heath', 0.20719), ('Aedald', 'Molden Heath', 0.250458), ('Heild', 'Molden Heath', 0.330762), ('Bosena', 'Molden Heath', 0.400467), ('Teonusude', 'Molden Heath', 0.586314), ('Magiko', 'Heimatar', 0.938302), ('Vullat', 'Heimatar', 0.971363), ('Eystur', 'Heimatar', 0.949232), ('Hek', 'Metropolis', 0.549668)]
+
+| 30,000,000.00 units of Pyerite | Buy @ 2.00, Sell @ 3.01 | 30,300,000.00 ISK (gross) | 26,597,700.00 ISK (net) | 50.50% gross return | 44.33% net return | 9 jumps | Egbinger, Molden Heath (0.03 sec) -> Hek, Metropolis (0.55 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Egbinger', 'Molden Heath', 0.034555), ('Muttokon', 'Molden Heath', 0.20719), ('Aedald', 'Molden Heath', 0.250458), ('Heild', 'Molden Heath', 0.330762), ('Bosena', 'Molden Heath', 0.400467), ('Teonusude', 'Molden Heath', 0.586314), ('Magiko', 'Heimatar', 0.938302), ('Vullat', 'Heimatar', 0.971363), ('Eystur', 'Heimatar', 0.949232), ('Hek', 'Metropolis', 0.549668)]
+
+| 11,583,601.00 units of Pyerite | Buy @ 2.00, Sell @ 2.94 | 10,888,584.94 ISK (gross) | 9,492,297.68 ISK (net) | 47.00% gross return | 40.97% net return | 9 jumps | Egbinger, Molden Heath (0.03 sec) -> Hek, Metropolis (0.55 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Egbinger', 'Molden Heath', 0.034555), ('Muttokon', 'Molden Heath', 0.20719), ('Aedald', 'Molden Heath', 0.250458), ('Heild', 'Molden Heath', 0.330762), ('Bosena', 'Molden Heath', 0.400467), ('Teonusude', 'Molden Heath', 0.586314), ('Magiko', 'Heimatar', 0.938302), ('Vullat', 'Heimatar', 0.971363), ('Eystur', 'Heimatar', 0.949232), ('Hek', 'Metropolis', 0.549668)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Oxygen Isotopes'
+Item: 'Oxygen Isotopes' : Length: 6
+| 30,000.00 units of Oxygen Isotopes | Buy @ 1,250.00, Sell @ 2,000.00 | 22,500,000.00 ISK (gross) | 20,040,000.00 ISK (net) | 60.00% gross return | 53.44% net return | 6 jumps | H-PA29, Venal (-0.24 sec) -> N5Y-4N, Venal (-0.25 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('H-PA29', 'Venal', -0.241054), ('9-266Q', 'Venal', -0.250879), ('D-8SI1', 'Venal', -0.129108), ('K3JR-J', 'Venal', -0.13866), ('CSOA-B', 'Venal', -0.152217), ('6W-HRH', 'Venal', -0.207624), ('N5Y-4N', 'Venal', -0.245205)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Mega Pulse Laser II'
+Item: 'Mega Pulse Laser II' : Length: 1
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,000,000.00, Sell @ 10,000,000.00 | 24,000,000.00 ISK (gross) | 22,360,000.00 ISK (net) | 150.00% gross return | 139.75% net return | 1 jumps | Auga, Heimatar (0.39 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Auga', 'Heimatar', 0.385484), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+
+Item: 'Mega Pulse Laser II' : Length: 2
+| 4.00 units of Mega Pulse Laser II | Buy @ 6,499,999.98, Sell @ 10,000,000.00 | 14,000,000.08 ISK (gross) | 12,360,000.08 ISK (net) | 53.85% gross return | 47.54% net return | 2 jumps | Amamake, Heimatar (0.44 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amamake', 'Heimatar', 0.438761), ('Auga', 'Heimatar', 0.385484), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+
+Item: 'Mega Pulse Laser II' : Length: 5
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,500,000.00, Sell @ 10,000,000.00 | 22,000,000.00 ISK (gross) | 20,360,000.00 ISK (net) | 122.22% gross return | 113.11% net return | 5 jumps | Rens, Heimatar (0.89 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Rens', 'Heimatar', 0.894582), ('Abudban', 'Heimatar', 0.732448), ('Osoggur', 'Heimatar', 0.531568), ('Amamake', 'Heimatar', 0.438761), ('Auga', 'Heimatar', 0.385484), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+
+Item: 'Mega Pulse Laser II' : Length: 6
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,168,899.53, Sell @ 10,000,000.00 | 23,324,401.88 ISK (gross) | 21,684,401.88 ISK (net) | 139.87% gross return | 130.04% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,168,899.55, Sell @ 10,000,000.00 | 23,324,401.80 ISK (gross) | 21,684,401.80 ISK (net) | 139.87% gross return | 130.04% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,168,899.83, Sell @ 10,000,000.00 | 23,324,400.68 ISK (gross) | 21,684,400.68 ISK (net) | 139.87% gross return | 130.04% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,168,899.90, Sell @ 10,000,000.00 | 23,324,400.40 ISK (gross) | 21,684,400.40 ISK (net) | 139.87% gross return | 130.04% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,168,899.96, Sell @ 10,000,000.00 | 23,324,400.16 ISK (gross) | 21,684,400.16 ISK (net) | 139.87% gross return | 130.04% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,169,897.86, Sell @ 10,000,000.00 | 23,320,408.56 ISK (gross) | 21,680,408.56 ISK (net) | 139.81% gross return | 129.98% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,169,996.50, Sell @ 10,000,000.00 | 23,320,014.00 ISK (gross) | 21,680,014.00 ISK (net) | 139.81% gross return | 129.98% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,499,999.99, Sell @ 10,000,000.00 | 22,000,000.04 ISK (gross) | 20,360,000.04 ISK (net) | 122.22% gross return | 113.11% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,500,000.00, Sell @ 10,000,000.00 | 22,000,000.00 ISK (gross) | 20,360,000.00 ISK (net) | 122.22% gross return | 113.11% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,699,998.67, Sell @ 10,000,000.00 | 21,200,005.32 ISK (gross) | 19,560,005.32 ISK (net) | 112.77% gross return | 104.04% net return | 6 jumps | Amarr, Domain (1.00 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+
+Item: 'Mega Pulse Laser II' : Length: 8
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,987,651.39, Sell @ 10,000,000.00 | 20,049,394.44 ISK (gross) | 18,409,394.44 ISK (net) | 100.50% gross return | 92.27% net return | 8 jumps | Tash-Murkon Prime, Tash-Murkon (0.83 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Tash-Murkon Prime', 'Tash-Murkon', 0.832134), ('Bhizheba', 'Domain', 0.963646), ('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 4,987,651.40, Sell @ 10,000,000.00 | 20,049,394.40 ISK (gross) | 18,409,394.40 ISK (net) | 100.50% gross return | 92.27% net return | 8 jumps | Tash-Murkon Prime, Tash-Murkon (0.83 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Tash-Murkon Prime', 'Tash-Murkon', 0.832134), ('Bhizheba', 'Domain', 0.963646), ('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 5,000,000.00, Sell @ 10,000,000.00 | 20,000,000.00 ISK (gross) | 18,360,000.00 ISK (net) | 100.00% gross return | 91.80% net return | 8 jumps | Tash-Murkon Prime, Tash-Murkon (0.83 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Tash-Murkon Prime', 'Tash-Murkon', 0.832134), ('Bhizheba', 'Domain', 0.963646), ('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 3.00 units of Mega Pulse Laser II | Buy @ 4,987,651.38, Sell @ 10,000,000.00 | 15,037,045.86 ISK (gross) | 13,807,045.86 ISK (net) | 100.50% gross return | 92.27% net return | 8 jumps | Tash-Murkon Prime, Tash-Murkon (0.83 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Tash-Murkon Prime', 'Tash-Murkon', 0.832134), ('Bhizheba', 'Domain', 0.963646), ('Amarr', 'Domain', 1.0), ('Sarum Prime', 'Domain', 1.0), ('Alkabsi', 'Domain', 0.662153), ('Mahrokht', 'Domain', 0.859906), ('Otelen', 'The Bleak Lands', 0.784819), ('Huola', 'The Bleak Lands', 0.370249), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+
+Item: 'Mega Pulse Laser II' : Length: 9
+| 4.00 units of Mega Pulse Laser II | Buy @ 5,499,998.99, Sell @ 10,000,000.00 | 18,000,004.04 ISK (gross) | 16,360,004.04 ISK (net) | 81.82% gross return | 74.36% net return | 9 jumps | Hek, Metropolis (0.55 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Hek', 'Metropolis', 0.549668), ('Hror', 'Metropolis', 0.511519), ('Resbroko', 'Metropolis', 0.437876), ('Hadozeko', 'Metropolis', 0.396071), ('Ardar', 'Metropolis', 0.366011), ('Frerstorn', 'Metropolis', 0.306094), ('Eszur', 'Metropolis', 0.212796), ('Siseide', 'Heimatar', 0.338351), ('Auga', 'Heimatar', 0.385484), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 5,499,999.00, Sell @ 10,000,000.00 | 18,000,004.00 ISK (gross) | 16,360,004.00 ISK (net) | 81.82% gross return | 74.36% net return | 9 jumps | Hek, Metropolis (0.55 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Hek', 'Metropolis', 0.549668), ('Hror', 'Metropolis', 0.511519), ('Resbroko', 'Metropolis', 0.437876), ('Hadozeko', 'Metropolis', 0.396071), ('Ardar', 'Metropolis', 0.366011), ('Frerstorn', 'Metropolis', 0.306094), ('Eszur', 'Metropolis', 0.212796), ('Siseide', 'Heimatar', 0.338351), ('Auga', 'Heimatar', 0.385484), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 5,756,999.87, Sell @ 10,000,000.00 | 16,972,000.52 ISK (gross) | 15,332,000.52 ISK (net) | 73.70% gross return | 66.58% net return | 9 jumps | Hek, Metropolis (0.55 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Hek', 'Metropolis', 0.549668), ('Hror', 'Metropolis', 0.511519), ('Resbroko', 'Metropolis', 0.437876), ('Hadozeko', 'Metropolis', 0.396071), ('Ardar', 'Metropolis', 0.366011), ('Frerstorn', 'Metropolis', 0.306094), ('Eszur', 'Metropolis', 0.212796), ('Siseide', 'Heimatar', 0.338351), ('Auga', 'Heimatar', 0.385484), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+| 4.00 units of Mega Pulse Laser II | Buy @ 5,760,000.00, Sell @ 10,000,000.00 | 16,960,000.00 ISK (gross) | 15,320,000.00 ISK (net) | 73.61% gross return | 66.49% net return | 9 jumps | Hek, Metropolis (0.55 sec) -> Kourmonen, The Bleak Lands (0.36 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Hek', 'Metropolis', 0.549668), ('Hror', 'Metropolis', 0.511519), ('Resbroko', 'Metropolis', 0.437876), ('Hadozeko', 'Metropolis', 0.396071), ('Ardar', 'Metropolis', 0.366011), ('Frerstorn', 'Metropolis', 0.306094), ('Eszur', 'Metropolis', 0.212796), ('Siseide', 'Heimatar', 0.338351), ('Auga', 'Heimatar', 0.385484), ('Kourmonen', 'The Bleak Lands', 0.36348)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Strontium Clathrates'
+Item: 'Strontium Clathrates' : Length: 6
+| 136,200.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,855.05 | 89,217,810.00 ISK (gross) | 78,858,839.79 ISK (net) | 54.59% gross return | 48.25% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 211,276.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,603.00 | 85,144,228.00 ISK (gross) | 71,258,535.45 ISK (net) | 33.58% gross return | 28.11% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 210,399.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,603.37 | 84,868,644.63 ISK (gross) | 71,037,399.40 ISK (net) | 33.61% gross return | 28.14% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 146,211.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,603.34 | 58,972,744.74 ISK (gross) | 49,361,281.01 ISK (net) | 33.61% gross return | 28.13% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 61,220.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,855.07 | 40,103,385.40 ISK (gross) | 35,447,122.60 ISK (net) | 54.59% gross return | 48.25% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 90,045.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,604.15 | 36,391,686.75 ISK (gross) | 30,469,413.59 ISK (net) | 33.68% gross return | 28.20% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 59,431.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,559.34 | 21,355,935.54 ISK (gross) | 17,556,336.98 ISK (net) | 29.95% gross return | 24.62% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 50,000.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,604.00 | 20,200,000.00 ISK (gross) | 16,911,800.00 ISK (net) | 33.67% gross return | 28.19% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 28,528.00 units of Strontium Clathrates | Buy @ 1,299.99, Sell @ 1,855.07 | 15,835,322.24 ISK (gross) | 13,665,543.32 ISK (net) | 42.70% gross return | 36.85% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 28,528.00 units of Strontium Clathrates | Buy @ 1,299.99, Sell @ 1,855.05 | 15,834,751.68 ISK (gross) | 13,664,996.16 ISK (net) | 42.70% gross return | 36.85% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+
+Item: 'Strontium Clathrates' : Length: 7
+| 211,276.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,857.02 | 138,812,557.52 ISK (gross) | 122,726,463.46 ISK (net) | 54.75% gross return | 48.41% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 211,276.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,603.59 | 85,268,880.84 ISK (gross) | 71,378,077.53 ISK (net) | 33.63% gross return | 28.15% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 211,276.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,601.34 | 84,793,509.84 ISK (gross) | 70,922,196.74 ISK (net) | 33.44% gross return | 27.97% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 211,276.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,600.11 | 84,533,640.36 ISK (gross) | 70,672,981.91 ISK (net) | 33.34% gross return | 27.88% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 211,276.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,600.03 | 84,516,738.28 ISK (gross) | 70,656,772.81 ISK (net) | 33.34% gross return | 27.87% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 90,000.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,857.03 | 59,132,700.00 ISK (gross) | 52,280,259.30 ISK (net) | 54.75% gross return | 48.41% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 87,320.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,856.03 | 57,284,539.60 ISK (gross) | 50,639,729.48 ISK (net) | 54.67% gross return | 48.33% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 80,240.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,855.12 | 52,566,828.80 ISK (gross) | 46,463,780.82 ISK (net) | 54.59% gross return | 48.26% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 106,000.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,559.26 | 38,081,560.00 ISK (gross) | 31,305,016.04 ISK (net) | 29.94% gross return | 24.61% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 105,806.00 units of Strontium Clathrates | Buy @ 1,200.00, Sell @ 1,559.27 | 38,012,921.62 ISK (gross) | 31,248,736.63 ISK (net) | 29.94% gross return | 24.61% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+
+Item: 'Strontium Clathrates' : Length: 8
+| 136,200.00 units of Strontium Clathrates | Buy @ 1,400.00, Sell @ 1,855.05 | 61,977,810.00 ISK (gross) | 51,618,839.79 ISK (net) | 32.50% gross return | 27.07% net return | 8 jumps | Daras, Lonetrek (0.36 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 61,220.00 units of Strontium Clathrates | Buy @ 1,400.00, Sell @ 1,855.07 | 27,859,385.40 ISK (gross) | 23,203,122.60 ISK (net) | 32.51% gross return | 27.07% net return | 8 jumps | Daras, Lonetrek (0.36 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+
+Item: 'Strontium Clathrates' : Length: 9
+| 111,089.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,855.05 | 96,097,539.45 ISK (gross) | 87,648,437.82 ISK (net) | 87.38% gross return | 79.70% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 111,089.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,603.37 | 68,138,659.93 ISK (gross) | 60,835,872.36 ISK (net) | 61.96% gross return | 55.32% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 111,089.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,603.34 | 68,135,327.26 ISK (gross) | 60,832,676.33 ISK (net) | 61.95% gross return | 55.31% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 111,089.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,603.00 | 68,097,557.00 ISK (gross) | 60,796,454.65 ISK (net) | 61.92% gross return | 55.28% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 137,733.00 units of Strontium Clathrates | Buy @ 1,400.00, Sell @ 1,857.02 | 62,946,735.66 ISK (gross) | 52,460,045.30 ISK (net) | 32.64% gross return | 27.21% net return | 9 jumps | Daras, Lonetrek (0.36 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 90,045.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,604.15 | 55,301,136.75 ISK (gross) | 49,378,863.59 ISK (net) | 62.04% gross return | 55.39% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 61,220.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,855.07 | 52,959,585.40 ISK (gross) | 48,303,322.60 ISK (net) | 87.38% gross return | 79.70% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 111,089.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,415.20 | 47,235,042.80 ISK (gross) | 40,789,303.54 ISK (net) | 42.95% gross return | 37.09% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 111,089.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,403.31 | 45,914,194.59 ISK (gross) | 39,522,610.10 ISK (net) | 41.75% gross return | 35.94% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 111,089.00 units of Strontium Clathrates | Buy @ 990.00, Sell @ 1,388.80 | 44,302,293.20 ISK (gross) | 37,976,796.67 ISK (net) | 40.28% gross return | 34.53% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Liquid Ozone'
+Item: 'Liquid Ozone' : Length: 6
+| 2,531,008.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 131.30 | 129,840,710.40 ISK (gross) | 116,215,535.03 ISK (net) | 64.13% gross return | 57.40% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 2,531,008.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 127.32 | 119,767,298.56 ISK (gross) | 106,555,133.08 ISK (net) | 59.15% gross return | 52.62% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,943,354.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 135.12 | 107,117,672.48 ISK (gross) | 96,351,646.79 ISK (net) | 68.90% gross return | 61.98% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 2,145,354.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 127.81 | 102,569,374.74 ISK (gross) | 91,327,269.26 ISK (net) | 59.76% gross return | 53.21% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 2,364,865.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 122.45 | 100,388,519.25 ISK (gross) | 88,515,832.76 ISK (net) | 53.06% gross return | 46.79% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,559,343.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 131.33 | 80,041,076.19 ISK (gross) | 71,644,747.03 ISK (net) | 64.16% gross return | 57.43% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,577,041.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 118.95 | 61,425,746.95 ISK (gross) | 53,734,596.85 ISK (net) | 48.69% gross return | 42.59% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,419,364.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 119.00 | 55,355,196.00 ISK (gross) | 48,430,119.04 ISK (net) | 48.75% gross return | 42.65% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,142,374.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 122.50 | 48,550,895.00 ISK (gross) | 42,813,321.58 ISK (net) | 53.12% gross return | 46.85% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,000,000.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 116.00 | 36,000,000.00 ISK (gross) | 31,244,000.00 ISK (net) | 45.00% gross return | 39.05% net return | 6 jumps | Aunenen, Lonetrek (0.45 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+
+Item: 'Liquid Ozone' : Length: 7
+| 2,531,008.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 129.01 | 124,044,702.08 ISK (gross) | 110,657,163.05 ISK (net) | 61.26% gross return | 54.65% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 2,531,008.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 127.77 | 120,906,252.16 ISK (gross) | 107,647,389.58 ISK (net) | 59.71% gross return | 53.16% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,528,080.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 136.01 | 85,587,760.80 ISK (gross) | 77,066,560.21 ISK (net) | 70.01% gross return | 63.04% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,957,814.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 122.12 | 82,463,125.68 ISK (gross) | 72,660,507.61 ISK (net) | 52.65% gross return | 46.39% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,999,100.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 119.11 | 78,184,801.00 ISK (gross) | 68,422,176.16 ISK (net) | 48.89% gross return | 42.78% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,316,757.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 135.17 | 72,645,483.69 ISK (gross) | 65,348,055.90 ISK (net) | 68.96% gross return | 62.04% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 2,531,008.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 104.08 | 60,946,672.64 ISK (gross) | 50,146,152.82 ISK (net) | 30.10% gross return | 24.77% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,040,714.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 127.33 | 49,256,993.62 ISK (gross) | 43,823,914.96 ISK (net) | 59.16% gross return | 52.64% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 2,000,000.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 104.30 | 48,600,000.00 ISK (gross) | 40,047,400.00 ISK (net) | 30.37% gross return | 25.03% net return | 7 jumps | Aunenen, Lonetrek (0.45 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,221,038.00 units of Liquid Ozone | Buy @ 97.07, Sell @ 135.12 | 46,460,495.90 ISK (gross) | 39,696,043.06 ISK (net) | 39.20% gross return | 33.49% net return | 7 jumps | Hakonen, Lonetrek (0.30 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Hakonen', 'Lonetrek', 0.296379), ('Nalvula', 'Lonetrek', 0.387324), ('Jan', 'Lonetrek', 0.416954), ('Autaris', 'Lonetrek', 0.468632), ('Vellaine', 'Lonetrek', 0.581139), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0), ('Jita', 'The Forge', 0.945913)]
+
+
+Item: 'Liquid Ozone' : Length: 8
+| 2,995,753.00 units of Liquid Ozone | Buy @ 60.00, Sell @ 99.55 | 118,482,031.15 ISK (gross) | 106,254,715.49 ISK (net) | 65.92% gross return | 59.11% net return | 8 jumps | Odebeinn, Metropolis (0.31 sec) -> Eram, Metropolis (0.78 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Odebeinn', 'Metropolis', 0.3078), ('Hodrold', 'Metropolis', 0.596073), ('Hroduko', 'Metropolis', 0.712585), ('Frulegur', 'Metropolis', 0.434329), ('Erlendur', 'Metropolis', 0.450741), ('Diromitur', 'Metropolis', 0.469726), ('Lirerim', 'Metropolis', 0.614124), ('Yrmori', 'Metropolis', 0.644345), ('Eram', 'Metropolis', 0.775374)]
+
+| 2,995,753.00 units of Liquid Ozone | Buy @ 69.98, Sell @ 99.55 | 88,584,416.21 ISK (gross) | 76,357,100.55 ISK (net) | 42.25% gross return | 36.42% net return | 8 jumps | Odebeinn, Metropolis (0.31 sec) -> Eram, Metropolis (0.78 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Odebeinn', 'Metropolis', 0.3078), ('Hodrold', 'Metropolis', 0.596073), ('Hroduko', 'Metropolis', 0.712585), ('Frulegur', 'Metropolis', 0.434329), ('Erlendur', 'Metropolis', 0.450741), ('Diromitur', 'Metropolis', 0.469726), ('Lirerim', 'Metropolis', 0.614124), ('Yrmori', 'Metropolis', 0.644345), ('Eram', 'Metropolis', 0.775374)]
+
+| 2,995,753.00 units of Liquid Ozone | Buy @ 74.04, Sell @ 99.55 | 76,421,659.03 ISK (gross) | 64,194,343.37 ISK (net) | 34.45% gross return | 28.94% net return | 8 jumps | Konora, Metropolis (0.41 sec) -> Eram, Metropolis (0.78 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Konora', 'Metropolis', 0.413524), ('Hodrold', 'Metropolis', 0.596073), ('Hroduko', 'Metropolis', 0.712585), ('Frulegur', 'Metropolis', 0.434329), ('Erlendur', 'Metropolis', 0.450741), ('Diromitur', 'Metropolis', 0.469726), ('Lirerim', 'Metropolis', 0.614124), ('Yrmori', 'Metropolis', 0.644345), ('Eram', 'Metropolis', 0.775374)]
+
+| 1,221,038.00 units of Liquid Ozone | Buy @ 97.07, Sell @ 136.01 | 47,547,219.72 ISK (gross) | 40,738,211.21 ISK (net) | 40.12% gross return | 34.37% net return | 8 jumps | Hakonen, Lonetrek (0.30 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Hakonen', 'Lonetrek', 0.296379), ('Nalvula', 'Lonetrek', 0.387324), ('Jan', 'Lonetrek', 0.416954), ('Autaris', 'Lonetrek', 0.468632), ('Vellaine', 'Lonetrek', 0.581139), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,221,038.00 units of Liquid Ozone | Buy @ 97.07, Sell @ 135.17 | 46,521,547.80 ISK (gross) | 39,754,591.84 ISK (net) | 39.25% gross return | 33.54% net return | 8 jumps | Hakonen, Lonetrek (0.30 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Hakonen', 'Lonetrek', 0.296379), ('Nalvula', 'Lonetrek', 0.387324), ('Jan', 'Lonetrek', 0.416954), ('Autaris', 'Lonetrek', 0.468632), ('Vellaine', 'Lonetrek', 0.581139), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,221,038.00 units of Liquid Ozone | Buy @ 97.07, Sell @ 129.01 | 38,999,953.72 ISK (gross) | 32,541,383.11 ISK (net) | 32.90% gross return | 27.46% net return | 8 jumps | Hakonen, Lonetrek (0.30 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Hakonen', 'Lonetrek', 0.296379), ('Nalvula', 'Lonetrek', 0.387324), ('Jan', 'Lonetrek', 0.416954), ('Autaris', 'Lonetrek', 0.468632), ('Vellaine', 'Lonetrek', 0.581139), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 1,221,038.00 units of Liquid Ozone | Buy @ 97.07, Sell @ 127.77 | 37,485,866.60 ISK (gross) | 31,089,373.56 ISK (net) | 31.63% gross return | 26.23% net return | 8 jumps | Hakonen, Lonetrek (0.30 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Hakonen', 'Lonetrek', 0.296379), ('Nalvula', 'Lonetrek', 0.387324), ('Jan', 'Lonetrek', 0.416954), ('Autaris', 'Lonetrek', 0.468632), ('Vellaine', 'Lonetrek', 0.581139), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 609,824.00 units of Liquid Ozone | Buy @ 79.00, Sell @ 136.01 | 34,766,066.24 ISK (gross) | 31,365,437.59 ISK (net) | 72.16% gross return | 65.11% net return | 8 jumps | Hakonen, Lonetrek (0.30 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Hakonen', 'Lonetrek', 0.296379), ('Nalvula', 'Lonetrek', 0.387324), ('Jan', 'Lonetrek', 0.416954), ('Autaris', 'Lonetrek', 0.468632), ('Vellaine', 'Lonetrek', 0.581139), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 609,824.00 units of Liquid Ozone | Buy @ 79.00, Sell @ 135.17 | 34,253,814.08 ISK (gross) | 30,874,187.77 ISK (net) | 71.10% gross return | 64.09% net return | 8 jumps | Hakonen, Lonetrek (0.30 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Hakonen', 'Lonetrek', 0.296379), ('Nalvula', 'Lonetrek', 0.387324), ('Jan', 'Lonetrek', 0.416954), ('Autaris', 'Lonetrek', 0.468632), ('Vellaine', 'Lonetrek', 0.581139), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+| 914,369.00 units of Liquid Ozone | Buy @ 99.00, Sell @ 136.01 | 33,840,796.69 ISK (gross) | 28,741,900.25 ISK (net) | 37.38% gross return | 31.75% net return | 8 jumps | Hakonen, Lonetrek (0.30 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Hakonen', 'Lonetrek', 0.296379), ('Nalvula', 'Lonetrek', 0.387324), ('Jan', 'Lonetrek', 0.416954), ('Autaris', 'Lonetrek', 0.468632), ('Vellaine', 'Lonetrek', 0.581139), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+
+Item: 'Liquid Ozone' : Length: 9
+| 3,951,860.00 units of Liquid Ozone | Buy @ 60.00, Sell @ 127.32 | 266,039,215.20 ISK (gross) | 245,410,031.78 ISK (net) | 112.20% gross return | 103.50% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 4,573,948.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 127.32 | 216,439,219.36 ISK (gross) | 192,562,661.93 ISK (net) | 59.15% gross return | 52.62% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 2,730,963.00 units of Liquid Ozone | Buy @ 60.00, Sell @ 131.30 | 194,717,661.90 ISK (gross) | 180,016,068.78 ISK (net) | 118.83% gross return | 109.86% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 2,364,865.00 units of Liquid Ozone | Buy @ 60.00, Sell @ 122.45 | 147,685,819.25 ISK (gross) | 135,813,132.76 ISK (net) | 104.08% gross return | 95.72% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,943,354.00 units of Liquid Ozone | Buy @ 60.00, Sell @ 135.12 | 145,984,752.48 ISK (gross) | 135,218,726.79 ISK (net) | 125.20% gross return | 115.97% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 2,145,354.00 units of Liquid Ozone | Buy @ 60.00, Sell @ 127.81 | 145,476,454.74 ISK (gross) | 134,234,349.26 ISK (net) | 113.02% gross return | 104.28% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 2,730,963.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 131.30 | 140,098,401.90 ISK (gross) | 125,396,808.78 ISK (net) | 64.13% gross return | 57.40% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 3,951,860.00 units of Liquid Ozone | Buy @ 60.00, Sell @ 90.00 | 118,555,800.00 ISK (gross) | 103,973,436.60 ISK (net) | 50.00% gross return | 43.85% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,559,343.00 units of Liquid Ozone | Buy @ 60.00, Sell @ 131.33 | 111,227,936.19 ISK (gross) | 102,831,607.03 ISK (net) | 118.88% gross return | 109.91% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 1,943,354.00 units of Liquid Ozone | Buy @ 80.00, Sell @ 135.12 | 107,117,672.48 ISK (gross) | 96,351,646.79 ISK (net) | 68.90% gross return | 61.98% net return | 9 jumps | Iitanmadan, Lonetrek (0.31 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Iitanmadan', 'Lonetrek', 0.305869), ('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Mizuro's Modified Cruise Missile Launcher'
+Item: 'Mizuro's Modified Cruise Missile Launcher' : Length: 8
+| 1.00 units of Mizuro's Modified Cruise Missile Launcher | Buy @ 1,250,000,000.13, Sell @ 1,700,000,000.00 | 449,999,999.87 ISK (gross) | 380,299,999.87 ISK (net) | 36.00% gross return | 30.42% net return | 8 jumps | Halle, Everyshore (0.73 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Halle', 'Everyshore', 0.728362), ('Bereye', 'Everyshore', 0.691886), ('Mies', 'Essence', 0.947378), ('Oursulaert', 'Essence', 0.890615), ('Renyn', 'Essence', 0.898199), ('Du Annes', 'Sinq Laison', 0.647814), ('Balle', 'Sinq Laison', 0.460889), ('Vylade', 'Sinq Laison', 0.796289), ('Dodixie', 'Sinq Laison', 0.868407)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Tritanium'
+Item: 'Tritanium' : Length: 7
+| 47,092,004.00 units of Tritanium | Buy @ 3.75, Sell @ 5.05 | 61,219,605.20 ISK (gross) | 51,469,205.77 ISK (net) | 34.67% gross return | 29.15% net return | 7 jumps | Horkkisen, The Citadel (0.44 sec) -> New Caldari, The Forge (1.00 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Horkkisen', 'The Citadel', 0.438425), ('Eitu', 'The Citadel', 0.538036), ('Konola', 'The Citadel', 0.665717), ('Isaziwa', 'The Citadel', 0.720814), ('Oiniken', 'The Citadel', 0.718557), ('Aikoro', 'The Citadel', 0.771435), ('Alikara', 'The Citadel', 0.711293), ('New Caldari', 'The Forge', 1.0)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Siren I'
+Item: 'Siren I' : Length: 4
+| 11.00 units of Siren I | Buy @ 4,000,000.00, Sell @ 5,400,000.24 | 15,400,002.64 ISK (gross) | 12,964,602.53 ISK (net) | 35.00% gross return | 29.47% net return | 4 jumps | Carrou, Sinq Laison (0.44 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Carrou', 'Sinq Laison', 0.440589), ('Faurent', 'Sinq Laison', 0.536504), ('Iyen-Oursta', 'Sinq Laison', 0.779575), ('Perimeter', 'The Forge', 0.953123), ('Jita', 'The Forge', 0.945913)]
+
+| 11.00 units of Siren I | Buy @ 4,000,000.00, Sell @ 5,400,000.18 | 15,400,001.98 ISK (gross) | 12,964,601.90 ISK (net) | 35.00% gross return | 29.47% net return | 4 jumps | Carrou, Sinq Laison (0.44 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Carrou', 'Sinq Laison', 0.440589), ('Faurent', 'Sinq Laison', 0.536504), ('Iyen-Oursta', 'Sinq Laison', 0.779575), ('Perimeter', 'The Forge', 0.953123), ('Jita', 'The Forge', 0.945913)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Coolant'
+Item: 'Coolant' : Length: 6
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 11,150.01 | 18,663,809.25 ISK (gross) | 15,955,193.07 ISK (net) | 39.38% gross return | 33.66% net return | 6 jumps | Oulley, Placid (0.34 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544)]
+
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 11,150.01 | 18,663,809.25 ISK (gross) | 15,955,193.07 ISK (net) | 39.38% gross return | 33.66% net return | 6 jumps | Oulley, Placid (0.34 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544)]
+
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 11,150.01 | 18,663,809.25 ISK (gross) | 15,955,193.07 ISK (net) | 39.38% gross return | 33.66% net return | 6 jumps | Oulley, Placid (0.34 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544)]
+
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 10,501.89 | 14,823,698.25 ISK (gross) | 12,272,526.62 ISK (net) | 31.27% gross return | 25.89% net return | 6 jumps | Oulley, Placid (0.34 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544)]
+
+
+Item: 'Coolant' : Length: 7
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 11,200.00 | 18,960,000.00 ISK (gross) | 16,239,240.00 ISK (net) | 40.00% gross return | 34.26% net return | 7 jumps | Oulley, Placid (0.34 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544), ('Dodixie', 'Sinq Laison', 0.868407)]
+
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 11,150.00 | 18,663,750.00 ISK (gross) | 15,955,136.25 ISK (net) | 39.38% gross return | 33.66% net return | 7 jumps | Oulley, Placid (0.34 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544), ('Dodixie', 'Sinq Laison', 0.868407)]
+
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 11,100.00 | 18,367,500.00 ISK (gross) | 15,671,032.50 ISK (net) | 38.75% gross return | 33.06% net return | 7 jumps | Oulley, Placid (0.34 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544), ('Dodixie', 'Sinq Laison', 0.868407)]
+
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 10,265.03 | 13,420,302.75 ISK (gross) | 10,926,670.34 ISK (net) | 28.31% gross return | 23.05% net return | 7 jumps | Oulley, Placid (0.34 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544), ('Dodixie', 'Sinq Laison', 0.868407)]
+
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 10,265.00 | 13,420,125.00 ISK (gross) | 10,926,499.88 ISK (net) | 28.31% gross return | 23.05% net return | 7 jumps | Oulley, Placid (0.34 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544), ('Dodixie', 'Sinq Laison', 0.868407)]
+
+| 5,925.00 units of Coolant | Buy @ 8,000.00, Sell @ 10,263.94 | 13,413,844.50 ISK (gross) | 10,920,476.88 ISK (net) | 28.30% gross return | 23.04% net return | 7 jumps | Oulley, Placid (0.34 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Oulley', 'Placid', 0.338416), ('Orvolle', 'Placid', 0.746238), ('Mesybier', 'Essence', 0.470379), ('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Erme', 'Sinq Laison', 0.798156), ('Botane', 'Sinq Laison', 0.87544), ('Dodixie', 'Sinq Laison', 0.868407)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Triclinic Bistot'
+Item: 'Triclinic Bistot' : Length: 9
+| 11,080.00 units of Triclinic Bistot | Buy @ 1,000.00, Sell @ 1,985.50 | 10,919,340.00 ISK (gross) | 10,017,367.06 ISK (net) | 98.55% gross return | 90.41% net return | 9 jumps | Daras, Lonetrek (0.36 sec) -> Perimeter, The Forge (0.95 sec) | 'region' pickup range | '1' dropoff range |
+Route: [('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913), ('Perimeter', 'The Forge', 0.953123)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Station Warehouse Container'
+Item: 'Station Warehouse Container' : Length: 8
+| 28.00 units of Station Warehouse Container | Buy @ 389,500.00, Sell @ 804,003.66 | 11,606,102.48 ISK (gross) | 10,683,106.28 ISK (net) | 106.42% gross return | 97.96% net return | 8 jumps | Daras, Lonetrek (0.36 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+| 28.00 units of Station Warehouse Container | Buy @ 389,500.00, Sell @ 804,000.80 | 11,606,022.40 ISK (gross) | 10,683,029.48 ISK (net) | 106.42% gross return | 97.96% net return | 8 jumps | Daras, Lonetrek (0.36 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | '3' dropoff range |
+Route: [('Daras', 'Lonetrek', 0.359979), ('Otalieto', 'Lonetrek', 0.513441), ('Aunenen', 'Lonetrek', 0.44779), ('Nonni', 'Lonetrek', 0.508041), ('Litiura', 'Lonetrek', 0.489405), ('Uemisaisen', 'Lonetrek', 0.605931), ('Isanamo', 'Lonetrek', 0.635016), ('Sobaseki', 'Lonetrek', 0.841025), ('Jita', 'The Forge', 0.945913)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Supratidal Compact Entropic Disintegrator'
+Item: 'Supratidal Compact Entropic Disintegrator' : Length: 0
+| 4.00 units of Supratidal Compact Entropic Disintegrator | Buy @ 9,999,999.99, Sell @ 15,200,010.00 | 20,800,040.04 ISK (gross) | 18,307,238.40 ISK (net) | 52.00% gross return | 45.77% net return | 0 jumps | Jita, The Forge (0.95 sec) -> Jita, The Forge (0.95 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Jita', 'The Forge', 0.945913)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Punisher'
+Item: 'Punisher' : Length: 3
+| 24.00 units of Punisher | Buy @ 300,000.00, Sell @ 1,000,000.00 | 16,800,000.00 ISK (gross) | 15,816,000.00 ISK (net) | 233.33% gross return | 219.67% net return | 3 jumps | Rakapas, Black Rise (0.22 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Rakapas', 'Black Rise', 0.22278), ('Pynekastoh', 'Black Rise', 0.239633), ('Hikkoken', 'Black Rise', 0.342755), ('Nennamaila', 'Black Rise', 0.274258)]
+
+| 16.00 units of Punisher | Buy @ 320,000.00, Sell @ 1,000,000.00 | 10,880,000.00 ISK (gross) | 10,224,000.00 ISK (net) | 212.50% gross return | 199.69% net return | 3 jumps | Oicx, Placid (0.33 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Oicx', 'Placid', 0.330045), ('Vlillirier', 'Placid', 0.289309), ('Aldranette', 'Placid', 0.36751), ('Nennamaila', 'Black Rise', 0.274258)]
+
+
+Item: 'Punisher' : Length: 4
+| 47.00 units of Punisher | Buy @ 439,999.99, Sell @ 1,000,000.00 | 26,320,000.47 ISK (gross) | 24,393,000.47 ISK (net) | 127.27% gross return | 117.95% net return | 4 jumps | Nisuwa, Black Rise (0.31 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Nisuwa', 'Black Rise', 0.309433), ('Hirri', 'Black Rise', 0.335504), ('Pynekastoh', 'Black Rise', 0.239633), ('Hikkoken', 'Black Rise', 0.342755), ('Nennamaila', 'Black Rise', 0.274258)]
+
+| 20.00 units of Punisher | Buy @ 440,000.00, Sell @ 1,000,000.00 | 11,200,000.00 ISK (gross) | 10,380,000.00 ISK (net) | 127.27% gross return | 117.95% net return | 4 jumps | Nisuwa, Black Rise (0.31 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Nisuwa', 'Black Rise', 0.309433), ('Hirri', 'Black Rise', 0.335504), ('Pynekastoh', 'Black Rise', 0.239633), ('Hikkoken', 'Black Rise', 0.342755), ('Nennamaila', 'Black Rise', 0.274258)]
+
+
+Item: 'Punisher' : Length: 6
+| 69.00 units of Punisher | Buy @ 499,999.92, Sell @ 1,000,000.00 | 34,500,005.52 ISK (gross) | 31,671,005.52 ISK (net) | 100.00% gross return | 91.80% net return | 6 jumps | Orvolle, Placid (0.75 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Orvolle', 'Placid', 0.746238), ('Oulley', 'Placid', 0.338416), ('Aubenall', 'Placid', 0.431851), ('Renarelle', 'Placid', 0.309963), ('Vlillirier', 'Placid', 0.289309), ('Aldranette', 'Placid', 0.36751), ('Nennamaila', 'Black Rise', 0.274258)]
+
+| 26.00 units of Punisher | Buy @ 400,000.00, Sell @ 1,000,000.00 | 15,600,000.00 ISK (gross) | 14,534,000.00 ISK (net) | 150.00% gross return | 139.75% net return | 6 jumps | Fliet, Essence (0.35 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Fliet', 'Essence', 0.345511), ('Heydieles', 'Essence', 0.306625), ('Abune', 'Essence', 0.285634), ('Oinasiken', 'Black Rise', 0.233714), ('Pynekastoh', 'Black Rise', 0.239633), ('Hikkoken', 'Black Rise', 0.342755), ('Nennamaila', 'Black Rise', 0.274258)]
+
+
+Item: 'Punisher' : Length: 7
+| 69.00 units of Punisher | Buy @ 425,975.00, Sell @ 1,000,000.00 | 39,607,725.00 ISK (gross) | 36,778,725.00 ISK (net) | 134.76% gross return | 125.13% net return | 7 jumps | Murethand, Verge Vendor (0.29 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Murethand', 'Verge Vendor', 0.286453), ('Indregulle', 'Essence', 0.241979), ('Heydieles', 'Essence', 0.306625), ('Abune', 'Essence', 0.285634), ('Oinasiken', 'Black Rise', 0.233714), ('Pynekastoh', 'Black Rise', 0.239633), ('Hikkoken', 'Black Rise', 0.342755), ('Nennamaila', 'Black Rise', 0.274258)]
+
+| 69.00 units of Punisher | Buy @ 450,000.00, Sell @ 1,000,000.00 | 37,950,000.00 ISK (gross) | 35,121,000.00 ISK (net) | 122.22% gross return | 113.11% net return | 7 jumps | Vivanier, Placid (0.54 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Vivanier', 'Placid', 0.543845), ('Algasienan', 'Placid', 0.725927), ('Archavoinet', 'Placid', 0.620765), ('Aubenall', 'Placid', 0.431851), ('Renarelle', 'Placid', 0.309963), ('Vlillirier', 'Placid', 0.289309), ('Aldranette', 'Placid', 0.36751), ('Nennamaila', 'Black Rise', 0.274258)]
+
+| 28.00 units of Punisher | Buy @ 449,700.01, Sell @ 1,000,000.00 | 15,408,399.72 ISK (gross) | 14,260,399.72 ISK (net) | 122.37% gross return | 113.25% net return | 7 jumps | Intaki, Placid (0.15 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Intaki', 'Placid', 0.149843), ('Vey', 'Placid', 0.188946), ('Frarie', 'Placid', 0.357455), ('Moclinamaud', 'Placid', 0.394321), ('Renarelle', 'Placid', 0.309963), ('Vlillirier', 'Placid', 0.289309), ('Aldranette', 'Placid', 0.36751), ('Nennamaila', 'Black Rise', 0.274258)]
+
+| 21.00 units of Punisher | Buy @ 485,000.00, Sell @ 1,000,000.00 | 10,815,000.00 ISK (gross) | 9,954,000.00 ISK (net) | 106.19% gross return | 97.73% net return | 7 jumps | Mercomesier, Placid (0.12 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Mercomesier', 'Placid', 0.122967), ('Reschard', 'Placid', 0.127918), ('Arderonne', 'Placid', 0.174709), ('Odamia', 'Placid', 0.220429), ('Anchauttes', 'Placid', 0.339596), ('Evaulon', 'Placid', 0.366836), ('Aldranette', 'Placid', 0.36751), ('Nennamaila', 'Black Rise', 0.274258)]
+
+
+Item: 'Punisher' : Length: 8
+| 69.00 units of Punisher | Buy @ 320,000.00, Sell @ 1,000,000.00 | 46,920,000.00 ISK (gross) | 44,091,000.00 ISK (net) | 212.50% gross return | 199.69% net return | 8 jumps | Pemene, Essence (0.45 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Pemene', 'Essence', 0.450192), ('Villore', 'Essence', 0.506509), ('Old Man Star', 'Essence', 0.335687), ('Heydieles', 'Essence', 0.306625), ('Abune', 'Essence', 0.285634), ('Oinasiken', 'Black Rise', 0.233714), ('Pynekastoh', 'Black Rise', 0.239633), ('Hikkoken', 'Black Rise', 0.342755), ('Nennamaila', 'Black Rise', 0.274258)]
+
+
+Item: 'Punisher' : Length: 9
+| 41.00 units of Punisher | Buy @ 499,000.00, Sell @ 1,000,000.00 | 20,541,000.00 ISK (gross) | 18,860,000.00 ISK (net) | 100.40% gross return | 92.18% net return | 9 jumps | Stacmon, Placid (0.61 sec) -> Nennamaila, Black Rise (0.27 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Stacmon', 'Placid', 0.60528), ('Ostingele', 'Placid', 0.172621), ('Agoze', 'Placid', 0.208648), ('Vey', 'Placid', 0.188946), ('Frarie', 'Placid', 0.357455), ('Moclinamaud', 'Placid', 0.394321), ('Renarelle', 'Placid', 0.309963), ('Vlillirier', 'Placid', 0.289309), ('Aldranette', 'Placid', 0.36751), ('Nennamaila', 'Black Rise', 0.274258)]
+
+
+>>>>>>>>>>>>>>
+Trades for item: 'Planktic Colonies'
+Item: 'Planktic Colonies' : Length: 9
+| 12,000,000.00 units of Planktic Colonies | Buy @ 3.50, Sell @ 5.23 | 20,760,000.00 ISK (gross) | 18,186,840.00 ISK (net) | 49.43% gross return | 43.30% net return | 9 jumps | Sieh, Domain (0.28 sec) -> Amarr, Domain (1.00 sec) | 'region' pickup range | 'station' dropoff range |
+Route: [('Sieh', 'Domain', 0.27801), ('Arton', 'Domain', 0.426982), ('Warouh', 'Domain', 0.525562), ('Murema', 'Domain', 0.664702), ('Aghesi', 'Domain', 0.770818), ('Murzi', 'Domain', 0.619386), ('Bagodan', 'Domain', 0.717179), ('Hama', 'Domain', 0.839545), ('Sarum Prime', 'Domain', 1.0), ('Amarr', 'Domain', 1.0)]
+
+
