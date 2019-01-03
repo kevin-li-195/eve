@@ -1,53 +1,73 @@
-import shortest_path as s
 import json
+import shutil
+import math
+import queue
 import sys
+import time
 
-with open("star_map.json", "r") as f:
-    star_map = json.load(f)
-with open("better_map.json", "r") as f:
-    better_map = json.load(f)
+# Also saves path
+def construct_path_to_region(n, parent_map):
+    path = [n]
+    curr = n
+    while parent_map[curr] != None:
+        path.append(parent_map[curr])
+        curr = parent_map[curr]
+    path.reverse()
+    return(path)
 
-orig_sys = sys.argv[1]
-dest_region = sys.argv[2]
+def get_system_id(name, star_map):
+    for node_str in star_map["nodes"].keys():
+        node_id = int(node_str)
+        if star_map["nodes"][node_str]["name"] == name:
+            return(node_id)
+    raise KeyError("The system %s was not found in the star map." % name)
 
-orig_sys_code = None
+def get_system_name(sys_id, star_map):
+    for node_str in star_map["nodes"]:
+        node_id = int(node_str)
+        if node_id == sys_id:
+            return(star_map["nodes"][node_str]["name"])
 
-for node in star_map["nodes"].keys():
-    if star_map["nodes"][node]["name"] == orig_sys:
-        orig_sys_code = int(node)
-        break
-if orig_sys_code is None:
-    print("Wrong origin system.")
-    sys.exit(1)
+def get_route_to_region(orig, dest_reg_name, route_map, star_map, max_distance=math.inf):
+    # Always try to lookup first
+    open_set = queue.Queue()
+    closed_set = set()
 
-systems = []
+    parent_map = {orig : None}
+    open_set.put(orig)
+    dist = 0
+    distance_map = {orig : 0}
+    while not open_set.empty():
+        neighbour = int(open_set.get())
+        dist = distance_map[neighbour]
+        if dist > max_distance:
+            return([])
+        if star_map["nodes"][str(neighbour)]["region"] == dest_reg_name:
+            return(construct_path_to_region(neighbour, parent_map))
 
-for node_str in star_map["nodes"].keys():
-    node = star_map["nodes"][node_str]
-    if node["region"] == dest_region:
-        systems.append(int(node_str))
-print("Need to check systems:")
-print(systems)
+        children = route_map[str(neighbour)]
 
-shortest_length = None
-shortest_path = None
+        for child in children:
+            if child in closed_set:
+                continue
+            if child not in parent_map:
+                parent_map[child] = neighbour
+            open_set.put(child)
+            distance_map[child] = distance_map[neighbour] + 1
+        closed_set.add(neighbour)
+    return([])
 
-N = len(systems)
-i = 1
+if __name__ == "__main__":
+    with open("star_map.json", "r") as f:
+        star_map = json.load(f)
 
-for system in systems:
-    print("Checking %d of %d systems." % (i, N))
-    i += 1
-    path = s.get_route(orig_sys_code, system, better_map, star_map)
-    if path == []:
-        continue
-    if shortest_length == None or shortest_path == None:
-        shortest_length = len(path) - 1
-        shortest_path = path
-    if len(path) - 1 < shortest_length:
-        shortest_path = path
-        shortest_length = len(path) - 1
-if shortest_length == None or shortest_path == None:
-    print("No path exists.")
-else:
-    print(list(map(lambda x: s.get_system_name(x, star_map), shortest_path)))
+    with open("better_map.json", "r") as f:
+        neighbour_map = json.load(f)
+
+    orig = get_system_id(sys.argv[1], star_map)
+    dest_region_name = sys.argv[2]
+
+    path = get_route_to_region(orig, dest_region_name, neighbour_map, star_map)
+    print("Length: %d" % (len(path)-1))
+    print("Shortest path: %r" % list(zip(list(map(lambda x: get_system_name(x, star_map), path)), list(map(lambda x: star_map["nodes"][str(x)]["security"], path)))))
+
