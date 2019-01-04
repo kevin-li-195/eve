@@ -97,5 +97,10 @@ if __name__ == "__main__":
 
     path = get_route(orig, dest, neighbour_map, star_map)
     print("Length: %d" % (len(path)-1))
-    print("Shortest path: %r" % list(zip(list(map(lambda x: get_system_name(x, star_map), path)), list(map(lambda x: star_map["nodes"][str(x)]["security"], path)))))
-
+    print("Shortest path:")
+    for triple in zip(
+            list(map(lambda x: get_system_name(x, star_map), path)),
+            list(map(lambda x: star_map["nodes"][str(x)]["region"], path)),
+            list(map(lambda x: star_map["nodes"][str(x)]["security"], path))
+            ):
+        print("    -> %s, %s (%0.4f sec)" % triple)
