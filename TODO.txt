@@ -1,0 +1,16 @@
+[ ] Compute required ship cap for given per-jump profit
+    3 methods of transport: 
+        - if <340k m3 (OSLT) then can use GHSOL (applies in lowsec and highsec) to non-Jita (or +25mil with Jita fee)
+        - if highsec, can use ~1mil/jump to pay (or base, which seems to be slightly less if collat low).
+            freighter also allowed.
+        - if lowsec, requires either DST (60k m3) or GHSOL. or BR (much smaller)
+    Alternatively, we can just first print out the per-unit volume along with the total trade volume.
+[ ] Rank trades by distance (or by profit per jump conditioned on ISK/m3 earned maybe?)
+    Makes sense for haul, not trade.
+[ ] Safe map to get safe short paths
+[ ] Prettier reports
+[ ] Take into account distance from player
+    - idea: if it's not possible to get to a region within MAX_JUMPS,
+        then don't bother getting trades within that region.
+[ ] Amarr <-> Jita trade profitable with hauler compute. Constrain with expected cost/jump,
+    then get % return on capital (including haul cost + COGS + tax on sale + broker. Assume sale at mid + broker vs hit bid)
