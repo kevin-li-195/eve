@@ -1,3 +1,4 @@
+[ ] Multithreading to analyze more items faster on a faster computer
 [ ] Compute required ship cap for given per-jump profit
     3 methods of transport: 
         - if <340k m3 (OSLT) then can use GHSOL (applies in lowsec and highsec) to non-Jita (or +25mil with Jita fee)
@@ -9,8 +10,12 @@
     Makes sense for haul, not trade.
 [ ] Safe map to get safe short paths
 [ ] Prettier reports
-[ ] Take into account distance from player
+[x] Take into account distance from player
     - idea: if it's not possible to get to a region within MAX_JUMPS,
         then don't bother getting trades within that region.
 [ ] Amarr <-> Jita trade profitable with hauler compute. Constrain with expected cost/jump,
     then get % return on capital (including haul cost + COGS + tax on sale + broker. Assume sale at mid + broker vs hit bid)
+[ ] min volume of the trade if non-1
+[ ] Allow for partial trades when  considering volume.
+[ ] Allow for putting together trades in the same station + system.
+[ ] Intel for recent jumps in system
