@@ -20,75 +20,42 @@ The Citadel : 10000033
 The Forge : 10000002
 '''
 
+# Need current system
+try:
+    CURRENT_SYSTEM = sys.argv[1]
+except:
+    print("Must supply current system in order to get correct jump lengths for trade.")
+    sys.exit(1)
+
 # Drop regions instead (blacklist not whitelist)
-REGION_BLACKLIST = [
-        "Syndicate",
-        "D-R00023",
-        "D-R00021",
-        "A821-A",
-        "B-R00005",
-        "A-R00001",
-        "UUA-F4",
-        "J7HZ-F",
-        "A-R00002",
-        "A-R00003",
-        "B-R00004",
-        "B-R00006",
-        "B-R00007",
-        "B-R00008",
-        "C-R00009",
-        "C-R00010",
-        "C-R00012",
-        "C-R00013",
-        "C-R00014",
-        "C-R00015",
-        "D-R00016",
-        "D-R00017",
-        "D-R00018",
-        "D-R00019",
-        "D-R00020",
-        "D-R00022",
-        "E-R00024",
-        "E-R00025",
-        "E-R00026",
-        "E-R00027",
-        "E-R00028",
-        "E-R00029",
-        "F-R00030",
-        "G-R00031",
-        "H-R00032",
-        "K-R00033",
-        "ADR01",
-        "ADR02",
-        "ADR03",
-        "ADR04",
-        "ADR05",
-        "PR-01"]
+REGION_BLACKLIST = []
 
 TAX = 0.014
 
-BROKERS_FEE = 0.027
+BROKERS_FEE = 0.024
 
 # TODO: Take into account player position when looking for valuable hauls
 
 # Minimum profit threshold
-MIN_PROFIT_PERCENT = 0.28
+MIN_PROFIT_PERCENT = 0.05
 
 # Min profit amount
-# Currently 1mil
 MIN_PROFIT_AMOUNT = 10000000
 
-# Max volume for a haul
-MAX_VOLUME = 20000
+# Number of trades displayed
+TRADE_NUM_LIMIT = 30
+
+# Max volume total trade
+MAX_VOLUME_TOTAL = 150
 
 # Maximum number of jumps willing to go
-MAX_JUMPS = 10
+MAX_JUMPS = 30
+
+# TODO: min profit per jump
+PROFIT_PER_JUMP = 1000000
 
 # Base URL
 BASE = "https://esi.evetech.net/latest/"
-
-# Limit number of trades shown per item per jump length
-TRADE_NUM_LIMIT = 10
 
 # Given list of IDs, make name map.
 # Note max items is 1000
@@ -122,16 +89,11 @@ def get_trade_value(trade):
 def route_length(l):
     if len(l) <= 0:
         raise ValueError("Can't have route list with zero elem")
-    if len(l) == 1:
-        return(0)
-    if len(l) == 2:
-        return(1)
-    if len(l) >= 3:
-        return(len(l)-1)
+    return(len(l)-1)
 
 # Get all orders in New Eden
 def get_orders(region_blacklist=[]):
-    # Get all market data
+    # Load a shit ton of stuff into memory.
     with open("region_list.json", "r") as f:
         regions = json.load(f)
     with open("inv_region_map.json", "r") as f:
@@ -145,7 +107,6 @@ def get_orders(region_blacklist=[]):
 
     total = len(regions)
     region_progress = 1
-
 
     for region in regions:
 
@@ -177,7 +138,7 @@ def get_orders(region_blacklist=[]):
                 region_orderbook[region].append(o)
             # Do all the pages
             # TODO: Clean up?
-            session = FuturesSession(executor=ThreadPoolExecutor(max_workers=10))
+            session = FuturesSession(executor=ThreadPoolExecutor(max_workers=30))
 
             pages_todo = list(range(2, page_total + 1))
             send_reqs = lambda i: session.get(MARKET_BASE + str(i), hooks={"response" : resp_hook})
@@ -214,7 +175,6 @@ def get_orders(region_blacklist=[]):
                         total_sells[order["type_id"]].append(order)
                     else:
                         total_sells[order["type_id"]] = [order]
-    print("done", file=sys.stderr)
     return(total_buys, total_sells)
 
 # Now that route map is creatable, we can check for profitable short hauls
@@ -226,12 +186,26 @@ if __name__ == "__main__":
     ################
     all_buys, all_sells = get_orders(region_blacklist=REGION_BLACKLIST)
     with open("star_map.json", "r") as f:
-        route_map = json.load(f)
-    with open("better_map.json", "r") as f:
-        better_map = json.load(f)
+        star_map = json.load(f)
+    with open("neighbour_map.json", "r") as f:
+        neighbour_map = json.load(f)
+    with open("item_map.json", "r") as f:
+        item_map = json.load(f)
     hauls_to_best_trade_map = {}
     item_count = 1
+
+    # Get current system ID.
+    CURRENT_SYSTEM_ID = None
+    for node in star_map["nodes"].keys():
+        if star_map["nodes"][node]["name"] == CURRENT_SYSTEM:
+            CURRENT_SYSTEM_ID = int(node)
+    if CURRENT_SYSTEM_ID is None:
+        print("%s is not a system." % CURRENT_SYSTEM)
+        sys.exit(1)
+
     N_items = len(list(set(all_buys.keys()) & set(all_sells.keys())))
+
+    # Filter all the orders.
     for item_id in all_buys.keys():
         # Check if there are sellers
         if item_id not in all_sells:
@@ -251,8 +225,8 @@ if __name__ == "__main__":
         # permit a MIN_PROFIT_PERCENT.
         # We consider bid/asks viable if it is possible, without considering volume,
         # to sell at a min profit in a single order. This is basically a preprocessing step.
-        viable_asks = [a for a in curr_item_sells if max_buy["price"] / a["price"] - 1 > MIN_PROFIT_PERCENT]
-        viable_bids = [a for a in curr_item_buys if a["price"] / min_sell["price"] - 1 > MIN_PROFIT_PERCENT]
+        # viable_asks = [a for a in curr_item_sells if max_buy["price"] / a["price"] - 1 > MIN_PROFIT_PERCENT]
+        # viable_bids = [a for a in curr_item_buys if a["price"] / min_sell["price"] - 1 > MIN_PROFIT_PERCENT]
         # For each order check distance from other orders.
         # Use adjacency map (x, y) to distance.
         # Note: API returns both origin and destination within list.
@@ -262,19 +236,38 @@ if __name__ == "__main__":
         # Trade is triple of jump length, ask order, and bid order.
         possible_trades = []
 
-        for ask in viable_asks:
+        for ask in curr_item_sells:
             # Profitable? Only check against profitable bids.
-            sub_viable_bids = [b for b in viable_bids if b["price"] / ask["price"] - 1 > MIN_PROFIT_PERCENT \
-                    and min(b["volume_remain"], ask["volume_remain"]) * (b["price"] - ask["price"]) > MIN_PROFIT_AMOUNT]
-            # Routes
-            for bid in sub_viable_bids:
+            # TODO: Make faster
+            # viable_bids = [b for b in curr_item_buys if b["price"] / ask["price"] - 1 > MIN_PROFIT_PERCENT \
+#                    and min(b["volume_remain"], ask["volume_remain"]) * (b["price"] - ask["price"]) > MIN_PROFIT_AMOUNT]
+            # Filter out trades.
+            for bid in curr_item_buys:
+                # Filter out the trades that don't fit our requirements
+                cross_vol = min(bid["volume_remain"], ask["volume_remain"])
+                item_volume = item_map[str(item_id)]["packaged_volume"]
+                gross_profit = cross_vol * (bid["price"] - ask["price"])
+                if cross_vol * item_volume > MAX_VOLUME_TOTAL:
+                    continue
+                if bid["price"] / ask["price"] - 1 < MIN_PROFIT_PERCENT:
+                    continue
+                if gross_profit < MIN_PROFIT_AMOUNT:
+                    continue
                 try:
-                    route = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map, max_distance=MAX_JUMPS)
+                    curr_system_to_pickup_route = shortest_path.get_route(CURRENT_SYSTEM_ID, ask["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
+                    if curr_system_to_pickup_route == []:
+                        continue
+                    rem_length = route_length(curr_system_to_pickup_route)
+                    route = shortest_path.get_route(ask["system_id"], bid["system_id"], neighbour_map, star_map, max_distance=(MAX_JUMPS - rem_length))
                 except KeyError:
                     continue
                 if route == []:
                     continue
-                length = route_length(route)
+                length = route_length(route) + route_length(curr_system_to_pickup_route)
+                # Check for profit per jump
+                profit_per_jump = gross_profit / length
+                if profit_per_jump < PROFIT_PER_JUMP:
+                    continue
                 possible_trades.append((length, ask, bid))
         # Sort ascending by jump length
         possible_trades.sort(key=lambda x: x[0])
@@ -301,22 +294,19 @@ if __name__ == "__main__":
     # Just present these in a decent way
     print("Presenting trades now...", file=sys.stderr)
     tradeable_item_ids = list(hauls_to_best_trade_map.keys())
-    # TODO: Save item id name map
-    item_name_map = make_name_map(tradeable_item_ids)
     # Now get region/system map
     # system_ids = set()
-    # for l in route_map.values():
+    # for l in star_map.values():
     #     for j in l:
     #         system_ids.add(j)
     # system_ids = list(system_ids)
 
-    # system_names_map = make_name_map(system_ids)
-    get_system_name = lambda sys_id: route_map["nodes"][str(sys_id)]["name"]
+    get_system_name = lambda sys_id: star_map["nodes"][str(sys_id)]["name"]
     all_trades_file = open("all_trades_report.txt", "w")
     # TODO: Keep track of safe routes (i.e. map with all systems with <4.5 sec removed)
     # and use to build min-length highsec hauls.
     for item_id in hauls_to_best_trade_map.keys():
-        item_name = item_name_map[item_id]
+        item_name = item_map[str(item_id)]["name"]
         length_to_trades_map = hauls_to_best_trade_map[item_id]
         # If all are None, don't print the item name
         none_trades = map(lambda x: x is None, length_to_trades_map.values())
@@ -337,35 +327,46 @@ if __name__ == "__main__":
                 ask = trade[1]
                 bid = trade[2]
                 cross_vol = min(ask["volume_remain"], bid["volume_remain"])
-                print("| %s units of %s | Buy @ %s, Sell @ %s | %s ISK (gross) | %s ISK (net) | %0.2f%% gross return | %0.2f%% net return | %d jumps | %s, %s (%0.2f sec) -> %s, %s (%0.2f sec) | '%s' pickup range | '%s' dropoff range |" % (
-                    "{:,.2f}".format(cross_vol),
-                    item_name,
-                    "{:,.2f}".format(ask["price"]),
-                    "{:,.2f}".format(bid["price"]),
-                    "{:,.2f}".format(value),
-                    "{:,.2f}".format(cross_vol * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"])),
-                    (bid["price"] / ask["price"] - 1) * 100,
-                    (bid["price"] * (1-TAX-BROKERS_FEE) / ask["price"] - 1) * 100,
+                print("| %s units of %s | %s m3 per unit | %s total m3 |" % 
+                        (
+                        "{:,.2f}".format(cross_vol),
+                        item_name,
+                        "{:,.2f}".format(item_map[str(item_id)]["packaged_volume"]),
+                        "{:,.2f}".format(cross_vol * item_map[str(item_id)]["packaged_volume"])
+                    ),
+                    file=all_trades_file
+                )
+                print("| Buy @ %s, Sell @ %s | %s ISK (gross) | %s ISK (net) | %0.2f%% gross return | %0.2f%% net return |" % (
+                        "{:,.2f}".format(ask["price"]),
+                        "{:,.2f}".format(bid["price"]),
+                        "{:,.2f}".format(value * (1-TAX)),
+                        "{:,.2f}".format(cross_vol * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"])),
+                        (bid["price"] / ask["price"] - 1) * 100,
+                        (bid["price"] * (1-TAX-BROKERS_FEE) / ask["price"] - 1) * 100
+                        ),
+                    file=all_trades_file)
+                print("| %d jumps | %s, %s (%0.2f sec) -> %s, %s (%0.2f sec) | '%s' pickup range | '%s' dropoff range |" % (
                     length,
                     get_system_name(ask["system_id"]),
-                    route_map["nodes"][str(ask["system_id"])]["region"],
-                    route_map["nodes"][str(ask["system_id"])]["security"],
+                    star_map["nodes"][str(ask["system_id"])]["region"],
+                    star_map["nodes"][str(ask["system_id"])]["security"],
                     get_system_name(bid["system_id"]),
-                    route_map["nodes"][str(bid["system_id"])]["region"],
-                    route_map["nodes"][str(bid["system_id"])]["security"],
+                    star_map["nodes"][str(bid["system_id"])]["region"],
+                    star_map["nodes"][str(bid["system_id"])]["security"],
                     ask["range"],
                     bid["range"]
                     ),
                     file=all_trades_file)
-                path = shortest_path.get_route(ask["system_id"], bid["system_id"], better_map, route_map, max_distance=MAX_JUMPS)
-                print("Route: %r" % 
-                        list(zip(
-                            map(get_system_name, path),
-                            map(lambda x: route_map["nodes"][str(x)]["region"], path),
-                            map(lambda x: route_map["nodes"][str(x)]["security"], path)
-                            )
-                            ),
-                        file=all_trades_file)
+                # path_to_pickup = shortest_path.get_route(CURRENT_SYSTEM_ID, ask["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
+                # rem_path = shortest_path.get_route(ask["system_id"], bid["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
+                # print("Route: %r" % 
+                #         list(zip(
+                #             map(get_system_name, path),
+                #             map(lambda x: star_map["nodes"][str(x)]["region"], rem_path),
+                #             map(lambda x: star_map["nodes"][str(x)]["security"], rem_path)
+                #             )
+                #             ),
+                #         file=all_trades_file)
                 print(file=all_trades_file)
             print(file=all_trades_file)
 
@@ -380,3 +381,19 @@ if __name__ == "__main__":
 
     # Then, given current system, find the distance for each one of those.
     # Estimate time per jump/distance, and then get the most time-efficient haul
+    '''
+    shape of thing you get from item_map
+    {
+      "capacity": 0,
+      "description": "This SKIN only applies to Medium Caldari dropsuit frames!",
+      "group_id": 368726,
+      "mass": 0,
+      "name": "Medium Caldari SKIN - Red",
+      "packaged_volume": 0,
+      "portion_size": 1,
+      "published": false,
+      "radius": 1,
+      "type_id": 368725,
+      "volume": 0
+    }
+    '''
