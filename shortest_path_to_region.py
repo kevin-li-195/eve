@@ -61,7 +61,7 @@ if __name__ == "__main__":
     with open("star_map.json", "r") as f:
         star_map = json.load(f)
 
-    with open("better_map.json", "r") as f:
+    with open("neighbour_map.json", "r") as f:
         neighbour_map = json.load(f)
 
     orig = get_system_id(sys.argv[1], star_map)

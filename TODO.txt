@@ -1,4 +1,5 @@
-[ ] Multithreading to analyze more items faster on a faster computer
+[x] Multithreading to analyze more items faster on a faster computer
+[ ] Improve multithreading to analyze more items faster on a faster computer
 [ ] Compute required ship cap for given per-jump profit
     3 methods of transport: 
         - if <340k m3 (OSLT) then can use GHSOL (applies in lowsec and highsec) to non-Jita (or +25mil with Jita fee)
@@ -19,3 +20,10 @@
 [ ] Allow for partial trades when  considering volume.
 [ ] Allow for putting together trades in the same station + system.
 [ ] Intel for recent jumps in system
+[ ] When a trade is selected, live update the
+    viability/status of the sell + buy orders
+[ ] Check the name of the station and whether or not it's a Citadel (for scam)
+[ ] Check min volume, alert when it's non-1
+[ ] Check max cargohold subject to per-item volume, that becomes the new trade
+    (we're never gonna take multiple trips)
+[ ] report number of total hauls required
