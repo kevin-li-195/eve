@@ -49,6 +49,7 @@ ITEM_BLACKLIST = set([
         , "Isogen"
         , "Oxygen"
         , "Robotics"
+        , "Spirits"
         ])
 
 TAX = 0.014
@@ -61,13 +62,13 @@ BROKERS_FEE = 0.024
 MIN_PROFIT_PERCENT = 0.05
 
 # Min profit amount
-MIN_PROFIT_AMOUNT = 10000000
+MIN_PROFIT_AMOUNT = 1000000
 
 # Number of trades displayed
 TRADE_NUM_LIMIT = 10
 
 # Max volume total trade
-MAX_VOLUME_PER_HAUL = 250
+MAX_VOLUME_PER_HAUL = 1170.4
 
 # Maximum number of jumps willing to go
 MAX_JUMPS = 35
@@ -162,7 +163,7 @@ def get_orders(region_blacklist=[]):
                 region_orderbook[region].append(o)
             # Do all the pages
             # TODO: Clean up?
-            session = FuturesSession(executor=ThreadPoolExecutor(max_workers=30))
+            session = FuturesSession(executor=ThreadPoolExecutor(max_workers=40))
 
             pages_todo = list(range(2, page_total + 1))
             send_reqs = lambda i: session.get(MARKET_BASE + str(i), hooks={"response" : resp_hook})
@@ -339,7 +340,7 @@ if __name__ == "__main__":
     def f(x):
         extract_profitable_orders(x, all_buys, all_sells, hauls_to_best_trade_map, counter, lock)
     analysis_start_time = time.time()
-    with mp.Pool(5) as p:
+    with mp.Pool() as p:
         p.map(f, list(all_buys.keys()))
 
     # Filter all the orders.

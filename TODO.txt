@@ -27,3 +27,4 @@
 [ ] Check max cargohold subject to per-item volume, that becomes the new trade
     (we're never gonna take multiple trips)
 [ ] report number of total hauls required
+[ ] report as trades are being analyzed

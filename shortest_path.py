@@ -71,7 +71,7 @@ def get_route(orig, dest, route_map, star_map, max_distance=math.inf):
         if dist > max_distance:
             return([])
         if neighbour == dest:
-            return(construct_path(neighbour, parent_map, save_path=True))
+            return(construct_path(neighbour, parent_map))
 
         children = route_map[str(neighbour)]
 
