@@ -1,3 +1,4 @@
+import argparse
 import requests as r
 import time
 import multiprocessing as mp
@@ -22,15 +23,20 @@ The Citadel : 10000033
 The Forge : 10000002
 '''
 
+# Skip the system id 31000005 because it's Thera
+
+parser = argparse.ArgumentParser(description="Evaluate trades in New Eden for best hauls.")
+parser.add_argument("current_system")
+parser.add_argument("-a", "--avoid_null", action="store_true")
+args = parser.parse_args()
+
+print(args)
 # Need current system
-try:
-    CURRENT_SYSTEM = sys.argv[1]
-except:
-    print("Must supply current system in order to get correct jump lengths for trade.")
-    sys.exit(1)
+CURRENT_SYSTEM = args.current_system
+AVOID_NULL_SEC = args.avoid_null
 
 # Drop regions instead (blacklist not whitelist)
-REGION_BLACKLIST = []
+REGION_BLACKLIST = ["G-R00031"]
 
 # Drop items that we don't want to see (they may take a long time)
 # such as Pyerite or Tritanium, where if we have a small ship then
@@ -50,6 +56,8 @@ ITEM_BLACKLIST = set([
         , "Oxygen"
         , "Robotics"
         , "Spirits"
+        , "Raysere's Modified Large Armor Repairer"
+        , "Brokara's Modified Kinetic Plating"
         ])
 
 TAX = 0.014
@@ -62,10 +70,10 @@ BROKERS_FEE = 0.024
 MIN_PROFIT_PERCENT = 0.05
 
 # Min profit amount
-MIN_PROFIT_AMOUNT = 1000000
+MIN_PROFIT_AMOUNT = 10000000
 
 # Number of trades displayed
-TRADE_NUM_LIMIT = 10
+TRADE_NUM_LIMIT = 3
 
 # Max volume total trade
 MAX_VOLUME_PER_HAUL = 1170.4
@@ -74,7 +82,7 @@ MAX_VOLUME_PER_HAUL = 1170.4
 MAX_JUMPS = 35
 
 # TODO: min profit per jump per haul
-PROFIT_PER_JUMP = 500000
+PROFIT_PER_JUMP = 800000
 
 # Base URL
 BASE = "https://esi.evetech.net/latest/"
@@ -261,18 +269,31 @@ if __name__ == "__main__":
         # Trade is triple of jump length, ask order, and bid order.
         possible_trades = []
 
-        print("'%s' analyzing orders" % item_name)
         order_analysis_start = time.time()
         for ask in curr_item_sells:
+            # Thera
+            if ask["system_id"] == 31000005:
+                continue
+            
             # Profitable? Only check against profitable bids.
             # TODO: Make faster
 
             # If even the highest bid doesn't make this ask profitable,
             # then skip it
+            if AVOID_NULL_SEC and star_map["nodes"][str(ask["system_id"])]["security"] <= 0:
+                continue
+
             if max_buy["price"] / ask["price"] - 1 < MIN_PROFIT_PERCENT:
                 continue
             for bid in curr_item_buys:
+                # Thera
+                if bid["system_id"] == 31000005:
+                    continue
                 # Filter out the trades that don't fit our requirements
+
+                if AVOID_NULL_SEC and star_map["nodes"][str(bid["system_id"])]["security"] <= 0:
+                    continue
+
                 if bid["price"] / ask["price"] - 1 < MIN_PROFIT_PERCENT:
                     continue
 
@@ -297,18 +318,15 @@ if __name__ == "__main__":
                 # take into account constraints on volume (i.e. this is the
                 # actual profit per jump using the given ship volume, not the
                 # total profit per jump for the entire order)
-                profit_per_jump = min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"]) / length
+                if length == 0:
+                    profit_per_jump = min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"])
+                else:
+                    profit_per_jump = min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"]) / length
                 if profit_per_jump < PROFIT_PER_JUMP:
                     continue
                 possible_trades.append((length, ask, bid))
-        order_analysis_end = time.time()
-        order_anal_diff = order_analysis_end - order_analysis_start
-        print("'%s' finished analyzing orders in %d:%d" % (item_name, int(order_anal_diff / 60), int(order_anal_diff % 60)))
-
-        print("'%s' creating sorted jump dictionary" % item_name)
-        jump_dict_create_start = time.time()
         # Track best by jump length
-        best_trade_by_jump = dict.fromkeys(range(MAX_JUMPS+1))
+        best_trade_by_jump = dict.fromkeys(range(MAX_JUMPS+1), list())
         for trade in possible_trades:
             curr_length = trade[0]
 
@@ -317,19 +335,10 @@ if __name__ == "__main__":
                 continue
             ask_order = trade[1]
             bid_order = trade[2]
-            if best_trade_by_jump[curr_length] is None:
-                best_trade_by_jump[curr_length] = [trade]
-            else:
-                best_trade_by_jump[curr_length].append(trade)
+            best_trade_by_jump[curr_length].append(trade)
         for length in best_trade_by_jump.keys():
             if best_trade_by_jump[length] is not None:
                 best_trade_by_jump[length].sort(reverse=True, key=get_trade_value)
-        jump_dict_create_diff = time.time() - jump_dict_create_start
-        print("'%s' finished jump dictionary in %d:%d" % (
-                item_name,
-                int(jump_dict_create_diff / 60),
-                int(jump_dict_create_diff % 60)
-            ))
         extracted_orders_dict[item_id] = best_trade_by_jump
 
     # Multithread
@@ -337,229 +346,240 @@ if __name__ == "__main__":
     hauls_to_best_trade_map = manager.dict()
     counter = manager.Value('i', 0)
     lock = manager.Lock()
+
     def f(x):
         extract_profitable_orders(x, all_buys, all_sells, hauls_to_best_trade_map, counter, lock)
+
     analysis_start_time = time.time()
+
     with mp.Pool() as p:
         p.map(f, list(all_buys.keys()))
 
-    # Filter all the orders.
-    # for item_id in all_buys.keys():
-        # Check if there are sellers
-        # if item_id not in all_sells:
-        #     continue
-        # if item_count % 1 == 0:
-        #     print("Analyzing trades for item %d of %d" % (item_count, N_items), file=sys.stderr)
-        # item_count += 1
-        # curr_item_buys = all_buys[item_id]
-        # curr_item_sells = all_sells[item_id]
-        # # Max bid first
-        # max_buy = max(curr_item_buys, key=lambda x: x["price"])
-        # min_sell = min(curr_item_sells, key=lambda x: x["price"])
-        # # curr_item_buys.sort(reverse=True, key=lambda x: x["price"])
-        # # curr_item_sells.sort(key=lambda x: x["price"])
-        # # Only look for profitable at a certain threshold.
-        # # Keep the bids and asks such that all within the collection
-        # # permit a MIN_PROFIT_PERCENT.
-        # # We consider bid/asks viable if it is possible, without considering volume,
-        # # to sell at a min profit in a single order. This is basically a preprocessing step.
-        # # viable_asks = [a for a in curr_item_sells if max_buy["price"] / a["price"] - 1 > MIN_PROFIT_PERCENT]
-        # # viable_bids = [a for a in curr_item_buys if a["price"] / min_sell["price"] - 1 > MIN_PROFIT_PERCENT]
-        # # For each order check distance from other orders.
-        # # Use adjacency map (x, y) to distance.
-        # # Note: API returns both origin and destination within list.
-        # # If return 1 -> 0 jumps. If return 2 -> 1 jump. If return n, n > 3, then n-2 jumps.
+    # Transform all best hauls to list of hauls, then sort by ISK/jump
+    all_hauls_list = [t 
+            for length_dict in hauls_to_best_trade_map.values()
+            for trade_list in length_dict.values()
+            for t in trade_list]
 
-        # # Collect trades, sort by jump length.
-        # # Trade is triple of jump length, ask order, and bid order.
-        # possible_trades = []
-
-        # for ask in curr_item_sells:
-        #     # Profitable? Only check against profitable bids.
-        #     # TODO: Make faster
-        #     # viable_bids = [b for b in curr_item_buys if b["price"] / ask["price"] - 1 > MIN_PROFIT_PERCENT \
-#       #              and min(b["volume_remain"], ask["volume_remain"]) * (b["price"] - ask["price"]) > MIN_PROFIT_AMOUNT]
-        #     # Filter out trades.
-        #     for bid in curr_item_buys:
-        #         # Filter out the trades that don't fit our requirements
-        #         cross_vol = min(bid["volume_remain"], ask["volume_remain"])
-        #         item_volume = item_map[str(item_id)]["packaged_volume"]
-        #         gross_profit = cross_vol * (bid["price"] - ask["price"])
-        #         if cross_vol * item_volume > MAX_VOLUME_PER_HAUL:
-        #             continue
-        #         if bid["price"] / ask["price"] - 1 < MIN_PROFIT_PERCENT:
-        #             continue
-        #         if gross_profit < MIN_PROFIT_AMOUNT:
-        #             continue
-        #         try:
-        #             curr_system_to_pickup_route = shortest_path.get_route(CURRENT_SYSTEM_ID, ask["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
-        #             if curr_system_to_pickup_route == []:
-        #                 continue
-        #             rem_length = route_length(curr_system_to_pickup_route)
-        #             route = shortest_path.get_route(ask["system_id"], bid["system_id"], neighbour_map, star_map, max_distance=(MAX_JUMPS - rem_length))
-        #         except KeyError:
-        #             continue
-        #         if route == []:
-        #             continue
-        #         length = route_length(route) + route_length(curr_system_to_pickup_route)
-        #         # Check for profit per jump
-        #         profit_per_jump = gross_profit / length
-        #         if profit_per_jump < PROFIT_PER_JUMP:
-        #             continue
-        #         possible_trades.append((length, ask, bid))
-        # # Sort ascending by jump length
-        # possible_trades.sort(key=lambda x: x[0])
-        # # Track best by jump length
-        # best_trade_by_jump = dict.fromkeys(range(MAX_JUMPS+1))
-        # for trade in possible_trades:
-        #     # TODO: Take into account distance from player!
-        #     curr_length = trade[0]
-
-        #     # Only take trades that are less than min length.
-        #     if curr_length > MAX_JUMPS:
-        #         continue
-        #     ask_order = trade[1]
-        #     bid_order = trade[2]
-        #     if best_trade_by_jump[curr_length] is None:
-        #         best_trade_by_jump[curr_length] = [trade]
-        #     else:
-        #         best_trade_by_jump[curr_length].append(trade)
-        # for length in best_trade_by_jump.keys():
-        #     if best_trade_by_jump[length] is not None:
-        #         best_trade_by_jump[length].sort(reverse=True, key=get_trade_value)
-        # hauls_to_best_trade_map[item_id] = best_trade_by_jump
-    # Now we have all the best hauls indexed by item id, and then by jump length
-    # Just present these in a decent way
-    print("Presenting trades now...", file=sys.stderr)
-    tradeable_item_ids = list(hauls_to_best_trade_map.keys())
-    # Now get region/system map
-    # system_ids = set()
-    # for l in star_map.values():
-    #     for j in l:
-    #         system_ids.add(j)
-    # system_ids = list(system_ids)
+    # ISK per jump for a single haul subject to capacity and number available to trade constraint
+    def isk_per_jump(trade):
+        length = trade[0]
+        ask = trade[1]
+        bid = trade[2]
+        item_id = ask["type_id"]
+        packaged_volume = item_map[str(item_id)]["packaged_volume"]
+        cross_vol = min(ask["volume_remain"], bid["volume_remain"])
+        max_number_per_haul = int(MAX_VOLUME_PER_HAUL / packaged_volume)
+        units_per_haul = min(cross_vol, max_number_per_haul)
+        after_tax = (units_per_haul * ((1-TAX) * bid["price"] - ask["price"]))
+        return(after_tax / length)
 
     get_system_name = lambda sys_id: star_map["nodes"][str(sys_id)]["name"]
+
+    all_hauls_list.sort(
+            reverse=True,
+            key=isk_per_jump
+            )
+
+    # For each item, print only TRADE_NUM_LIMIT trades
+    trades_printed = {}
+
+    print("Presenting trades now...", file=sys.stderr)
     all_trades_file = open("all_trades_report.txt", "w")
-    # TODO: Keep track of safe routes (i.e. map with all systems with <4.5 sec removed)
-    # and use to build min-length highsec hauls.
-    # TODO: Low-sec hauls can be done with low volume (fast align)
-    # TODO: Rank by ISK/jump
-    for item_id in hauls_to_best_trade_map.keys():
+    for trade in all_hauls_list:
+        total_length = trade[0]
+        ask = trade[1]
+        bid = trade[2]
+        item_id = ask["type_id"]
         item_name = item_map[str(item_id)]["name"]
-        length_to_trades_map = hauls_to_best_trade_map[item_id]
-        # If all are None, don't print the item name
-        none_trades = map(lambda x: x is None, length_to_trades_map.values())
-        if all(none_trades):
+        if item_name not in trades_printed:
+            trades_printed[item_name] = 0
+        else:
+            trades_printed[item_name] += 1
+        if trades_printed[item_name] >= TRADE_NUM_LIMIT:
             continue
-        print(">>>>>>>>>>>>>>", file=all_trades_file)
-        print("Trades for item: '%s'" % item_name, file=all_trades_file)
-        for total_length in length_to_trades_map.keys():
-            if length_to_trades_map[total_length] is None:
-                continue
-            print("Item: '%s' : Length: %d" % (item_name, total_length), file=all_trades_file)
-            count = 1
-            for trade in length_to_trades_map[total_length]:
-                if count > TRADE_NUM_LIMIT:
-                    break
-                count += 1
-                ask = trade[1]
-                bid = trade[2]
-                # TODO: rename because volume means diff things
-                # Num of units traded
-                cross_vol = min(ask["volume_remain"], bid["volume_remain"])
-                # Path from current sys to pickup sys
-                path_to_pickup = shortest_path.get_route(CURRENT_SYSTEM_ID, ask["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
-                # Number of jumps from curr sys to pickup sys
-                length_to_pickup = route_length(path_to_pickup)
-                # m3 per unit
-                packaged_vol = item_map[str(item_id)]["packaged_volume"]
-                units_per_haul = int(MAX_VOLUME_PER_HAUL / packaged_vol)
-                print("| Total %s units of %s | %s m3 per unit | %s total m3 | %s units per max haul |" % 
-                        (
-                        "{:,.2f}".format(cross_vol),
-                        item_name,
-                        "{:,.2f}".format(packaged_vol),
-                        "{:,.2f}".format(cross_vol * packaged_vol),
-                        "{:,}".format(min(units_per_haul, cross_vol))
-                    ),
-                    file=all_trades_file
-                )
-                print("| Buy @ %s, Sell @ %s | %s ISK (gross total) | %s ISK (net total) |" % (
-                        "{:,.2f}".format(ask["price"]),
-                        "{:,.2f}".format(bid["price"]),
-                        "{:,.2f}".format(cross_vol * (bid["price"] * (1-TAX) - ask["price"])),
-                        "{:,.2f}".format(cross_vol * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]))),
-                    file=all_trades_file)
-                print("| %0.2f%% total gross return | %0.2f%% total net return |" % (
-                        (bid["price"] / ask["price"] - 1) * 100,
-                        (bid["price"] * (1-TAX-BROKERS_FEE) / ask["price"] - 1) * 100),
-                    file=all_trades_file)
-                print("| %s gross per max haul | %s net per max haul |" % (
-                        "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"])),
-                        "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]))
-                        ),
-                    file=all_trades_file)
-                print("| %d + %d jumps | %s, %s (%0.2f sec) -> %s, %s (%0.2f sec) | '%s' pickup range | '%s' dropoff range |" % (
-                    length_to_pickup,
-                    total_length-length_to_pickup,
-                    get_system_name(ask["system_id"]),
-                    star_map["nodes"][str(ask["system_id"])]["region"],
-                    star_map["nodes"][str(ask["system_id"])]["security"],
-                    get_system_name(bid["system_id"]),
-                    star_map["nodes"][str(bid["system_id"])]["region"],
-                    star_map["nodes"][str(bid["system_id"])]["security"],
-                    ask["range"],
-                    bid["range"]
-                    ),
-                    file=all_trades_file)
-                print("| %s gross/max haul/jump | %s net/max haul/jump |" % (
-                        "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"]) / total_length),
-                        "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]) / total_length)
-                        ),
-                    file=all_trades_file)
-                path_to_pickup = shortest_path.get_route(CURRENT_SYSTEM_ID, ask["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
-                # rem_path = shortest_path.get_route(ask["system_id"], bid["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
-                # print("Route: %r" % 
-                #         list(zip(
-                #             map(get_system_name, path),
-                #             map(lambda x: star_map["nodes"][str(x)]["region"], rem_path),
-                #             map(lambda x: star_map["nodes"][str(x)]["security"], rem_path)
-                #             )
-                #             ),
-                #         file=all_trades_file)
-                print(file=all_trades_file)
-            print(file=all_trades_file)
+        cross_vol = min(ask["volume_remain"], bid["volume_remain"])
+        # Path from current sys to pickup sys
+        path_to_pickup = shortest_path.get_route(CURRENT_SYSTEM_ID, ask["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
+        # Number of jumps from curr sys to pickup sys
+        length_to_pickup = route_length(path_to_pickup)
+        # m3 per unit
+        packaged_vol = item_map[str(item_id)]["packaged_volume"]
+        units_per_haul = int(MAX_VOLUME_PER_HAUL / packaged_vol)
+        print("--------------------------", file=all_trades_file)
+        print("| Total %s units of %s | %s m3 per unit | %s total m3 | %s units per max haul |" % 
+                (
+                "{:,.2f}".format(cross_vol),
+                item_name,
+                "{:,.2f}".format(packaged_vol),
+                "{:,.2f}".format(cross_vol * packaged_vol),
+                "{:,}".format(min(units_per_haul, cross_vol))
+            ),
+            file=all_trades_file
+        )
+        print("| Buy @ %s, Sell @ %s | %s ISK (gross total) | %s ISK (net total) |" % (
+                "{:,.2f}".format(ask["price"]),
+                "{:,.2f}".format(bid["price"]),
+                "{:,.2f}".format(cross_vol * (bid["price"] * (1-TAX) - ask["price"])),
+                "{:,.2f}".format(cross_vol * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]))),
+            file=all_trades_file)
+        print("| %0.2f%% total gross return | %0.2f%% total net return |" % (
+                (bid["price"] / ask["price"] - 1) * 100,
+                (bid["price"] * (1-TAX-BROKERS_FEE) / ask["price"] - 1) * 100),
+            file=all_trades_file)
+        print("| %s gross per max haul | %s net per max haul |" % (
+                "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"])),
+                "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]))
+                ),
+            file=all_trades_file)
+        print("| %d + %d jumps | %s, %s (%0.2f sec) -> %s, %s (%0.2f sec) | '%s' pickup range | '%s' dropoff range |" % (
+            length_to_pickup,
+            total_length-length_to_pickup,
+            get_system_name(ask["system_id"]),
+            star_map["nodes"][str(ask["system_id"])]["region"],
+            star_map["nodes"][str(ask["system_id"])]["security"],
+            get_system_name(bid["system_id"]),
+            star_map["nodes"][str(bid["system_id"])]["region"],
+            star_map["nodes"][str(bid["system_id"])]["security"],
+            ask["range"],
+            bid["range"]
+            ),
+            file=all_trades_file)
+        print("| %s gross/max haul/jump | %s net/max haul/jump |" % (
+                "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"]) / total_length),
+                "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]) / total_length)
+                ),
+            file=all_trades_file)
+        print("--------------------------", file=all_trades_file)
+        print(file=all_trades_file)
     end_time = time.time()
     diff_time = end_time - start_time
     analysis_diff_time = end_time - analysis_start_time
     print("Total time taken: %d:%0.2f" % (int(diff_time / 60), diff_time % 60))
     print("Trade analysis time taken: %d:%d" % (int(analysis_diff_time / 60), int(analysis_diff_time % 60)))
 
-    # Example order
-    # {'duration': 90, 'is_buy_order': False, 'issued': '2018-12-23T13:26:33Z', 'location_id': 60012133, 'min_volume': 1, 'order_id': 5323620377, 'price': 599999.99, 'range': 'region', 'system_id': 30000107, 'type_id': 30488, 'volume_remain': 43, 'volume_total': 51}
+    # Now we have all the best hauls indexed by item id, and then by jump length
+    # Just present these in a decent way
 
-    # Report 
-    # - required capital
-    # - volume 
-    # - profit (% and ISK) per trade
-    # - route and security of each system
+    # # TODO: Keep track of safe routes (i.e. map with all systems with <4.5 sec removed)
+    # # and use to build min-length highsec hauls.
+    # # TODO: Low-sec hauls can be done with low volume (fast align)
+    # # TODO: Rank by ISK/jump
+    # for item_id in hauls_to_best_trade_map.keys():
+    #     item_name = item_map[str(item_id)]["name"]
+    #     length_to_trades_map = hauls_to_best_trade_map[item_id]
+    #     # If all are None, don't print the item name
+    #     none_trades = map(lambda x: x is None, length_to_trades_map.values())
+    #     if all(none_trades):
+    #         continue
+    #     print(">>>>>>>>>>>>>>", file=all_trades_file)
+    #     print("Trades for item: '%s'" % item_name, file=all_trades_file)
+    #     for total_length in length_to_trades_map.keys():
+    #         if length_to_trades_map[total_length] is None:
+    #             continue
+    #         print("Item: '%s' : Length: %d" % (item_name, total_length), file=all_trades_file)
+    #         count = 1
+    #         for trade in length_to_trades_map[total_length]:
+    #             if count > TRADE_NUM_LIMIT:
+    #                 break
+    #             count += 1
+    #             ask = trade[1]
+    #             bid = trade[2]
+    #             # TODO: rename because volume means diff things
+    #             # Num of units traded
+    #             cross_vol = min(ask["volume_remain"], bid["volume_remain"])
+    #             # Path from current sys to pickup sys
+    #             path_to_pickup = shortest_path.get_route(CURRENT_SYSTEM_ID, ask["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
+    #             # Number of jumps from curr sys to pickup sys
+    #             length_to_pickup = route_length(path_to_pickup)
+    #             # m3 per unit
+    #             packaged_vol = item_map[str(item_id)]["packaged_volume"]
+    #             units_per_haul = int(MAX_VOLUME_PER_HAUL / packaged_vol)
+    #             print("| Total %s units of %s | %s m3 per unit | %s total m3 | %s units per max haul |" % 
+    #                     (
+    #                     "{:,.2f}".format(cross_vol),
+    #                     item_name,
+    #                     "{:,.2f}".format(packaged_vol),
+    #                     "{:,.2f}".format(cross_vol * packaged_vol),
+    #                     "{:,}".format(min(units_per_haul, cross_vol))
+    #                 ),
+    #                 file=all_trades_file
+    #             )
+    #             print("| Buy @ %s, Sell @ %s | %s ISK (gross total) | %s ISK (net total) |" % (
+    #                     "{:,.2f}".format(ask["price"]),
+    #                     "{:,.2f}".format(bid["price"]),
+    #                     "{:,.2f}".format(cross_vol * (bid["price"] * (1-TAX) - ask["price"])),
+    #                     "{:,.2f}".format(cross_vol * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]))),
+    #                 file=all_trades_file)
+    #             print("| %0.2f%% total gross return | %0.2f%% total net return |" % (
+    #                     (bid["price"] / ask["price"] - 1) * 100,
+    #                     (bid["price"] * (1-TAX-BROKERS_FEE) / ask["price"] - 1) * 100),
+    #                 file=all_trades_file)
+    #             print("| %s gross per max haul | %s net per max haul |" % (
+    #                     "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"])),
+    #                     "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]))
+    #                     ),
+    #                 file=all_trades_file)
+    #             print("| %d + %d jumps | %s, %s (%0.2f sec) -> %s, %s (%0.2f sec) | '%s' pickup range | '%s' dropoff range |" % (
+    #                 length_to_pickup,
+    #                 total_length-length_to_pickup,
+    #                 get_system_name(ask["system_id"]),
+    #                 star_map["nodes"][str(ask["system_id"])]["region"],
+    #                 star_map["nodes"][str(ask["system_id"])]["security"],
+    #                 get_system_name(bid["system_id"]),
+    #                 star_map["nodes"][str(bid["system_id"])]["region"],
+    #                 star_map["nodes"][str(bid["system_id"])]["security"],
+    #                 ask["range"],
+    #                 bid["range"]
+    #                 ),
+    #                 file=all_trades_file)
+    #             print("| %s gross/max haul/jump | %s net/max haul/jump |" % (
+    #                     "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX) - ask["price"]) / total_length),
+    #                     "{:,.2f}".format(min(units_per_haul, cross_vol) * (bid["price"] * (1-TAX-BROKERS_FEE) - ask["price"]) / total_length)
+    #                     ),
+    #                 file=all_trades_file)
+    #             path_to_pickup = shortest_path.get_route(CURRENT_SYSTEM_ID, ask["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
+    #             # rem_path = shortest_path.get_route(ask["system_id"], bid["system_id"], neighbour_map, star_map, max_distance=MAX_JUMPS)
+    #             # print("Route: %r" % 
+    #             #         list(zip(
+    #             #             map(get_system_name, path),
+    #             #             map(lambda x: star_map["nodes"][str(x)]["region"], rem_path),
+    #             #             map(lambda x: star_map["nodes"][str(x)]["security"], rem_path)
+    #             #             )
+    #             #             ),
+    #             #         file=all_trades_file)
+    #             print(file=all_trades_file)
+    #         print(file=all_trades_file)
+    # end_time = time.time()
+    # diff_time = end_time - start_time
+    # analysis_diff_time = end_time - analysis_start_time
+    # print("Total time taken: %d:%0.2f" % (int(diff_time / 60), diff_time % 60))
+    # print("Trade analysis time taken: %d:%d" % (int(analysis_diff_time / 60), int(analysis_diff_time % 60)))
 
-    # Then, given current system, find the distance for each one of those.
-    # Estimate time per jump/distance, and then get the most time-efficient haul
-    '''
-    shape of thing you get from item_map
-    {
-      "capacity": 0,
-      "description": "This SKIN only applies to Medium Caldari dropsuit frames!",
-      "group_id": 368726,
-      "mass": 0,
-      "name": "Medium Caldari SKIN - Red",
-      "packaged_volume": 0,
-      "portion_size": 1,
-      "published": false,
-      "radius": 1,
-      "type_id": 368725,
-      "volume": 0
-    }
-    '''
+    # # Example order
+    # # {'duration': 90, 'is_buy_order': False, 'issued': '2018-12-23T13:26:33Z', 'location_id': 60012133, 'min_volume': 1, 'order_id': 5323620377, 'price': 599999.99, 'range': 'region', 'system_id': 30000107, 'type_id': 30488, 'volume_remain': 43, 'volume_total': 51}
+
+    # # Report 
+    # # - required capital
+    # # - volume 
+    # # - profit (% and ISK) per trade
+    # # - route and security of each system
+
+    # # Then, given current system, find the distance for each one of those.
+    # # Estimate time per jump/distance, and then get the most time-efficient haul
+    # '''
+    # shape of thing you get from item_map
+    # {
+    #   "capacity": 0,
+    #   "description": "This SKIN only applies to Medium Caldari dropsuit frames!",
+    #   "group_id": 368726,
+    #   "mass": 0,
+    #   "name": "Medium Caldari SKIN - Red",
+    #   "packaged_volume": 0,
+    #   "portion_size": 1,
+    #   "published": false,
+    #   "radius": 1,
+    #   "type_id": 368725,
+    #   "volume": 0
+    # }
+    # '''

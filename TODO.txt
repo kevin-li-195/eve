@@ -1,5 +1,5 @@
 [x] Multithreading to analyze more items faster on a faster computer
-[ ] Improve multithreading to analyze more items faster on a faster computer
+[x] Improve multithreading to analyze more items faster on a faster computer
 [ ] Compute required ship cap for given per-jump profit
     3 methods of transport: 
         - if <340k m3 (OSLT) then can use GHSOL (applies in lowsec and highsec) to non-Jita (or +25mil with Jita fee)
@@ -9,7 +9,7 @@
     Alternatively, we can just first print out the per-unit volume along with the total trade volume.
 [ ] Rank trades by distance (or by profit per jump conditioned on ISK/m3 earned maybe?)
     Makes sense for haul, not trade.
-[ ] Safe map to get safe short paths
+[x] Safe map to get safe short paths
 [ ] Prettier reports
 [x] Take into account distance from player
     - idea: if it's not possible to get to a region within MAX_JUMPS,
@@ -17,14 +17,19 @@
 [ ] Amarr <-> Jita trade profitable with hauler compute. Constrain with expected cost/jump,
     then get % return on capital (including haul cost + COGS + tax on sale + broker. Assume sale at mid + broker vs hit bid)
 [ ] min volume of the trade if non-1
-[ ] Allow for partial trades when  considering volume.
+[x] Allow for partial trades when  considering volume.
 [ ] Allow for putting together trades in the same station + system.
 [ ] Intel for recent jumps in system
 [ ] When a trade is selected, live update the
     viability/status of the sell + buy orders
 [ ] Check the name of the station and whether or not it's a Citadel (for scam)
-[ ] Check min volume, alert when it's non-1
-[ ] Check max cargohold subject to per-item volume, that becomes the new trade
+[ ] Check min volume, alert when it's non-1 (scam)
+[x] Check max cargohold subject to per-item volume, that becomes the new trade
     (we're never gonna take multiple trips)
 [ ] report number of total hauls required
 [ ] report as trades are being analyzed
+[ ] if we have multiple haulers, then segment based on sec-capability and capacity of each hauler
+    to find best haul for each segment.
+[ ] flag to avoid null sec stations
+[ ] Consider range of bid and use that to build "target system sets" in order to have
+    shorter hops
