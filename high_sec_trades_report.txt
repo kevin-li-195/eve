@@ -1,0 +1,162 @@
+--------------------------
+| Total 3.00 units of High-grade Asklepian Omega | 1.00 m3 per unit | 3.00 total m3 | 3 units per max haul |
+| Buy @ 1,389,999,454.00, Sell @ 1,755,080,001.33 | 989,936,841.91 ISK (after-tax total) | 831,979,641.79 ISK (after-tax+broker total) |
+| 23.74% total after-tax return | 19.95% total after-tax+broker return |
+| 989,936,841.91 after-tax per max haul | 831,979,641.79 after-tax+broker per max haul |
+| 0 + 14 jumps | Jita, The Forge (0.95 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '2' dropoff range |
+| 70,709,774.42 after-tax/max haul/jump | 59,427,117.27 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 3.00 units of High-grade Asklepian Omega | 1.00 m3 per unit | 3.00 total m3 | 3 units per max haul |
+| Buy @ 1,389,999,454.00, Sell @ 1,755,080,001.33 | 989,936,841.91 ISK (after-tax total) | 831,979,641.79 ISK (after-tax+broker total) |
+| 23.74% total after-tax return | 19.95% total after-tax+broker return |
+| 989,936,841.91 after-tax per max haul | 831,979,641.79 after-tax+broker per max haul |
+| 0 + 14 jumps | Jita, The Forge (0.95 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '2' dropoff range |
+| 70,709,774.42 after-tax/max haul/jump | 59,427,117.27 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 3.00 units of High-grade Asklepian Omega | 1.00 m3 per unit | 3.00 total m3 | 3 units per max haul |
+| Buy @ 1,389,999,454.00, Sell @ 1,755,080,001.33 | 989,936,841.91 ISK (after-tax total) | 831,979,641.79 ISK (after-tax+broker total) |
+| 23.74% total after-tax return | 19.95% total after-tax+broker return |
+| 989,936,841.91 after-tax per max haul | 831,979,641.79 after-tax+broker per max haul |
+| 0 + 14 jumps | Jita, The Forge (0.95 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '2' dropoff range |
+| 70,709,774.42 after-tax/max haul/jump | 59,427,117.27 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 2.00 units of Federation Navy Tracking Computer | 5.00 m3 per unit | 10.00 total m3 | 2 units per max haul |
+| Buy @ 201,498,159.61, Sell @ 212,608,300.01 | 13,715,948.80 ISK (after-tax total) | 959,450.80 ISK (after-tax+broker total) |
+| 3.40% total after-tax return | 0.24% total after-tax+broker return |
+| 13,715,948.80 after-tax per max haul | 959,450.80 after-tax+broker per max haul |
+| 0 + 8 jumps | Jita, The Forge (0.95 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
+| 1,714,493.60 after-tax/max haul/jump | 119,931.35 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 2.00 units of Federation Navy Tracking Computer | 5.00 m3 per unit | 10.00 total m3 | 2 units per max haul |
+| Buy @ 201,498,159.61, Sell @ 212,608,300.01 | 13,715,948.80 ISK (after-tax total) | 959,450.80 ISK (after-tax+broker total) |
+| 3.40% total after-tax return | 0.24% total after-tax+broker return |
+| 13,715,948.80 after-tax per max haul | 959,450.80 after-tax+broker per max haul |
+| 0 + 8 jumps | Jita, The Forge (0.95 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
+| 1,714,493.60 after-tax/max haul/jump | 119,931.35 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 2.00 units of Federation Navy Tracking Computer | 5.00 m3 per unit | 10.00 total m3 | 2 units per max haul |
+| Buy @ 201,498,159.61, Sell @ 212,608,300.01 | 13,715,948.80 ISK (after-tax total) | 959,450.80 ISK (after-tax+broker total) |
+| 3.40% total after-tax return | 0.24% total after-tax+broker return |
+| 13,715,948.80 after-tax per max haul | 959,450.80 after-tax+broker per max haul |
+| 0 + 8 jumps | Jita, The Forge (0.95 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
+| 1,714,493.60 after-tax/max haul/jump | 119,931.35 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 5.00 units of Pithum C-Type Medium Shield Booster | 10.00 m3 per unit | 50.00 total m3 | 5 units per max haul |
+| Buy @ 36,200,605.48, Sell @ 39,000,000.60 | 10,096,975.54 ISK (after-tax total) | 4,246,975.45 ISK (after-tax+broker total) |
+| 5.58% total after-tax return | 2.35% total after-tax+broker return |
+| 10,096,975.54 after-tax per max haul | 4,246,975.45 after-tax+broker per max haul |
+| 0 + 9 jumps | Jita, The Forge (0.95 sec) -> Amarr, Domain (1.00 sec) | 'region' pickup range | '1' dropoff range |
+| 1,121,886.17 after-tax/max haul/jump | 471,886.16 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 5.00 units of Pithum C-Type Medium Shield Booster | 10.00 m3 per unit | 50.00 total m3 | 5 units per max haul |
+| Buy @ 36,200,605.48, Sell @ 39,000,000.60 | 10,096,975.54 ISK (after-tax total) | 4,246,975.45 ISK (after-tax+broker total) |
+| 5.58% total after-tax return | 2.35% total after-tax+broker return |
+| 10,096,975.54 after-tax per max haul | 4,246,975.45 after-tax+broker per max haul |
+| 0 + 9 jumps | Jita, The Forge (0.95 sec) -> Amarr, Domain (1.00 sec) | 'region' pickup range | '1' dropoff range |
+| 1,121,886.17 after-tax/max haul/jump | 471,886.16 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 5.00 units of Pithum C-Type Medium Shield Booster | 10.00 m3 per unit | 50.00 total m3 | 5 units per max haul |
+| Buy @ 36,200,605.48, Sell @ 39,000,000.60 | 10,096,975.54 ISK (after-tax total) | 4,246,975.45 ISK (after-tax+broker total) |
+| 5.58% total after-tax return | 2.35% total after-tax+broker return |
+| 10,096,975.54 after-tax per max haul | 4,246,975.45 after-tax+broker per max haul |
+| 0 + 9 jumps | Jita, The Forge (0.95 sec) -> Amarr, Domain (1.00 sec) | 'region' pickup range | '1' dropoff range |
+| 1,121,886.17 after-tax/max haul/jump | 471,886.16 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 23,000.00 units of Photonic Metamaterials | 1.00 m3 per unit | 23,000.00 total m3 | 20,000 units per max haul |
+| Buy @ 17,000.88, Sell @ 18,011.11 | 14,950,179.40 ISK (after-tax total) | 2,522,513.50 ISK (after-tax+broker total) |
+| 3.82% total after-tax return | 0.65% total after-tax+broker return |
+| 13,000,156.00 after-tax per max haul | 2,193,490.00 after-tax+broker per max haul |
+| 0 + 12 jumps | Jita, The Forge (0.95 sec) -> Grinacanne, Sinq Laison (0.85 sec) | 'region' pickup range | '3' dropoff range |
+| 1,083,346.33 after-tax/max haul/jump | 182,790.83 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 23,000.00 units of Photonic Metamaterials | 1.00 m3 per unit | 23,000.00 total m3 | 20,000 units per max haul |
+| Buy @ 17,000.88, Sell @ 18,011.11 | 14,950,179.40 ISK (after-tax total) | 2,522,513.50 ISK (after-tax+broker total) |
+| 3.82% total after-tax return | 0.65% total after-tax+broker return |
+| 13,000,156.00 after-tax per max haul | 2,193,490.00 after-tax+broker per max haul |
+| 0 + 12 jumps | Jita, The Forge (0.95 sec) -> Grinacanne, Sinq Laison (0.85 sec) | 'region' pickup range | '3' dropoff range |
+| 1,083,346.33 after-tax/max haul/jump | 182,790.83 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 23,000.00 units of Photonic Metamaterials | 1.00 m3 per unit | 23,000.00 total m3 | 20,000 units per max haul |
+| Buy @ 17,000.88, Sell @ 18,011.11 | 14,950,179.40 ISK (after-tax total) | 2,522,513.50 ISK (after-tax+broker total) |
+| 3.82% total after-tax return | 0.65% total after-tax+broker return |
+| 13,000,156.00 after-tax per max haul | 2,193,490.00 after-tax+broker per max haul |
+| 0 + 12 jumps | Jita, The Forge (0.95 sec) -> Grinacanne, Sinq Laison (0.85 sec) | 'region' pickup range | '3' dropoff range |
+| 1,083,346.33 after-tax/max haul/jump | 182,790.83 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 1.00 units of Vagabond | 10,000.00 m3 per unit | 10,000.00 total m3 | 1 units per max haul |
+| Buy @ 214,995,000.00, Sell @ 230,310,009.41 | 10,708,809.22 ISK (after-tax total) | 3,799,508.94 ISK (after-tax+broker total) |
+| 4.98% total after-tax return | 1.77% total after-tax+broker return |
+| 10,708,809.22 after-tax per max haul | 3,799,508.94 after-tax+broker per max haul |
+| 3 + 9 jumps | Faurent, Sinq Laison (0.54 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
+| 892,400.77 after-tax/max haul/jump | 316,625.74 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 1.00 units of Vagabond | 10,000.00 m3 per unit | 10,000.00 total m3 | 1 units per max haul |
+| Buy @ 214,995,000.00, Sell @ 230,310,009.41 | 10,708,809.22 ISK (after-tax total) | 3,799,508.94 ISK (after-tax+broker total) |
+| 4.98% total after-tax return | 1.77% total after-tax+broker return |
+| 10,708,809.22 after-tax per max haul | 3,799,508.94 after-tax+broker per max haul |
+| 3 + 9 jumps | Faurent, Sinq Laison (0.54 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
+| 892,400.77 after-tax/max haul/jump | 316,625.74 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 1.00 units of Vagabond | 10,000.00 m3 per unit | 10,000.00 total m3 | 1 units per max haul |
+| Buy @ 214,995,000.00, Sell @ 230,310,009.41 | 10,708,809.22 ISK (after-tax total) | 3,799,508.94 ISK (after-tax+broker total) |
+| 4.98% total after-tax return | 1.77% total after-tax+broker return |
+| 10,708,809.22 after-tax per max haul | 3,799,508.94 after-tax+broker per max haul |
+| 3 + 9 jumps | Faurent, Sinq Laison (0.54 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
+| 892,400.77 after-tax/max haul/jump | 316,625.74 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 2.00 units of Gila | 10,000.00 m3 per unit | 20,000.00 total m3 | 2 units per max haul |
+| Buy @ 199,999,999.98, Sell @ 212,000,000.00 | 15,520,000.04 ISK (after-tax total) | 2,800,000.04 ISK (after-tax+broker total) |
+| 3.88% total after-tax return | 0.70% total after-tax+broker return |
+| 15,520,000.04 after-tax per max haul | 2,800,000.04 after-tax+broker per max haul |
+| 0 + 19 jumps | Jita, The Forge (0.95 sec) -> Hek, Metropolis (0.55 sec) | 'region' pickup range | 'station' dropoff range |
+| 816,842.11 after-tax/max haul/jump | 147,368.42 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 2.00 units of Gila | 10,000.00 m3 per unit | 20,000.00 total m3 | 2 units per max haul |
+| Buy @ 199,999,999.98, Sell @ 212,000,000.00 | 15,520,000.04 ISK (after-tax total) | 2,800,000.04 ISK (after-tax+broker total) |
+| 3.88% total after-tax return | 0.70% total after-tax+broker return |
+| 15,520,000.04 after-tax per max haul | 2,800,000.04 after-tax+broker per max haul |
+| 0 + 19 jumps | Jita, The Forge (0.95 sec) -> Hek, Metropolis (0.55 sec) | 'region' pickup range | 'station' dropoff range |
+| 816,842.11 after-tax/max haul/jump | 147,368.42 after-tax+broker/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 2.00 units of Gila | 10,000.00 m3 per unit | 20,000.00 total m3 | 2 units per max haul |
+| Buy @ 199,999,999.98, Sell @ 212,000,000.00 | 15,520,000.04 ISK (after-tax total) | 2,800,000.04 ISK (after-tax+broker total) |
+| 3.88% total after-tax return | 0.70% total after-tax+broker return |
+| 15,520,000.04 after-tax per max haul | 2,800,000.04 after-tax+broker per max haul |
+| 0 + 19 jumps | Jita, The Forge (0.95 sec) -> Hek, Metropolis (0.55 sec) | 'region' pickup range | 'station' dropoff range |
+| 816,842.11 after-tax/max haul/jump | 147,368.42 after-tax+broker/max haul/jump |
+--------------------------
+

@@ -1,108 +1,81 @@
 --------------------------
-| Total 20.00 units of Unrefined Crystallite Alloy | 1.00 m3 per unit | 20.00 total m3 | 20 units per max haul |
-| Buy @ 27,999,999.99, Sell @ 32,000,000.00 | 71,040,000.20 ISK (gross total) | 55,680,000.20 ISK (net total) |
+| Total 3.00 units of High-grade Asklepian Omega | 1.00 m3 per unit | 3.00 total m3 | 3 units per max haul |
+| Buy @ 1,389,999,454.00, Sell @ 1,755,080,001.33 | 1,021,528,281.93 ISK (gross total) | 895,162,521.84 ISK (net total) |
+| 26.26% total gross return | 21.47% total net return |
+| 1,021,528,281.93 gross per max haul | 895,162,521.84 net per max haul |
+| 1 + 11 jumps | Jita, The Forge (0.95 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '2' dropoff range |
+| 85,127,356.83 gross/max haul/jump | 74,596,876.82 net/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 3.00 units of High-grade Asklepian Omega | 1.00 m3 per unit | 3.00 total m3 | 3 units per max haul |
+| Buy @ 1,389,999,454.00, Sell @ 1,755,080,001.33 | 1,021,528,281.93 ISK (gross total) | 895,162,521.84 ISK (net total) |
+| 26.26% total gross return | 21.47% total net return |
+| 1,021,528,281.93 gross per max haul | 895,162,521.84 net per max haul |
+| 1 + 11 jumps | Jita, The Forge (0.95 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '2' dropoff range |
+| 85,127,356.83 gross/max haul/jump | 74,596,876.82 net/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 3.00 units of High-grade Asklepian Omega | 1.00 m3 per unit | 3.00 total m3 | 3 units per max haul |
+| Buy @ 1,389,999,454.00, Sell @ 1,755,080,001.33 | 1,021,528,281.93 ISK (gross total) | 895,162,521.84 ISK (net total) |
+| 26.26% total gross return | 21.47% total net return |
+| 1,021,528,281.93 gross per max haul | 895,162,521.84 net per max haul |
+| 1 + 11 jumps | Jita, The Forge (0.95 sec) -> Botane, Sinq Laison (0.88 sec) | 'region' pickup range | '2' dropoff range |
+| 85,127,356.83 gross/max haul/jump | 74,596,876.82 net/max haul/jump |
+--------------------------
+
+--------------------------
+| Total 19.00 units of Unrefined Crystallite Alloy | 1.00 m3 per unit | 19.00 total m3 | 19 units per max haul |
+| Buy @ 27,999,999.99, Sell @ 32,000,000.00 | 67,488,000.19 ISK (gross total) | 52,896,000.19 ISK (net total) |
 | 14.29% total gross return | 9.94% total net return |
-| 71,040,000.20 gross per max haul | 55,680,000.20 net per max haul |
+| 67,488,000.19 gross per max haul | 52,896,000.19 net per max haul |
 | 1 + 12 jumps | Jita, The Forge (0.95 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
-| 5,464,615.40 gross/max haul/jump | 4,283,076.94 net/max haul/jump |
+| 5,191,384.63 gross/max haul/jump | 4,068,923.09 net/max haul/jump |
 --------------------------
 
 --------------------------
-| Total 20.00 units of Unrefined Crystallite Alloy | 1.00 m3 per unit | 20.00 total m3 | 20 units per max haul |
-| Buy @ 27,999,999.99, Sell @ 32,000,000.00 | 71,040,000.20 ISK (gross total) | 55,680,000.20 ISK (net total) |
+| Total 19.00 units of Unrefined Crystallite Alloy | 1.00 m3 per unit | 19.00 total m3 | 19 units per max haul |
+| Buy @ 27,999,999.99, Sell @ 32,000,000.00 | 67,488,000.19 ISK (gross total) | 52,896,000.19 ISK (net total) |
 | 14.29% total gross return | 9.94% total net return |
-| 71,040,000.20 gross per max haul | 55,680,000.20 net per max haul |
+| 67,488,000.19 gross per max haul | 52,896,000.19 net per max haul |
 | 1 + 12 jumps | Jita, The Forge (0.95 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
-| 5,464,615.40 gross/max haul/jump | 4,283,076.94 net/max haul/jump |
+| 5,191,384.63 gross/max haul/jump | 4,068,923.09 net/max haul/jump |
 --------------------------
 
 --------------------------
-| Total 20.00 units of Unrefined Crystallite Alloy | 1.00 m3 per unit | 20.00 total m3 | 20 units per max haul |
-| Buy @ 27,999,999.99, Sell @ 32,000,000.00 | 71,040,000.20 ISK (gross total) | 55,680,000.20 ISK (net total) |
+| Total 19.00 units of Unrefined Crystallite Alloy | 1.00 m3 per unit | 19.00 total m3 | 19 units per max haul |
+| Buy @ 27,999,999.99, Sell @ 32,000,000.00 | 67,488,000.19 ISK (gross total) | 52,896,000.19 ISK (net total) |
 | 14.29% total gross return | 9.94% total net return |
-| 71,040,000.20 gross per max haul | 55,680,000.20 net per max haul |
+| 67,488,000.19 gross per max haul | 52,896,000.19 net per max haul |
 | 1 + 12 jumps | Jita, The Forge (0.95 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
-| 5,464,615.40 gross/max haul/jump | 4,283,076.94 net/max haul/jump |
---------------------------
-
---------------------------
-| Total 3.00 units of Broken Nano-Factory | 100.00 m3 per unit | 300.00 total m3 | 3 units per max haul |
-| Buy @ 49,999,999.94, Sell @ 59,899,999.99 | 27,184,200.15 ISK (gross total) | 22,871,400.15 ISK (net total) |
-| 19.80% total gross return | 15.25% total net return |
-| 27,184,200.15 gross per max haul | 22,871,400.15 net per max haul |
-| 1 + 12 jumps | Jita, The Forge (0.95 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
-| 2,091,092.32 gross/max haul/jump | 1,759,338.47 net/max haul/jump |
---------------------------
-
---------------------------
-| Total 3.00 units of Broken Nano-Factory | 100.00 m3 per unit | 300.00 total m3 | 3 units per max haul |
-| Buy @ 49,999,999.94, Sell @ 59,899,999.99 | 27,184,200.15 ISK (gross total) | 22,871,400.15 ISK (net total) |
-| 19.80% total gross return | 15.25% total net return |
-| 27,184,200.15 gross per max haul | 22,871,400.15 net per max haul |
-| 1 + 12 jumps | Jita, The Forge (0.95 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
-| 2,091,092.32 gross/max haul/jump | 1,759,338.47 net/max haul/jump |
---------------------------
-
---------------------------
-| Total 3.00 units of Broken Nano-Factory | 100.00 m3 per unit | 300.00 total m3 | 3 units per max haul |
-| Buy @ 49,999,999.94, Sell @ 59,899,999.99 | 27,184,200.15 ISK (gross total) | 22,871,400.15 ISK (net total) |
-| 19.80% total gross return | 15.25% total net return |
-| 27,184,200.15 gross per max haul | 22,871,400.15 net per max haul |
-| 1 + 12 jumps | Jita, The Forge (0.95 sec) -> Dodixie, Sinq Laison (0.87 sec) | 'region' pickup range | 'station' dropoff range |
-| 2,091,092.32 gross/max haul/jump | 1,759,338.47 net/max haul/jump |
+| 5,191,384.63 gross/max haul/jump | 4,068,923.09 net/max haul/jump |
 --------------------------
 
 --------------------------
 | Total 2.00 units of Federation Navy Tracking Computer | 5.00 m3 per unit | 10.00 total m3 | 2 units per max haul |
-| Buy @ 201,555,096.75, Sell @ 212,608,300.01 | 16,153,374.12 ISK (gross total) | 5,948,175.72 ISK (net total) |
-| 5.48% total gross return | 1.48% total net return |
-| 16,153,374.12 gross per max haul | 5,948,175.72 net per max haul |
+| Buy @ 201,498,203.96, Sell @ 212,608,300.01 | 16,267,159.70 ISK (gross total) | 6,061,961.30 ISK (net total) |
+| 5.51% total gross return | 1.50% total net return |
+| 16,267,159.70 gross per max haul | 6,061,961.30 net per max haul |
 | 1 + 8 jumps | Jita, The Forge (0.95 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
-| 1,794,819.35 gross/max haul/jump | 660,908.41 net/max haul/jump |
+| 1,807,462.19 gross/max haul/jump | 673,551.26 net/max haul/jump |
 --------------------------
 
 --------------------------
 | Total 2.00 units of Federation Navy Tracking Computer | 5.00 m3 per unit | 10.00 total m3 | 2 units per max haul |
-| Buy @ 201,555,096.75, Sell @ 212,608,300.01 | 16,153,374.12 ISK (gross total) | 5,948,175.72 ISK (net total) |
-| 5.48% total gross return | 1.48% total net return |
-| 16,153,374.12 gross per max haul | 5,948,175.72 net per max haul |
+| Buy @ 201,498,203.96, Sell @ 212,608,300.01 | 16,267,159.70 ISK (gross total) | 6,061,961.30 ISK (net total) |
+| 5.51% total gross return | 1.50% total net return |
+| 16,267,159.70 gross per max haul | 6,061,961.30 net per max haul |
 | 1 + 8 jumps | Jita, The Forge (0.95 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
-| 1,794,819.35 gross/max haul/jump | 660,908.41 net/max haul/jump |
+| 1,807,462.19 gross/max haul/jump | 673,551.26 net/max haul/jump |
 --------------------------
 
 --------------------------
 | Total 2.00 units of Federation Navy Tracking Computer | 5.00 m3 per unit | 10.00 total m3 | 2 units per max haul |
-| Buy @ 201,555,096.75, Sell @ 212,608,300.01 | 16,153,374.12 ISK (gross total) | 5,948,175.72 ISK (net total) |
-| 5.48% total gross return | 1.48% total net return |
-| 16,153,374.12 gross per max haul | 5,948,175.72 net per max haul |
+| Buy @ 201,498,203.96, Sell @ 212,608,300.01 | 16,267,159.70 ISK (gross total) | 6,061,961.30 ISK (net total) |
+| 5.51% total gross return | 1.50% total net return |
+| 16,267,159.70 gross per max haul | 6,061,961.30 net per max haul |
 | 1 + 8 jumps | Jita, The Forge (0.95 sec) -> Ashab, Domain (0.91 sec) | 'region' pickup range | '1' dropoff range |
-| 1,794,819.35 gross/max haul/jump | 660,908.41 net/max haul/jump |
---------------------------
-
---------------------------
-| Total 57,806.00 units of Damaged Artificial Neural Network | 0.01 m3 per unit | 578.06 total m3 | 57,806 units per max haul |
-| Buy @ 1,477.99, Sell @ 1,710.00 | 12,027,694.42 ISK (gross total) | 9,655,336.18 ISK (net total) |
-| 15.70% total gross return | 11.30% total net return |
-| 12,027,694.42 gross per max haul | 9,655,336.18 net per max haul |
-| 1 + 14 jumps | Jita, The Forge (0.95 sec) -> Stacmon, Placid (0.61 sec) | 'region' pickup range | 'station' dropoff range |
-| 801,846.29 gross/max haul/jump | 643,689.08 net/max haul/jump |
---------------------------
-
---------------------------
-| Total 57,806.00 units of Damaged Artificial Neural Network | 0.01 m3 per unit | 578.06 total m3 | 57,806 units per max haul |
-| Buy @ 1,477.99, Sell @ 1,710.00 | 12,027,694.42 ISK (gross total) | 9,655,336.18 ISK (net total) |
-| 15.70% total gross return | 11.30% total net return |
-| 12,027,694.42 gross per max haul | 9,655,336.18 net per max haul |
-| 1 + 14 jumps | Jita, The Forge (0.95 sec) -> Stacmon, Placid (0.61 sec) | 'region' pickup range | 'station' dropoff range |
-| 801,846.29 gross/max haul/jump | 643,689.08 net/max haul/jump |
---------------------------
-
---------------------------
-| Total 57,806.00 units of Damaged Artificial Neural Network | 0.01 m3 per unit | 578.06 total m3 | 57,806 units per max haul |
-| Buy @ 1,477.99, Sell @ 1,710.00 | 12,027,694.42 ISK (gross total) | 9,655,336.18 ISK (net total) |
-| 15.70% total gross return | 11.30% total net return |
-| 12,027,694.42 gross per max haul | 9,655,336.18 net per max haul |
-| 1 + 14 jumps | Jita, The Forge (0.95 sec) -> Stacmon, Placid (0.61 sec) | 'region' pickup range | 'station' dropoff range |
-| 801,846.29 gross/max haul/jump | 643,689.08 net/max haul/jump |
+| 1,807,462.19 gross/max haul/jump | 673,551.26 net/max haul/jump |
 --------------------------
 
